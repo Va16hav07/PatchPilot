@@ -17,7 +17,10 @@ class Settings(BaseSettings):
     session_days: int = 30
     cookie_secure: bool = False  # True when served over HTTPS
 
-    cors_origins: list[str] = ["http://localhost:5173"]
+    cors_origins: list[str] = [
+        "http://localhost:5173",
+        "https://nutri-thali.vercel.app",
+    ]
 
     # Optional shared Gemini key. Users can instead keep their own key on their
     # device; that key is never sent to this server.
