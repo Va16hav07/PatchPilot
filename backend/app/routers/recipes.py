@@ -56,9 +56,13 @@ class RecipePreview(BaseModel):
     per_100g: dict[str, float]
 
 
-async def _compute(db: AsyncDatabase, user: dict, body: RecipeIn) -> tuple[list[dict], float, dict]:
+DIET_RANK = {"veg": 0, "egg": 1, "nonveg": 2}
+
+
+async def _compute(db: AsyncDatabase, user: dict, body: RecipeIn) -> tuple[list[dict], float, dict, dict]:
     total = N.zero()
     rows = []
+    diet, jain_ok = "veg", True
     for ing in body.ingredients:
         food = await get_visible_food(db, user, ing.food_id)
         if food["kind"] != "ingredient":
@@ -66,10 +70,14 @@ async def _compute(db: AsyncDatabase, user: dict, body: RecipeIn) -> tuple[list[
         if food.get("quarantined"):
             raise HTTPException(422, f"'{food['name']}' failed data-quality checks")
         total = N.add(total, N.scale(food["per_100g"], ing.grams / 100.0))
+        food_diet = food.get("diet", "veg")
+        if DIET_RANK[food_diet] > DIET_RANK[diet]:
+            diet = food_diet
+        jain_ok = jain_ok and food.get("jain_ok", False)
         rows.append({"food_id": food["_id"], "name": food["name"], "grams": ing.grams})
     raw_weight = sum(r["grams"] for r in rows)
     per_100g = N.rounded(N.scale(total, 100.0 / body.cooked_weight_g))
-    return rows, raw_weight, per_100g
+    return rows, raw_weight, per_100g, {"diet": diet, "jain_ok": jain_ok and diet == "veg"}
 
 
 def _out(doc: dict) -> RecipeOut:
@@ -93,7 +101,7 @@ async def _own(db: AsyncDatabase, user: dict, recipe_id: str) -> dict:
 
 @router.post("/preview", response_model=RecipePreview)
 async def preview(body: RecipeIn, user: dict = Depends(current_user), db: AsyncDatabase = Depends(get_db)):
-    _, raw, per_100g = await _compute(db, user, body)
+    _, raw, per_100g, _diet = await _compute(db, user, body)
     return RecipePreview(raw_weight_g=raw, per_100g=per_100g)
 
 
@@ -108,8 +116,9 @@ async def get_recipe(recipe_id: str, user: dict = Depends(current_user), db: Asy
     return _out(await _own(db, user, recipe_id))
 
 
-def _doc_fields(body: RecipeIn, rows: list[dict], raw: float, per_100g: dict) -> dict:
+def _doc_fields(body: RecipeIn, rows: list[dict], raw: float, per_100g: dict, diet: dict) -> dict:
     return {
+        **diet,
         "name": body.name.strip(),
         "per_100g": per_100g,
         "recipe": {"ingredients": rows, "raw_weight_g": raw, "cooked_weight_g": body.cooked_weight_g},
@@ -119,7 +128,7 @@ def _doc_fields(body: RecipeIn, rows: list[dict], raw: float, per_100g: dict) ->
 
 @router.post("", response_model=RecipeOut, status_code=201)
 async def create_recipe(body: RecipeIn, user: dict = Depends(current_user), db: AsyncDatabase = Depends(get_db)):
-    rows, raw, per_100g = await _compute(db, user, body)
+    rows, raw, per_100g, diet = await _compute(db, user, body)
     doc = {
         "_id": f"recipe:{ObjectId()}",
         "source": SOURCE,
@@ -134,7 +143,7 @@ async def create_recipe(body: RecipeIn, user: dict = Depends(current_user), db: 
         "quality_flags": [],
         "quarantined": False,
         "created_at": datetime.now(UTC),
-        **_doc_fields(body, rows, raw, per_100g),
+        **_doc_fields(body, rows, raw, per_100g, diet),
     }
     await db.foods.insert_one(doc)
     return _out(doc)
@@ -145,8 +154,8 @@ async def update_recipe(
     recipe_id: str, body: RecipeIn, user: dict = Depends(current_user), db: AsyncDatabase = Depends(get_db)
 ):
     await _own(db, user, recipe_id)
-    rows, raw, per_100g = await _compute(db, user, body)
-    fields = _doc_fields(body, rows, raw, per_100g)
+    rows, raw, per_100g, diet = await _compute(db, user, body)
+    fields = _doc_fields(body, rows, raw, per_100g, diet)
     await db.foods.update_one({"_id": recipe_id, "owner_id": user["_id"]}, {"$set": fields})
     return _out(await _own(db, user, recipe_id))
 

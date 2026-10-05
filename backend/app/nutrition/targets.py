@@ -10,6 +10,8 @@ from typing import Literal
 
 from pydantic import BaseModel, Field
 
+from app.nutrition.diet import UserDiet
+
 Sex = Literal["male", "female"]
 Activity = Literal["sedentary", "moderate", "heavy"]
 Goal = Literal["lose", "maintain", "gain"]
@@ -20,7 +22,9 @@ GOAL_FACTOR: dict[str, float] = {"lose": 0.85, "maintain": 1.0, "gain": 1.10}
 
 PROTEIN_G_PER_KG = 0.83  # ICMR-NIN 2020 RDA, adults
 FAT_ENERGY_SHARE = 0.25
-FIBRE_G_PER_1000_KCAL = 20.0  # ICMR-NIN 2020: 40 g per 2000 kcal
+# The ICMR-NIN 2020 brief note gives no fibre figure; this is the US IOM
+# adequate intake (14 g per 1000 kcal).
+FIBRE_G_PER_1000_KCAL = 14.0
 
 
 class Profile(BaseModel):
@@ -30,6 +34,7 @@ class Profile(BaseModel):
     weight_kg: float = Field(ge=30, le=250)
     activity: Activity = "moderate"
     goal: Goal = "maintain"
+    diet: UserDiet | None = None  # filters food suggestions; not used for targets
 
 
 class Targets(BaseModel):

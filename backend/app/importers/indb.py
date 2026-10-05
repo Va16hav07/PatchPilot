@@ -19,6 +19,7 @@ from collections import defaultdict
 from collections.abc import Iterable, Sequence
 
 from app.nutrition import nutrients as N
+from app.nutrition.diet import classify_dish
 from app.nutrition.engine import container_ml_for
 
 SOURCE = "INDB"
@@ -155,6 +156,11 @@ def _dish(row: dict, serving_info: dict | None, ings: list[dict]) -> dict:
     unit = (row.get("servings_unit") or "serving").strip()
     quarantine_flags = {"deep_frying_oil_counted", "missing_core_values", "implausible_serving_energy", "energy_mismatch"}
     name = str(row["food_name"]).strip()
+    ingredient_list = [
+        {"name": i.get("food_name"), "code": i.get("food_code"), "amount": i.get("amount"), "unit": i.get("unit")}
+        for i in ings
+    ]
+    diet, jain_ok = classify_dish(name, ingredient_list)
     return {
         "_id": f"indb:{code}",
         "source": SOURCE,
@@ -170,10 +176,9 @@ def _dish(row: dict, serving_info: dict | None, ings: list[dict]) -> dict:
             "added_fat_g": round(added_fat, 2) if added_fat is not None else None,
         },
         "per_100g_raw_basis": N.rounded(per_100g_raw),
-        "ingredients": [
-            {"name": i.get("food_name"), "code": i.get("food_code"), "amount": i.get("amount"), "unit": i.get("unit")}
-            for i in ings
-        ],
+        "ingredients": ingredient_list,
+        "diet": diet,
+        "jain_ok": jain_ok,
         "quality_flags": sorted(set(flags)),
         "quarantined": bool(quarantine_flags & set(flags)),
     }

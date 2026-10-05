@@ -107,7 +107,7 @@ def test_derived_dish_swaps_one_ingredient():
     def ing(fid, code, kcal, protein):
         return {"_id": fid, "source_code": code, "name": code, "per_100g": {**N.zero(), "energy_kcal": kcal, "protein_g": protein}}
 
-    base = {"_id": "indb:ASC151", "name": "Washed moong dal", "quarantined": False,
+    base = {"_id": "indb:ASC151", "name": "Washed moong dal", "quarantined": False, "diet": "veg", "jain_ok": True,
             "ingredients": [{"name": "Green gram, dal", "code": "B010", "amount": 30, "unit": "g"}],
             "serving": {"unit": "bowl", "container_ml": 150.0, "added_fat_g": 4.6,
                         "nutrients": {**N.zero(), "energy_kcal": 139.0, "protein_g": 7.4}}}
@@ -117,3 +117,21 @@ def test_derived_dish_swaps_one_ingredient():
     assert dish["serving"]["nutrients"]["protein_g"] == pytest.approx(7.4 + 0.3 * (21.7 - 24.0))
     assert dish["serving"]["added_fat_g"] == 4.6
     assert dish["ingredients"][0]["code"] == "B021"
+
+
+@pytest.mark.parametrize(
+    ("name", "ingredients", "expected"),
+    [
+        ("Chicken curry", [{"code": "D075", "name": "Tomato"}], ("nonveg", False)),
+        ("Paneer potato cutlet", [{"code": "M001", "name": "Egg, poultry, whole, raw"}], ("egg", False)),
+        ("Mayonnaise without eggs", [{"code": "T508", "name": "Oil, sunflower"}], ("veg", True)),
+        ("Aloo gobhi", [{"code": "F006", "name": "Potato"}, {"code": "D036", "name": "Cauliflower"}], ("veg", False)),
+        ("Dal tadka", [{"code": "B021", "name": "Red gram, dal"}, {"code": "G017", "name": "Onion, big"}], ("veg", False)),
+        ("Plain dosa", [{"code": "A015", "name": "Rice"}, {"code": "B003", "name": "Black gram, dal"}], ("veg", True)),
+        ("Prawn masala", [{"code": "UK-1", "name": "Prawns, raw"}], ("nonveg", False)),
+    ],
+)
+def test_dish_diet_classification(name, ingredients, expected):
+    from app.nutrition.diet import classify_dish
+
+    assert classify_dish(name, ingredients) == expected

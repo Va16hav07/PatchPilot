@@ -5,7 +5,7 @@ from fastapi.middleware.cors import CORSMiddleware
 
 from app import db
 from app.config import get_settings
-from app.routers import ai, auth, foods, logs, me, recipes
+from app.routers import ai, auth, foods, insights, logs, me, recipes
 
 
 @asynccontextmanager
@@ -27,7 +27,7 @@ def create_app() -> FastAPI:
         allow_methods=["*"],
         allow_headers=["*"],
     )
-    for r in (auth.router, me.router, foods.router, logs.router, recipes.router, ai.router):
+    for r in (auth.router, me.router, foods.router, logs.router, recipes.router, ai.router, insights.router):
         app.include_router(r)
 
     @app.get("/api/health")

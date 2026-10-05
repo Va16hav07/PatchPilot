@@ -4,7 +4,7 @@ import { api } from '../api'
 import { useAuth, useUser } from '../auth'
 import Icon from '../components/Icon'
 import { kcal } from '../format'
-import type { Activity, Goal, Profile, Sex, Targets, User } from '../types'
+import { DIETS, type Activity, type Diet, type Goal, type Profile, type Sex, type Targets, type User } from '../types'
 
 interface Form {
   sex: Sex
@@ -13,6 +13,7 @@ interface Form {
   weight_kg: string
   activity: Activity
   goal: Goal
+  diet: Diet | null
 }
 
 function toProfile(f: Form): Profile | null {
@@ -20,7 +21,8 @@ function toProfile(f: Form): Profile | null {
   const height = Number(f.height_cm)
   const weight = Number(f.weight_kg)
   if (!(age >= 18 && age <= 100 && height >= 120 && height <= 230 && weight >= 30 && weight <= 250)) return null
-  return { sex: f.sex, age: Math.round(age), height_cm: height, weight_kg: weight, activity: f.activity, goal: f.goal }
+  if (!f.diet) return null
+  return { sex: f.sex, age: Math.round(age), height_cm: height, weight_kg: weight, activity: f.activity, goal: f.goal, diet: f.diet }
 }
 
 function Seg<T extends string>({ value, options, onChange, label }: { value: T; options: [T, string][]; onChange: (v: T) => void; label: string }) {
@@ -50,6 +52,7 @@ export default function Setup() {
     weight_kg: p ? String(p.weight_kg) : '',
     activity: p?.activity ?? 'moderate',
     goal: p?.goal ?? 'maintain',
+    diet: p?.diet ?? null,
   })
   const [preview, setPreview] = useState<Targets | null>(null)
   const [error, setError] = useState('')
@@ -70,7 +73,7 @@ export default function Setup() {
 
   async function save(e: FormEvent) {
     e.preventDefault()
-    if (!profile) return setError('Please fill in age (18+), height and weight.')
+    if (!profile) return setError('Please fill in age (18+), height, weight and diet.')
     setSaving(true)
     try {
       const firstTime = !user.profile
@@ -110,6 +113,15 @@ export default function Setup() {
 
         <Seg label="Sex (for the energy formula)" value={form.sex} onChange={(v) => set('sex', v)} options={[['male', 'Male'], ['female', 'Female']]} />
 
+        <div className="stack" style={{ gap: 6 }}>
+          <span className="field">Diet (food suggestions only show what you eat)</span>
+          <div className="row" style={{ gap: 8, flexWrap: 'wrap' }} role="group" aria-label="Diet">
+            {DIETS.map(([v, label]) => (
+              <button key={v} type="button" className="pill" aria-pressed={form.diet === v} onClick={() => set('diet', v)}>{label}</button>
+            ))}
+          </div>
+        </div>
+
         <label className="field">Activity
           <select className="input" value={form.activity} onChange={(e) => set('activity', e.target.value as Activity)}>
             <option value="sedentary">Sedentary (desk job, little exercise)</option>
@@ -137,7 +149,7 @@ export default function Setup() {
               <span className="xsmall muted">ICMR-NIN 2020 method for Indian adults. You can fine-tune these later in Profile.</span>
             </>
           ) : (
-            <span className="small muted">Fill in age, height and weight to see them.</span>
+            <span className="small muted">Fill in age, height, weight and diet to see them.</span>
           )}
         </div>
         {error && <p className="error" role="alert">{error}</p>}

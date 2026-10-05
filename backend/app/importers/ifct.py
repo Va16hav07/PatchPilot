@@ -10,6 +10,7 @@ import re
 from collections.abc import Iterable
 
 from app.nutrition import nutrients as N
+from app.nutrition.diet import classify_ingredient
 
 SOURCE = "IFCT2017"
 
@@ -107,6 +108,7 @@ def row_to_food(row: dict) -> dict:
     code = row["code"].strip()
     group = row.get("grup", "").strip()
     density = CODE_DENSITY.get(code, GROUP_DENSITY.get(group))
+    diet, jain_ok = classify_ingredient(code, row["name"])
     return {
         "_id": f"ifct:{code}",
         "source": SOURCE,
@@ -117,6 +119,8 @@ def row_to_food(row: dict) -> dict:
         "local_names": parse_local_names(row.get("lang", "")),
         "group": group,
         "diet_tags": (row.get("tags") or "").split(),
+        "diet": diet,
+        "jain_ok": jain_ok,
         "per_100g": N.rounded(per_100g),
         "density_g_per_ml": density,
         "quality_flags": flags,

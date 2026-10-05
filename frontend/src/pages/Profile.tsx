@@ -10,6 +10,7 @@ import type { Measures, Targets, User } from '../types'
 
 const ACTIVITY = { sedentary: 'Sedentary', moderate: 'Moderate', heavy: 'Heavy' }
 const GOAL = { lose: 'Lose weight', maintain: 'Maintain', gain: 'Gain weight' }
+const DIET = { vegetarian: 'Vegetarian', eggetarian: 'Eggetarian', non_vegetarian: 'Non-vegetarian', jain: 'Jain' }
 
 function TargetsForm({ targets, onDone }: { targets: Targets; onDone: () => void }) {
   const { setUser } = useAuth()
@@ -116,7 +117,7 @@ export default function Profile() {
             </span>
             <Icon name="forward" size={18} />
           </Link>
-          <span className="xsmall muted">Goal: {GOAL[p.goal]}. Tap above to update your weight or activity.</span>
+          <span className="xsmall muted">Goal: {GOAL[p.goal]} · Diet: {p.diet ? DIET[p.diet] : 'not set'}. Tap above to update.</span>
         </div>
 
         <div className="stack">

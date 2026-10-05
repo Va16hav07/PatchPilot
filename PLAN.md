@@ -65,7 +65,9 @@ input (text | photo | voice | search)
 - Photo logging via Gemini Vision -> confirm screen
 - Custom recipes, favourites, "same as yesterday"
 
-### Phase 3 — Insights
+### Phase 3 — Insights (built 2026-10-05)
+- ICMR-NIN 2020 RDA + EAR by sex (brief note, Tables 3-4); WHO limits for sodium, free sugars, saturated fat; potassium
+- Suggestions: diet-filtered (veg/egg/non-veg/Jain), realistic portions, ranked by nutrient per kcal
 - Micronutrients (iron, B12, calcium, vit D, etc.)
 - Weekly trends per profile
 - Gap suggestions from DB foods (e.g. low protein -> paneer, curd)
@@ -83,7 +85,7 @@ input (text | photo | voice | search)
 - No plain toor/arhar dal in INDB; added as a curated dish derived from INDB washed moong dal (ASC151) with IFCT red gram dal.
 
 ## Open items
-- Verify ICMR-NIN 2020 fibre guidance (currently 40 g / 2000 kcal) and carb share
+- Fibre target now US IOM 14 g/1000 kcal (ICMR brief note has no fibre figure); carb share is ~65% because protein is set at the 0.83 g/kg RDA
 - Curate cooked yields for common dishes so grams work for dishes
 - Review quarantined dishes: fix frying-oil absorption for popular ones (puri, pakora, kofta)
 - Gemini API key (env var `GEMINI_API_KEY`)

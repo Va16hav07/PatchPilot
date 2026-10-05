@@ -32,7 +32,12 @@ async def _update(db: AsyncDatabase, user: dict, fields: dict) -> UserOut:
 
 
 @router.get("", response_model=UserOut)
-async def get_me(user: dict = Depends(current_user)):
+async def get_me(user: dict = Depends(current_user), db: AsyncDatabase = Depends(get_db)):
+    # Keep calculated targets in step with the current method (e.g. after a formula fix).
+    if user.get("profile") and not user.get("targets_custom"):
+        targets = compute_targets(Profile(**user["profile"])).model_dump()
+        if targets != user.get("targets"):
+            return await _update(db, user, {"targets": targets})
     return user_out(user)
 
 

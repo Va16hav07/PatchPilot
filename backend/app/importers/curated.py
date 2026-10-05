@@ -28,6 +28,8 @@ USDA_FOODS: list[dict] = [
         "local_names": ["Dahi", "Curd", "Thayir", "Perugu", "Mosaru"],
         "group": "Milk and Milk Products",
         "diet_tags": ["vegetarian"],
+        "diet": "veg",
+        "jain_ok": True,
         "per_100g": N.rounded({
             **N.zero(),
             "energy_kcal": 61.0, "protein_g": 3.47, "fat_g": 3.25, "carb_g": 4.66, "fibre_g": 0.0,
@@ -81,6 +83,8 @@ def _derive(spec: dict, by_id: dict[str, dict]) -> dict:
         "serving": {**base["serving"], "nutrients": N.rounded(nutrients)},
         "per_100g_raw_basis": None,
         "ingredients": ingredients,
+        "diet": base["diet"],
+        "jain_ok": base["jain_ok"],
         "quality_flags": ["curated_derived_recipe"],
         "quarantined": False,
     }

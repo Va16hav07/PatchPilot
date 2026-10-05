@@ -278,3 +278,66 @@ async def test_ai_relay_forwards_with_server_key(app, monkeypatch):
     assert (await c.post("/api/ai/generate", json={**body, "model": "some-other-model"})).status_code == 422
     assert (await c.post("/api/ai/generate", json=body)).status_code == 200
     assert (await c.post("/api/ai/generate", json=body)).status_code == 429  # daily limit 2
+
+
+# ---- Phase 3 -------------------------------------------------------------
+
+SPINACH = {"_id": "ifct:C033", "source": "IFCT2017", "source_code": "C033", "kind": "ingredient", "name": "Spinach",
+           "group": "Green Leafy Vegetables", "local_names": ["Palak"], "quarantined": False, "quality_flags": [],
+           "density_g_per_ml": None, "diet": "veg", "jain_ok": True,
+           "per_100g": {**N.zero(), "energy_kcal": 24.0, "iron_mg": 5.0, "calcium_mg": 90.0}}
+LIVER = {"_id": "ifct:O020", "source": "IFCT2017", "source_code": "O020", "kind": "ingredient", "name": "Goat, liver",
+         "group": "Animal Meat", "local_names": [], "quarantined": False, "quality_flags": [],
+         "density_g_per_ml": None, "diet": "nonveg", "jain_ok": False,
+         "per_100g": {**N.zero(), "energy_kcal": 120.0, "iron_mg": 9.0}}
+CUMIN = {"_id": "ifct:G025", "source": "IFCT2017", "source_code": "G025", "kind": "ingredient", "name": "Cumin seeds",
+         "group": "Condiments and Spices", "local_names": ["Jeera"], "quarantined": False, "quality_flags": [],
+         "density_g_per_ml": None, "diet": "veg", "jain_ok": True,
+         "per_100g": {**N.zero(), "energy_kcal": 370.0, "iron_mg": 66.0}}
+
+
+async def _insights_user(app, diet):
+    c = await client_for(app)
+    await c.put("/api/me/profile", json={"sex": "female", "age": 30, "height_cm": 160, "weight_kg": 55, "diet": diet})
+    return c
+
+
+async def test_insights_averages_over_logged_days_only(app):
+    c = await _insights_user(app, "vegetarian")
+    await c.post("/api/logs", json={"date": "2026-10-01", "meal": "lunch", "food_id": "ifct:L003", "quantity": 100, "unit": "g"})
+    await c.post("/api/logs", json={"date": "2026-10-03", "meal": "lunch", "food_id": "ifct:L003", "quantity": 300, "unit": "g"})
+    r = (await c.get("/api/insights", params={"start": "2026-09-29", "end": "2026-10-05"})).json()
+    assert r["days_logged"] == 2 and r["enough_data"] is False
+    assert r["energy"]["avg"] == pytest.approx(258 * 2)  # (258 + 774) / 2 logged days, not / 7
+
+
+async def test_insights_icmr_references_by_sex(app):
+    c = await _insights_user(app, "vegetarian")
+    await c.post("/api/logs", json={"date": "2026-10-01", "meal": "lunch", "food_id": "ifct:L003", "quantity": 100, "unit": "g"})
+    r = (await c.get("/api/insights", params={"start": "2026-10-01", "end": "2026-10-01"})).json()
+    iron = next(m for m in r["micros"] if m["key"] == "iron_mg")
+    assert (iron["target"], iron["ear"], iron["status"]) == (29, 15, "low")  # ICMR 2020, women
+    assert {lim["key"] for lim in r["limits"]} == {"sodium_mg", "sugar_g", "sat_fat_g"}
+
+
+async def test_suggestions_respect_diet_and_skip_spices(app):
+    await dbmod.get_db().foods.insert_many([SPINACH, LIVER, CUMIN])
+    c = await _insights_user(app, "vegetarian")
+    await c.post("/api/logs", json={"date": "2026-10-01", "meal": "lunch", "food_id": "ifct:L003", "quantity": 50, "unit": "g"})
+    r = (await c.get("/api/insights", params={"start": "2026-10-01", "end": "2026-10-01"})).json()
+    iron = next(s for s in r["suggestions"] if s["key"] == "iron_mg")
+    ids = [f["id"] for f in iron["foods"]]
+    assert ids[0] == "ifct:C033"
+    assert "ifct:O020" not in ids  # non-veg hidden for a vegetarian
+    assert "ifct:G025" not in ids  # spices aren't eaten by the 100 g
+    assert iron["foods"][0]["portion"] == "100 g" and iron["foods"][0]["amount"] == 5.0
+
+    await c.put("/api/me/profile", json={"sex": "female", "age": 30, "height_cm": 160, "weight_kg": 55, "diet": "non_vegetarian"})
+    r = (await c.get("/api/insights", params={"start": "2026-10-01", "end": "2026-10-01"})).json()
+    iron = next(s for s in r["suggestions"] if s["key"] == "iron_mg")
+    assert [f["id"] for f in iron["foods"]] == ["ifct:C033", "ifct:O020"]  # ranked by iron per kcal
+
+
+async def test_insights_needs_profile(app):
+    c = await client_for(app)
+    assert (await c.get("/api/insights", params={"start": "2026-10-01", "end": "2026-10-02"})).status_code == 409

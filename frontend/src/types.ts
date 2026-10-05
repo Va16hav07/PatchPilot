@@ -5,6 +5,14 @@ export type Activity = 'sedentary' | 'moderate' | 'heavy'
 export type Goal = 'lose' | 'maintain' | 'gain'
 export type Meal = 'breakfast' | 'lunch' | 'snacks' | 'dinner'
 export type OilLevel = 'low' | 'home' | 'restaurant'
+export type Diet = 'vegetarian' | 'eggetarian' | 'non_vegetarian' | 'jain'
+
+export const DIETS: [Diet, string][] = [
+  ['vegetarian', 'Vegetarian'],
+  ['eggetarian', 'Eggetarian'],
+  ['non_vegetarian', 'Non-veg'],
+  ['jain', 'Jain'],
+]
 
 export const MEALS: { key: Meal; label: string }[] = [
   { key: 'breakfast', label: 'Breakfast' },
@@ -20,6 +28,7 @@ export interface Profile {
   weight_kg: number
   activity: Activity
   goal: Goal
+  diet: Diet | null
 }
 
 export interface Targets {
@@ -99,4 +108,59 @@ export interface DaySummary {
   date: string
   totals: Nutrients
   entries: number
+}
+
+export interface NutrientAvg {
+  key: string
+  label: string
+  unit: string
+  avg: number
+  target: number
+  pct: number
+}
+
+export interface MicroAvg extends NutrientAvg {
+  ear: number | null
+  status: 'good' | 'borderline' | 'low'
+}
+
+export interface LimitAvg {
+  key: string
+  label: string
+  unit: string
+  avg: number
+  limit: number
+  over: boolean
+}
+
+export interface SuggestedFood {
+  id: string
+  name: string
+  source: string
+  portion: string
+  amount: number
+  pct_of_target: number
+  energy_kcal: number
+  you_eat_it: boolean
+}
+
+export interface Suggestion {
+  key: string
+  label: string
+  unit: string
+  gap: number
+  foods: SuggestedFood[]
+}
+
+export interface Insights {
+  start: string
+  end: string
+  days_logged: number
+  enough_data: boolean
+  diet: Diet | null
+  energy: NutrientAvg | null
+  macros: NutrientAvg[]
+  micros: MicroAvg[]
+  limits: LimitAvg[]
+  suggestions: Suggestion[]
 }
