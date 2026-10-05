@@ -66,7 +66,7 @@ export default function Today() {
             </div>
             {date < today() && <button className="icon-btn" aria-label="Next day" onClick={() => go(1)}><Icon name="forward" /></button>}
           </div>
-          <Link to="/profile" aria-label="Profile" style={{ width: 44, height: 44, borderRadius: '50%', background: 'var(--accent)', color: '#fff', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 700, textDecoration: 'none', overflow: 'hidden' }}>
+          <Link to="/profile" aria-label="Profile" style={{ width: 44, height: 44, borderRadius: '50%', background: 'var(--accent)', color: 'var(--on-accent)', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 700, textDecoration: 'none', overflow: 'hidden' }}>
             {user.picture ? <img src={user.picture} alt="" width={44} height={44} referrerPolicy="no-referrer" /> : user.name[0]}
           </Link>
         </div>

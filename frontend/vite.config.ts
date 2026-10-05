@@ -12,7 +12,7 @@ export default defineConfig({
         short_name: 'Thali',
         description: 'Track nutrition of Indian meals, katori by katori.',
         theme_color: '#1E6A48',
-        background_color: '#F3F5F2',
+        background_color: '#F3F5F2', // splash screen; the app itself follows the theme
         display: 'standalone',
         start_url: '/',
         icons: [{ src: '/icon.svg', sizes: 'any', type: 'image/svg+xml', purpose: 'any maskable' }],

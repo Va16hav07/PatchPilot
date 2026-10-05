@@ -41,7 +41,7 @@ function CaloriesChart({ days, target }: { days: DaySummary[]; target: number })
         {target > 0 && (
           <>
             <div style={{ position: 'absolute', left: 0, right: 0, bottom: (target / max) * CHART_H, borderTop: '1.5px dashed var(--muted)' }} />
-            <span className="xsmall" style={{ position: 'absolute', right: 0, bottom: (target / max) * CHART_H + 3, fontWeight: 700, color: '#4a574f', background: 'var(--surface)', padding: '0 4px' }}>Target {kcal(target)}</span>
+            <span className="xsmall" style={{ position: 'absolute', right: 0, bottom: (target / max) * CHART_H + 3, fontWeight: 700, color: 'var(--ink-3)', background: 'var(--surface)', padding: '0 4px' }}>Target {kcal(target)}</span>
           </>
         )}
         {days.map((d, i) => (
@@ -187,7 +187,7 @@ export default function Insights() {
                 <h2 className="section-label">What would help most</h2>
                 {data.suggestions.map((s) => (
                   <div key={s.key} className="card" style={{ overflow: 'hidden' }}>
-                    <div className="stack" style={{ gap: 2, padding: '12px 16px', background: '#fbf1dc' }}>
+                    <div className="stack" style={{ gap: 2, padding: '12px 16px', background: 'var(--warn-soft)' }}>
                       <strong style={{ fontSize: 15, color: 'var(--warn-ink)' }}>Low on {s.label.replace(/^[A-Z](?=[a-z])/, (c) => c.toLowerCase())}</strong>
                       <span className="xsmall" style={{ color: 'var(--warn-ink)' }}>About {grams(s.gap)} {s.unit} a day short. Good sources{data.diet ? '' : ' (vegetarian, as your diet isn’t set)'}:</span>
                     </div>

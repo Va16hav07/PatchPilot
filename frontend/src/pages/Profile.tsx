@@ -6,6 +6,7 @@ import GeminiKeyCard from '../components/GeminiKeyCard'
 import Icon from '../components/Icon'
 import TabBar from '../components/TabBar'
 import { kcal } from '../format'
+import { getThemeChoice, setThemeChoice, type ThemeChoice } from '../theme'
 import type { Measures, Targets, User } from '../types'
 
 const ACTIVITY = { sedentary: 'Sedentary', moderate: 'Moderate', heavy: 'Heavy' }
@@ -81,6 +82,21 @@ function MeasuresForm({ measures }: { measures: Measures }) {
   )
 }
 
+function ThemePicker() {
+  const [choice, setChoice] = useState<ThemeChoice>(getThemeChoice)
+  const pick = (c: ThemeChoice) => {
+    setChoice(c)
+    setThemeChoice(c)
+  }
+  return (
+    <div className="seg" role="group" aria-label="Theme">
+      {([['system', 'System'], ['light', 'Light'], ['dark', 'Dark']] as [ThemeChoice, string][]).map(([v, label]) => (
+        <button key={v} aria-pressed={choice === v} onClick={() => pick(v)}>{label}</button>
+      ))}
+    </div>
+  )
+}
+
 export default function Profile() {
   const user = useUser()
   const { signOut } = useAuth()
@@ -100,7 +116,7 @@ export default function Profile() {
 
         <div className="card pad stack" style={{ gap: 14 }}>
           <div className="row" style={{ gap: 12 }}>
-            <div style={{ width: 52, height: 52, borderRadius: '50%', background: 'var(--accent)', color: '#fff', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 700, fontSize: 20, overflow: 'hidden', flexShrink: 0 }}>
+            <div style={{ width: 52, height: 52, borderRadius: '50%', background: 'var(--accent)', color: 'var(--on-accent)', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 700, fontSize: 20, overflow: 'hidden', flexShrink: 0 }}>
               {user.picture ? <img src={user.picture} alt="" width={52} height={52} referrerPolicy="no-referrer" /> : user.name[0]}
             </div>
             <div className="stack grow" style={{ gap: 2 }}>
@@ -147,6 +163,11 @@ export default function Profile() {
           </span>
           <Icon name="forward" size={18} />
         </Link>
+
+        <div className="stack">
+          <h2 className="section-label">Appearance</h2>
+          <ThemePicker />
+        </div>
 
         <div className="stack" id="ai">
           <h2 className="section-label">AI logging (Gemini)</h2>

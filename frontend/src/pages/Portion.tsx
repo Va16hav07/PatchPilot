@@ -203,7 +203,7 @@ export default function Portion() {
             {food.source === 'MY_RECIPE' && <span>Your own recipe: raw ingredient values from IFCT 2017 divided by the cooked weight you entered.</span>}
             {food.ingredients && food.ingredients.length > 0 && (
               <details>
-                <summary style={{ cursor: 'pointer', fontWeight: 700, color: 'var(--accent)' }}>Recipe ingredients</summary>
+                <summary style={{ cursor: 'pointer', fontWeight: 700, color: 'var(--accent-text)' }}>Recipe ingredients</summary>
                 <ul style={{ margin: '8px 0 0', paddingLeft: 18 }}>
                   {food.ingredients.map((i, idx) => <li key={idx}>{i.name}: {i.amount} {i.unit}</li>)}
                 </ul>

@@ -185,8 +185,8 @@ export default function LogMeal() {
                   <button aria-pressed={lang === 'hi-IN'} onClick={() => setLang('hi-IN')} disabled={Boolean(listening)}>हिंदी</button>
                 </div>
                 <button onClick={toggleListening} aria-label={listening ? 'Stop listening' : 'Start listening'}
-                  style={{ width: 96, height: 96, borderRadius: '50%', border: 0, cursor: 'pointer', background: listening ? 'var(--danger)' : 'var(--accent)', color: '#fff', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                  {listening ? <span style={{ width: 28, height: 28, borderRadius: 6, background: '#fff' }} /> : <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.9" strokeLinecap="round"><rect x="9" y="3" width="6" height="11" rx="3" /><path d="M5 11a7 7 0 0 0 14 0M12 18v3" /></svg>}
+                  style={{ width: 96, height: 96, borderRadius: '50%', border: 0, cursor: 'pointer', background: listening ? 'var(--danger)' : 'var(--accent)', color: 'var(--on-accent)', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                  {listening ? <span style={{ width: 28, height: 28, borderRadius: 6, background: 'var(--on-accent)' }} /> : <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.9" strokeLinecap="round"><rect x="9" y="3" width="6" height="11" rx="3" /><path d="M5 11a7 7 0 0 0 14 0M12 18v3" /></svg>}
                 </button>
                 <span className="small muted">{listening ? 'Listening… tap to stop' : 'Tap and say what you ate, with amounts'}</span>
                 <textarea className="input" rows={3} aria-label="What you said" style={{ height: 'auto', padding: '12px 14px', lineHeight: 1.5, resize: 'none' }}

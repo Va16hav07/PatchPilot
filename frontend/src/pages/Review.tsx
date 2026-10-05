@@ -202,7 +202,7 @@ export default function Review() {
       </div>
       <div className="footer">
         <div className="row between" style={{ alignItems: 'baseline' }}>
-          <span className="small" style={{ fontWeight: 700, color: '#4a574f' }}>{mealLabel} total</span>
+          <span className="small" style={{ fontWeight: 700, color: 'var(--ink-3)' }}>{mealLabel} total</span>
           <span className="big-num" style={{ fontSize: 28 }}>{kcal(totals.energy_kcal ?? 0)} kcal</span>
         </div>
         <MacroRow nutrients={totals} />
