@@ -1,0 +1,10 @@
+.venv
+__pycache__
+*.py[cod]
+*$py.class
+.pytest_cache
+tests
+.env
+.env.*
+!.env.example
+data/raw/
