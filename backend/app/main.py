@@ -30,6 +30,10 @@ def create_app() -> FastAPI:
     for r in (auth.router, me.router, foods.router, logs.router, recipes.router, ai.router, insights.router):
         app.include_router(r)
 
+    @app.get("/")
+    def home():
+        return {"message": "Backend is running"}
+
     @app.get("/api/health")
     async def health():
         return {"ok": True}
