@@ -16,6 +16,7 @@ from pymongo.asynchronous.database import AsyncDatabase
 from app.auth import current_user
 from app.db import get_db
 from app.food_access import get_visible_food
+from app import search_text
 from app.nutrition import nutrients as N
 
 router = APIRouter(prefix="/api/recipes", tags=["recipes"])
@@ -120,6 +121,7 @@ def _doc_fields(body: RecipeIn, rows: list[dict], raw: float, per_100g: dict, di
     return {
         **diet,
         "name": body.name.strip(),
+        "search_key": search_text.key(body.name),
         "per_100g": per_100g,
         "recipe": {"ingredients": rows, "raw_weight_g": raw, "cooked_weight_g": body.cooked_weight_g},
         "updated_at": datetime.now(UTC),

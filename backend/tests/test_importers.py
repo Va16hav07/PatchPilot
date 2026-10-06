@@ -135,3 +135,46 @@ def test_dish_diet_classification(name, ingredients, expected):
     from app.nutrition.diet import classify_dish
 
     assert classify_dish(name, ingredients) == expected
+
+
+def test_brand_foods_load_with_sources():
+    from app.importers import brands
+
+    docs = {d["_id"]: d for d in brands.load()}
+    slice_ = docs["brand:pizza_hut:margherita-pizza-personal-pan-4-slices-per-pizza"]
+    assert slice_["serving"]["unit"] == "slice"
+    # Pizza Hut India lists 725.1 kcal for the 4-slice personal pan Margherita.
+    assert slice_["serving"]["nutrients"]["energy_kcal"] == round(725.1 / 4)
+    assert "pizzahut.co.in" in slice_["source_note"]
+    assert "partial_nutrients" in slice_["quality_flags"]
+
+    fries = docs["brand:mcdonalds:fries-regular"]
+    assert fries["serving"]["nutrients"]["energy_kcal"] == round(215.77)
+    assert "carbs_by_difference" in fries["quality_flags"]  # McDonald's doesn't publish carbs for fries
+
+    wing = docs["brand:kfc:hot-wings"]
+    assert wing["serving"]["unit"] == "piece" and wing["diet"] == "nonveg"
+    assert wing["serving"]["nutrients"]["energy_kcal"] == round(267.1 / 2)
+
+    thums_up = docs["brand:packaged_drinks:thums-up"]
+    assert thums_up["kind"] == "ingredient" and thums_up["per_100g"]["energy_kcal"] == 42
+
+
+def test_every_brand_food_passes_energy_check():
+    from app.importers import brands
+    from scripts.extract_brand_pdfs import energy_ok
+
+    for d in brands.load():
+        values = d["serving"]["nutrients"] if d["kind"] == "dish" else d["per_100g"]
+        assert energy_ok(values), d["name"]
+
+
+@pytest.mark.parametrize(
+    ("a", "b"),
+    [("aloo", "aaloo"), ("aloo", "alu"), ("gobhi", "gobi"), ("paneer", "panir"), ("parantha", "paratha"),
+     ("idli", "idly"), ("chicken", "chiken"), ("biryani", "biriyani"), ("sabzi", "sabji"), ("chhole", "chole"), ("dal", "daal")],
+)
+def test_spelling_variants_share_a_key(a, b):
+    from app.search_text import key
+
+    assert key(a) == key(b)

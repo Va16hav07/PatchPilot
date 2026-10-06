@@ -25,6 +25,9 @@
   --danger-line: #e2b9b0;
   --shadow: rgb(0 0 0 / 0.06);
   --fab-shadow: rgb(30 106 72 / 0.3);
+  --material: rgb(255 255 255 / 0.72); /* translucent chrome: tab bar, action footers */
+  --material-edge: rgb(255 255 255 / 0.5);
+  --material-line: rgb(21 32 26 / 0.08);
   --protein: #1e7a50;
   --carb: #d29a12;
   --fat: #3a64b0;
@@ -66,6 +69,9 @@
   --danger-line: #6b3328;
   --shadow: rgb(0 0 0 / 0.35);
   --fab-shadow: rgb(0 0 0 / 0.45);
+  --material: rgb(24 32 27 / 0.72);
+  --material-edge: rgb(255 255 255 / 0.06);
+  --material-line: rgb(0 0 0 / 0.4);
   --protein: #2f9a68;
   --carb: #bb881b;
   --fat: #5682d6;
@@ -105,6 +111,9 @@
   --danger-line: #6b3328;
   --shadow: rgb(0 0 0 / 0.35);
   --fab-shadow: rgb(0 0 0 / 0.45);
+  --material: rgb(24 32 27 / 0.72);
+  --material-edge: rgb(255 255 255 / 0.06);
+  --material-line: rgb(0 0 0 / 0.4);
   --protein: #2f9a68;
   --carb: #bb881b;
   --fat: #5682d6;
@@ -138,9 +147,10 @@ h1, h2, h3 { margin: 0; }
 .stack { display: flex; flex-direction: column; gap: 8px; }
 .grow { flex: 1; min-width: 0; }
 
-.title { font-family: var(--display); font-weight: 700; font-size: 28px; letter-spacing: -0.6px; }
-.title-sm { font-family: var(--display); font-weight: 700; font-size: 24px; letter-spacing: -0.4px; }
-.big-num { font-family: var(--display); font-weight: 700; font-variant-numeric: tabular-nums; }
+/* Tracking and leading tighten as type grows; body text stays near 0. */
+.title { font-family: var(--display); font-weight: 700; font-size: 28px; line-height: 1.1; letter-spacing: -0.022em; }
+.title-sm { font-family: var(--display); font-weight: 700; font-size: 24px; line-height: 1.15; letter-spacing: -0.016em; }
+.big-num { font-family: var(--display); font-weight: 700; font-variant-numeric: tabular-nums; letter-spacing: -0.02em; line-height: 1.05; }
 .section-label { font-size: 13px; font-weight: 700; color: var(--muted); text-transform: uppercase; letter-spacing: 0.6px; }
 
 .card { background: var(--surface); border: 1px solid var(--line); border-radius: 16px; }
@@ -196,3 +206,47 @@ h1, h2, h3 { margin: 0; }
 .macro-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 8px; }
 .grid-2 { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px 16px; }
 .grid-3 { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; }
+
+/* ---- Feel ---------------------------------------------------------------
+   Feedback on press (not release), no tap delay, translucent chrome that
+   content scrolls under, values that glide instead of jump. Gentler
+   equivalents for reduced motion / transparency and stronger contrast. */
+
+body { line-height: 1.45; transition: background-color 250ms ease, color 250ms ease; }
+
+button, a, input, select, textarea, summary, label { -webkit-tap-highlight-color: transparent; touch-action: manipulation; }
+:focus-visible { outline: 2px solid var(--accent-text); outline-offset: 2px; }
+
+.btn, .pill, .pill-add, .icon-btn, .link-btn, .tab, .tab-add, .seg button, .stepper button, .list-row {
+  transition: transform 120ms ease-out, background-color 160ms ease, color 160ms ease, border-color 160ms ease, box-shadow 160ms ease;
+}
+.btn:active:not(:disabled), .pill:active, .pill-add:active, .tab-add:active { transform: scale(0.97); }
+.icon-btn:active, .stepper button:active, .seg button:active, .tab:active, .link-btn:active { transform: scale(0.92); }
+.list-row:active { background: var(--track); }
+.stepper button:active { background: var(--track); }
+
+.tabbar, .footer {
+  background: var(--material);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  backdrop-filter: blur(20px) saturate(180%);
+  border-top: 1px solid var(--material-line);
+  box-shadow: inset 0 1px 0 var(--material-edge);
+}
+
+.bar > div { transition: width 450ms cubic-bezier(0.2, 0.8, 0.2, 1); }
+.ring-progress { transition: stroke-dasharray 500ms cubic-bezier(0.2, 0.8, 0.2, 1), stroke 250ms ease; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { transition-duration: 0.01ms !important; animation-duration: 0.01ms !important; scroll-behavior: auto !important; }
+  .btn:active, .pill:active, .pill-add:active, .tab-add:active, .icon-btn:active,
+  .stepper button:active, .seg button:active, .tab:active, .link-btn:active { transform: none; }
+}
+
+@media (prefers-reduced-transparency: reduce) {
+  .tabbar, .footer { background: var(--surface); -webkit-backdrop-filter: none; backdrop-filter: none; }
+}
+
+@media (prefers-contrast: more) {
+  :root { --line: var(--field); --line-soft: var(--field); --muted: var(--ink-2); }
+  .tabbar, .footer { background: var(--surface); -webkit-backdrop-filter: none; backdrop-filter: none; border-top: 1px solid var(--ink-2); }
+}

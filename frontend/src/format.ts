@@ -50,6 +50,14 @@ const UNIT_LABEL: Record<string, string> = {
   glass: 'glass',
 }
 
+const NO_PLURAL = new Set(['g', 'ml', 'tsp', 'tbsp', 'katori', 'serving'])
+
+/** "2 slices", "1 glass", "3 chapatis"; units of measure stay as they are. */
+export function countLabel(n: number, label: string): string {
+  if (n === 1 || NO_PLURAL.has(label) || /\s|[()]/.test(label) || label.endsWith('s')) return label
+  return /(ch|sh|x|ss)$/.test(label) ? `${label}es` : `${label}s`
+}
+
 export function unitLabel(unit: string, servingUnit?: string | null): string {
   if (unit === 'serving') return servingUnit ?? 'serving'
   return UNIT_LABEL[unit] ?? unit

@@ -12,6 +12,12 @@ from app.auth import google_verifier
 from app.config import get_settings
 from app.main import create_app
 from app.nutrition import nutrients as N
+from app.search_text import food_key
+
+
+def keyed(*docs: dict) -> list[dict]:
+    """Foods as the importer stores them, with their search key."""
+    return [{**d, "search_key": food_key(d)} for d in docs]
 
 
 def _mongo_available() -> bool:
@@ -56,7 +62,7 @@ async def app():
     for name in ("users", "foods", "log_entries"):
         await database[name].drop()
     await dbmod.ensure_indexes(database)
-    await database.foods.insert_many(FOODS)
+    await database.foods.insert_many(keyed(*FOODS))
     application = create_app()
     application.dependency_overrides[google_verifier] = fake_verifier
     yield application
@@ -157,7 +163,7 @@ OIL = {"_id": "ifct:T012", "source": "IFCT2017", "source_code": "T012", "kind": 
 
 
 async def _add_staples():
-    await dbmod.get_db().foods.insert_many([ATTA, OIL])
+    await dbmod.get_db().foods.insert_many(keyed(ATTA, OIL))
 
 
 async def test_recipe_per_100g_from_cooked_weight(app):
@@ -321,7 +327,7 @@ async def test_insights_icmr_references_by_sex(app):
 
 
 async def test_suggestions_respect_diet_and_skip_spices(app):
-    await dbmod.get_db().foods.insert_many([SPINACH, LIVER, CUMIN])
+    await dbmod.get_db().foods.insert_many(keyed(SPINACH, LIVER, CUMIN))
     c = await _insights_user(app, "vegetarian")
     await c.post("/api/logs", json={"date": "2026-10-01", "meal": "lunch", "food_id": "ifct:L003", "quantity": 50, "unit": "g"})
     r = (await c.get("/api/insights", params={"start": "2026-10-01", "end": "2026-10-01"})).json()
@@ -341,3 +347,45 @@ async def test_suggestions_respect_diet_and_skip_spices(app):
 async def test_insights_needs_profile(app):
     c = await client_for(app)
     assert (await c.get("/api/insights", params={"start": "2026-10-01", "end": "2026-10-02"})).status_code == 409
+
+
+async def test_search_matches_words_in_any_order(app):
+    await dbmod.get_db().foods.insert_many(keyed({
+        "_id": "brand:pizza_hut:margherita", "brand": "Pizza Hut", "source": "Pizza Hut", "kind": "dish", "name": "Pizza Hut Margherita Pizza (Personal), Pan",
+        "local_names": ["Pizza Hut"], "quarantined": False, "quality_flags": ["partial_nutrients"], "diet": "veg",
+        "serving": {"unit": "slice", "container_ml": None, "added_fat_g": None, "nutrients": {**N.zero(), "energy_kcal": 181.0}}}))
+    c = await client_for(app)
+    for q in ("margherita pizza hut", "pizza hut margherita", "hut  margherita"):
+        assert [f["id"] for f in (await c.get("/api/foods", params={"q": q})).json()] == ["brand:pizza_hut:margherita"], q
+
+
+PARATHA = {"_id": "indb:ASC098", "source": "INDB", "kind": "dish", "name": "Potato parantha/paratha (Aloo ka parantha/paratha)",
+           "local_names": ["Aloo ka parantha/paratha"], "quarantined": False, "quality_flags": [], "diet": "veg",
+           "serving": {"unit": "parantha", "container_ml": None, "added_fat_g": 5.0, "nutrients": {**N.zero(), "energy_kcal": 290.0}}}
+RICE = {"_id": "indb:ASC113", "source": "INDB", "kind": "dish", "name": "Boiled rice (Uble chawal)", "local_names": ["Uble chawal", "Chawal"],
+        "quarantined": False, "quality_flags": [], "diet": "veg",
+        "serving": {"unit": "plate", "container_ml": None, "added_fat_g": None, "nutrients": {**N.zero(), "energy_kcal": 220.0}}}
+RAJMA = {"_id": "indb:ASC165", "source": "INDB", "kind": "dish", "name": "Kidney bean curry (Rajmah curry)", "local_names": ["Rajmah curry"],
+         "quarantined": False, "quality_flags": [], "diet": "veg",
+         "serving": {"unit": "bowl", "container_ml": 150.0, "added_fat_g": 6.9, "nutrients": {**N.zero(), "energy_kcal": 172.0}}}
+
+
+@pytest.mark.parametrize("q", ["aloo paratha", "alu paratha", "aaloo parantha", "paratha aloo", "potato paratha", "alu parata"])
+async def test_search_tolerates_indian_spellings(app, q):
+    await dbmod.get_db().foods.insert_many(keyed(PARATHA))
+    c = await client_for(app)
+    assert (await c.get("/api/foods", params={"q": q})).json()[0]["id"] == "indb:ASC098"
+
+
+async def test_search_corrects_typos(app):
+    c = await client_for(app)
+    for q in ("panner", "paneeer", "alo gobi"):
+        ids = [f["id"] for f in (await c.get("/api/foods", params={"q": q})).json()]
+        assert ids and ids[0] in {"ifct:L003", "indb:ASC171"}, q
+
+
+async def test_search_falls_back_to_partial_matches(app):
+    await dbmod.get_db().foods.insert_many(keyed(RICE, RAJMA))
+    c = await client_for(app)
+    ids = {f["id"] for f in (await c.get("/api/foods", params={"q": "rajma chawal"})).json()}
+    assert {"indb:ASC113", "indb:ASC165"} <= ids

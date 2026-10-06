@@ -74,6 +74,8 @@ export interface FoodDetail extends FoodSummary {
   added_fat_g: number | null
   ingredients: { name: string; code: string; amount: number; unit: string }[] | null
   derived_from: string | null
+  source_note: string | null
+  serving_size: string | null
   quality_flags: string[]
 }
 

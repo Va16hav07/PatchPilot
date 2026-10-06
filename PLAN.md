@@ -84,6 +84,13 @@ input (text | photo | voice | search)
 - Plain curd is in neither source; added from USDA FDC #171284.
 - No plain toor/arhar dal in INDB; added as a curated dish derived from INDB washed moong dal (ASC151) with IFCT red gram dal.
 
+## Fast food and drinks (added 2026-10-06)
+- Official India nutrition booklets: Pizza Hut (2022, lab-tested), KFC (May 2022), McDonald's North & East (Dec 2025); Coca-Cola India product pages for packaged drinks
+- `scripts/extract_brand_pdfs.py` parses and curates them into reviewed `data/brands/*.json` (committed, each item cites its source); every item must pass a 4/4/9 energy check
+- Pizzas per slice, wings/strips per piece; source errors left out with reasons (e.g. KFC Tandoori Zinger 999.9 kcal vs ~675 from macros; McDonald's maple syrup 72 g carbs in 28 g)
+- Domino's India publishes no nutrition data, so it is not included
+- Brands publish macros, sugar, sat fat, cholesterol, sodium only: flagged `partial_nutrients`, excluded from suggestions
+
 ## Open items
 - Fibre target now US IOM 14 g/1000 kcal (ICMR brief note has no fibre figure); carb share is ~65% because protein is set at the 0.83 g/kg RDA
 - Curate cooked yields for common dishes so grams work for dishes

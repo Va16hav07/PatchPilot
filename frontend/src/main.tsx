@@ -7,6 +7,9 @@ import { AuthProvider } from './auth'
 import './index.css'
 import { useIsDark } from './theme'
 
+// iOS Safari only applies :active (press feedback) when a touch listener exists.
+document.addEventListener('touchstart', () => {}, { passive: true })
+
 const clientId = import.meta.env.VITE_GOOGLE_CLIENT_ID ?? ''
 
 /** Keeps the theme in sync with the device while the app is open. */

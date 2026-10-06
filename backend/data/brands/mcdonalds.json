@@ -1,0 +1,1544 @@
+{
+ "source": {
+  "brand": "McDonald's",
+  "url": "https://mcdindia.com/wp-content/uploads/2025/12/product-nutritional-information-bookletpdf.pdf",
+  "title": "McDonald's India (North & East): Product nutritional information booklet",
+  "published": "2025-12"
+ },
+ "foods": [
+  {
+   "name": "Veg Mc Muffin",
+   "category": "McDonald's",
+   "serving_unit": "serving",
+   "serving_size": "119 g",
+   "per_serving": {
+    "energy_kcal": 303.35,
+    "protein_g": 10.22,
+    "fat_g": 11.78,
+    "sat_fat_g": 7.29,
+    "cholesterol_mg": 25.31,
+    "carb_g": 38.86,
+    "sugar_g": 3.02,
+    "sodium_mg": 804.63
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "page 1"
+  },
+  {
+   "name": "Hash Brown",
+   "category": "McDonald's",
+   "serving_unit": "serving",
+   "serving_size": "64 g",
+   "per_serving": {
+    "energy_kcal": 136.8,
+    "protein_g": 1.93,
+    "fat_g": 7.32,
+    "sat_fat_g": 3.42,
+    "cholesterol_mg": 0.64,
+    "carb_g": 15.63,
+    "sugar_g": 0.32,
+    "sodium_mg": 275.26
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "page 2"
+  },
+  {
+   "name": "Egg Mc Muffin",
+   "category": "McDonald's",
+   "serving_unit": "serving",
+   "serving_size": "112 g",
+   "per_serving": {
+    "energy_kcal": 283.46,
+    "protein_g": 14.05,
+    "fat_g": 12.31,
+    "sat_fat_g": 6.92,
+    "cholesterol_mg": 233.3,
+    "carb_g": 28.12,
+    "sugar_g": 2.38,
+    "sodium_mg": 519.31
+   },
+   "diet": "egg",
+   "flags": [],
+   "ref": "page 3"
+  },
+  {
+   "name": "Veg Supreme Mc Muffin",
+   "category": "McDonald's",
+   "serving_unit": "serving",
+   "serving_size": "140 g",
+   "per_serving": {
+    "energy_kcal": 347.96,
+    "protein_g": 10.5,
+    "fat_g": 15.78,
+    "sat_fat_g": 8.0,
+    "cholesterol_mg": 27.31,
+    "carb_g": 40.96,
+    "sugar_g": 4.22,
+    "sodium_mg": 3.0
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "page 4"
+  },
+  {
+   "name": "McVeggie Burger",
+   "category": "McDonald's",
+   "serving_unit": "serving",
+   "serving_size": "168 g",
+   "per_serving": {
+    "energy_kcal": 387.88,
+    "protein_g": 10.24,
+    "fat_g": 13.83,
+    "sat_fat_g": 5.34,
+    "cholesterol_mg": 2.49,
+    "carb_g": 56.54,
+    "sugar_g": 7.9,
+    "sodium_mg": 706.13
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "page 5"
+  },
+  {
+   "name": "Veg Surprise Burger",
+   "category": "McDonald's",
+   "serving_unit": "serving",
+   "serving_size": "132 g",
+   "per_serving": {
+    "energy_kcal": 313.44,
+    "protein_g": 5.71,
+    "fat_g": 14.95,
+    "sat_fat_g": 3.73,
+    "cholesterol_mg": 0.0,
+    "carb_g": 39.84,
+    "sugar_g": 5.66,
+    "sodium_mg": 504.19
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "page 6"
+  },
+  {
+   "name": "Sausage Mc Muffin",
+   "category": "McDonald's",
+   "serving_unit": "serving",
+   "serving_size": "112 g",
+   "per_serving": {
+    "energy_kcal": 281.44,
+    "protein_g": 16.25,
+    "fat_g": 10.81,
+    "sat_fat_g": 6.04,
+    "cholesterol_mg": 53.02,
+    "carb_g": 28.62,
+    "sugar_g": 2.38,
+    "sodium_mg": 742.6
+   },
+   "diet": "nonveg",
+   "flags": [],
+   "ref": "page 7"
+  },
+  {
+   "name": "Aloo Tikki Burger",
+   "category": "McDonald's",
+   "serving_unit": "serving",
+   "serving_size": "146 g",
+   "per_serving": {
+    "energy_kcal": 339.52,
+    "protein_g": 8.5,
+    "fat_g": 11.31,
+    "sat_fat_g": 4.27,
+    "cholesterol_mg": 1.47,
+    "carb_g": 50.27,
+    "sugar_g": 7.05,
+    "sodium_mg": 545.34
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "page 9"
+  },
+  {
+   "name": "Crispy Veggie Burger",
+   "category": "McDonald's",
+   "serving_unit": "serving",
+   "serving_size": "212 g",
+   "per_serving": {
+    "energy_kcal": 482.33,
+    "protein_g": 9.9,
+    "fat_g": 19.8,
+    "sat_fat_g": 6.6,
+    "cholesterol_mg": 3.0,
+    "carb_g": 62.37,
+    "sugar_g": 10.56,
+    "sodium_mg": 2.0
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "page 10"
+  },
+  {
+   "name": "McSpicy Paneer Burger",
+   "category": "McDonald's",
+   "serving_unit": "serving",
+   "serving_size": "199 g",
+   "per_serving": {
+    "energy_kcal": 646.52,
+    "protein_g": 20.29,
+    "fat_g": 39.45,
+    "sat_fat_g": 17.12,
+    "cholesterol_mg": 21.85,
+    "carb_g": 52.33,
+    "sugar_g": 8.35,
+    "sodium_mg": 8.0
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "page 11"
+  },
+  {
+   "name": "McSpicy Paneer Wrap",
+   "category": "McDonald's",
+   "serving_unit": "serving",
+   "serving_size": "250 g",
+   "per_serving": {
+    "energy_kcal": 674.68,
+    "protein_g": 20.96,
+    "fat_g": 39.1,
+    "sat_fat_g": 19.73,
+    "cholesterol_mg": 40.93,
+    "carb_g": 59.27,
+    "sugar_g": 3.5,
+    "sodium_mg": 6.0
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "page 12"
+  },
+  {
+   "name": "Butter Paneer Grilled Burger",
+   "category": "McDonald's",
+   "serving_unit": "serving",
+   "serving_size": "142 g",
+   "per_serving": {
+    "energy_kcal": 382.26,
+    "protein_g": 12.85,
+    "fat_g": 17.15,
+    "sat_fat_g": 8.29,
+    "cholesterol_mg": 6.62,
+    "carb_g": 44.12,
+    "sugar_g": 8.78,
+    "sodium_mg": 900.37
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "page 13"
+  },
+  {
+   "name": "Cheesy Mushroom Burger",
+   "category": "McDonald's",
+   "serving_unit": "serving",
+   "serving_size": "220 g",
+   "per_serving": {
+    "energy_kcal": 778.21,
+    "protein_g": 20.82,
+    "fat_g": 44.35,
+    "sat_fat_g": 22.35,
+    "cholesterol_mg": 37.13,
+    "carb_g": 75.34,
+    "sugar_g": 10.45,
+    "sodium_mg": 8.0
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "page 14"
+  },
+  {
+   "name": "Pizza Puff",
+   "category": "McDonald's",
+   "serving_unit": "serving",
+   "serving_size": "87 g",
+   "per_serving": {
+    "energy_kcal": 225.21,
+    "protein_g": 5.45,
+    "fat_g": 11.44,
+    "sat_fat_g": 5.72,
+    "cholesterol_mg": 5.17,
+    "carb_g": 24.79,
+    "sugar_g": 2.73,
+    "sodium_mg": 390.74
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "page 15"
+  },
+  {
+   "name": "McEgg Burger",
+   "category": "McDonald's",
+   "serving_unit": "serving",
+   "serving_size": "115 g",
+   "per_serving": {
+    "energy_kcal": 262.77,
+    "protein_g": 12.0,
+    "fat_g": 10.0,
+    "sat_fat_g": 0.8,
+    "cholesterol_mg": 76.88,
+    "carb_g": 31.0,
+    "sugar_g": 5.0,
+    "sodium_mg": 675.0
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "page 16"
+  },
+  {
+   "name": "Chicken Puff",
+   "category": "McDonald's",
+   "serving_unit": "serving",
+   "serving_size": "80 g",
+   "per_serving": {
+    "energy_kcal": 212.6,
+    "protein_g": 5.13,
+    "fat_g": 11.44,
+    "sat_fat_g": 5.72,
+    "cholesterol_mg": 5.19,
+    "carb_g": 22.28,
+    "sugar_g": 1.57,
+    "sodium_mg": 407.41
+   },
+   "diet": "nonveg",
+   "flags": [],
+   "ref": "page 17"
+  },
+  {
+   "name": "McChicken Burger",
+   "category": "McDonald's",
+   "serving_unit": "serving",
+   "serving_size": "173 g",
+   "per_serving": {
+    "energy_kcal": 396.77,
+    "protein_g": 15.66,
+    "fat_g": 15.7,
+    "sat_fat_g": 5.47,
+    "cholesterol_mg": 31.17,
+    "carb_g": 47.98,
+    "sugar_g": 5.53,
+    "sodium_mg": 766.33
+   },
+   "diet": "nonveg",
+   "flags": [],
+   "ref": "page 18"
+  },
+  {
+   "name": "Chicken McGrill Burger",
+   "category": "McDonald's",
+   "serving_unit": "serving",
+   "serving_size": "142 g",
+   "per_serving": {
+    "energy_kcal": 274.17,
+    "protein_g": 13.19,
+    "fat_g": 8.52,
+    "sat_fat_g": 2.64,
+    "cholesterol_mg": 16.6,
+    "carb_g": 36.18,
+    "sugar_g": 6.28,
+    "sodium_mg": 528.33
+   },
+   "diet": "nonveg",
+   "flags": [],
+   "ref": "page 19"
+  },
+  {
+   "name": "Butter Chicken Grilled Burger",
+   "category": "McDonald's",
+   "serving_unit": "serving",
+   "serving_size": "153 g",
+   "per_serving": {
+    "energy_kcal": 357.01,
+    "protein_g": 17.06,
+    "fat_g": 14.41,
+    "sat_fat_g": 4.65,
+    "cholesterol_mg": 31.93,
+    "carb_g": 39.76,
+    "sugar_g": 6.55,
+    "sodium_mg": 919.59
+   },
+   "diet": "nonveg",
+   "flags": [],
+   "ref": "page 20"
+  },
+  {
+   "name": "Filet-O-Fish Burger",
+   "category": "McDonald's",
+   "serving_unit": "serving",
+   "serving_size": "136 g",
+   "per_serving": {
+    "energy_kcal": 345.11,
+    "protein_g": 15.44,
+    "fat_g": 14.16,
+    "sat_fat_g": 5.79,
+    "cholesterol_mg": 32.83,
+    "carb_g": 38.85,
+    "sugar_g": 5.58,
+    "sodium_mg": 530.54
+   },
+   "diet": "nonveg",
+   "flags": [],
+   "ref": "page 21"
+  },
+  {
+   "name": "Cheesy Chicken Burger",
+   "category": "McDonald's",
+   "serving_unit": "serving",
+   "serving_size": "235 g",
+   "per_serving": {
+    "energy_kcal": 496.74,
+    "protein_g": 29.86,
+    "fat_g": 22.92,
+    "sat_fat_g": 9.54,
+    "cholesterol_mg": 209.68,
+    "carb_g": 41.7,
+    "sugar_g": 5.3,
+    "sodium_mg": 8.0
+   },
+   "diet": "nonveg",
+   "flags": [],
+   "ref": "page 22"
+  },
+  {
+   "name": "McCrispy Chicken Burger",
+   "category": "McDonald's",
+   "serving_unit": "serving",
+   "serving_size": "227 g",
+   "per_serving": {
+    "energy_kcal": 507.72,
+    "protein_g": 22.32,
+    "fat_g": 27.65,
+    "sat_fat_g": 10.38,
+    "cholesterol_mg": 70.65,
+    "carb_g": 49.38,
+    "sugar_g": 7.7,
+    "sodium_mg": 8.0
+   },
+   "diet": "nonveg",
+   "flags": [],
+   "ref": "page 23"
+  },
+  {
+   "name": "Veg Maharaja Mac",
+   "category": "McDonald's",
+   "serving_unit": "serving",
+   "serving_size": "306 g",
+   "per_serving": {
+    "energy_kcal": 832.67,
+    "protein_g": 24.17,
+    "fat_g": 37.94,
+    "sat_fat_g": 16.83,
+    "cholesterol_mg": 36.19,
+    "carb_g": 93.84,
+    "sugar_g": 11.52,
+    "sodium_mg": 2.0
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "page 24"
+  },
+  {
+   "name": "Saucy Wrap - Egg",
+   "category": "McDonald's",
+   "serving_unit": "serving",
+   "serving_size": "132 g",
+   "per_serving": {
+    "energy_kcal": 283.78,
+    "protein_g": 7.34,
+    "fat_g": 15.13,
+    "sat_fat_g": 4.9,
+    "cholesterol_mg": 172.89,
+    "carb_g": 29.48,
+    "sugar_g": 3.55,
+    "sodium_mg": 414.83
+   },
+   "diet": "egg",
+   "flags": [],
+   "ref": "page 25"
+  },
+  {
+   "name": "Saucy Wrap - Chicken",
+   "category": "McDonald's",
+   "serving_unit": "serving",
+   "serving_size": "137 g",
+   "per_serving": {
+    "energy_kcal": 312.1,
+    "protein_g": 13.6,
+    "fat_g": 14.9,
+    "sat_fat_g": 5.2,
+    "cholesterol_mg": 35.11,
+    "carb_g": 30.83,
+    "sugar_g": 3.1,
+    "sodium_mg": 512.03
+   },
+   "diet": "nonveg",
+   "flags": [],
+   "ref": "page 26"
+  },
+  {
+   "name": "Saucy Wrap - Aloo",
+   "category": "McDonald's",
+   "serving_unit": "serving",
+   "serving_size": "147 g",
+   "per_serving": {
+    "energy_kcal": 386.92,
+    "protein_g": 7.19,
+    "fat_g": 21.1,
+    "sat_fat_g": 10.64,
+    "cholesterol_mg": 3.89,
+    "carb_g": 41.94,
+    "sugar_g": 0.95,
+    "sodium_mg": 430.79
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "page 27"
+  },
+  {
+   "name": "McFlavor Fries (Regular)",
+   "category": "McDonald's",
+   "serving_unit": "serving",
+   "serving_size": "110 g",
+   "per_serving": {
+    "energy_kcal": 289.81,
+    "protein_g": 5.19,
+    "fat_g": 15.54,
+    "sat_fat_g": 7.77,
+    "cholesterol_mg": 3.22,
+    "carb_g": 29.98,
+    "sugar_g": 1.14,
+    "sodium_mg": 329.84
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "page 28 (read from page image)"
+  },
+  {
+   "name": "McFlavor Fries (Medium)",
+   "category": "McDonald's",
+   "serving_unit": "serving",
+   "serving_size": "155 g",
+   "per_serving": {
+    "energy_kcal": 408.42,
+    "protein_g": 7.3,
+    "fat_g": 21.89,
+    "sat_fat_g": 10.94,
+    "cholesterol_mg": 4.5,
+    "carb_g": 42.37,
+    "sugar_g": 1.5,
+    "sodium_mg": 463.09
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "page 28 (read from page image)"
+  },
+  {
+   "name": "Chicken Nuggets",
+   "category": "McDonald's",
+   "serving_unit": "piece",
+   "serving_size": "16 g",
+   "per_serving": {
+    "energy_kcal": 42.15,
+    "protein_g": 2.51,
+    "fat_g": 2.38,
+    "sat_fat_g": 1.11,
+    "sodium_mg": 78.31,
+    "carb_g": 2.67
+   },
+   "diet": "nonveg",
+   "flags": [
+    "carbs_by_difference"
+   ],
+   "ref": "page 29 (read from page image)"
+  },
+  {
+   "name": "Fries (Regular)",
+   "category": "McDonald's",
+   "serving_unit": "serving",
+   "serving_size": "77 g",
+   "per_serving": {
+    "energy_kcal": 215.77,
+    "protein_g": 3.38,
+    "fat_g": 10.39,
+    "sat_fat_g": 4.97,
+    "sodium_mg": 153.15,
+    "carb_g": 27.18
+   },
+   "diet": "veg",
+   "flags": [
+    "carbs_by_difference"
+   ],
+   "ref": "page 30 (read from page image)"
+  },
+  {
+   "name": "Fries (Medium)",
+   "category": "McDonald's",
+   "serving_unit": "serving",
+   "serving_size": "109 g",
+   "per_serving": {
+    "energy_kcal": 304.92,
+    "protein_g": 4.79,
+    "fat_g": 14.7,
+    "sat_fat_g": 7.04,
+    "sodium_mg": 216.79,
+    "carb_g": 38.37
+   },
+   "diet": "veg",
+   "flags": [
+    "carbs_by_difference"
+   ],
+   "ref": "page 30 (read from page image)"
+  },
+  {
+   "name": "Fries (Large)",
+   "category": "McDonald's",
+   "serving_unit": "serving",
+   "serving_size": "154 g",
+   "per_serving": {
+    "energy_kcal": 431.11,
+    "protein_g": 6.76,
+    "fat_g": 20.77,
+    "sat_fat_g": 9.95,
+    "sodium_mg": 306.29,
+    "carb_g": 54.28
+   },
+   "diet": "veg",
+   "flags": [
+    "carbs_by_difference"
+   ],
+   "ref": "page 30 (read from page image)"
+  },
+  {
+   "name": "Hot Coffee (200 ml)",
+   "category": "McDonald's",
+   "serving_unit": "glass",
+   "serving_size": "200 ml",
+   "per_serving": {
+    "energy_kcal": 6.8,
+    "protein_g": 0,
+    "fat_g": 0,
+    "carb_g": 1.7,
+    "sugar_g": 0,
+    "sodium_mg": 0
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "page 31 (read from page image)"
+  },
+  {
+   "name": "Soft Serve Cone",
+   "category": "McDonald's",
+   "serving_unit": "serving",
+   "serving_size": "81 g",
+   "per_serving": {
+    "energy_kcal": 85.73,
+    "protein_g": 1.99,
+    "fat_g": 1.82,
+    "sat_fat_g": 1.31,
+    "cholesterol_mg": 4.75,
+    "carb_g": 15.23,
+    "sugar_g": 10.68,
+    "sodium_mg": 40.78
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "page 32 (read from page image)"
+  },
+  {
+   "name": "Boba Sundae (Regular)",
+   "category": "McDonald's",
+   "serving_unit": "serving",
+   "serving_size": "115 g",
+   "per_serving": {
+    "energy_kcal": 147.28,
+    "protein_g": 2.6,
+    "fat_g": 3,
+    "sat_fat_g": 2.2,
+    "cholesterol_mg": 8,
+    "carb_g": 27.44,
+    "sugar_g": 25.19,
+    "sodium_mg": 57.87
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "page 33 (read from page image)"
+  },
+  {
+   "name": "Boba Sundae (Medium)",
+   "category": "McDonald's",
+   "serving_unit": "serving",
+   "serving_size": "145 g",
+   "per_serving": {
+    "energy_kcal": 185,
+    "protein_g": 3.5,
+    "fat_g": 4,
+    "sat_fat_g": 2.9,
+    "cholesterol_mg": 10.72,
+    "carb_g": 34,
+    "sugar_g": 31.19,
+    "sodium_mg": 75.35
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "page 33 (read from page image)"
+  },
+  {
+   "name": "McSwirl ButterScotch",
+   "category": "McDonald's",
+   "serving_unit": "serving",
+   "serving_size": "95 g",
+   "per_serving": {
+    "energy_kcal": 173.54,
+    "protein_g": 2.82,
+    "fat_g": 8.11,
+    "sat_fat_g": 5.5,
+    "cholesterol_mg": 6.09,
+    "carb_g": 22.18,
+    "sugar_g": 16.87,
+    "sodium_mg": 39.67
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "page 34 (read from page image)"
+  },
+  {
+   "name": "Waffle Cone (Regular)",
+   "category": "McDonald's",
+   "serving_unit": "serving",
+   "serving_size": "82 g",
+   "per_serving": {
+    "energy_kcal": 132.33,
+    "protein_g": 3.5,
+    "fat_g": 2.8,
+    "sat_fat_g": 1.89,
+    "cholesterol_mg": 6.69,
+    "carb_g": 25.49,
+    "sugar_g": 18.97,
+    "sodium_mg": 70.95
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "page 35 (read from page image)"
+  },
+  {
+   "name": "Waffle Cone (Mini)",
+   "category": "McDonald's",
+   "serving_unit": "serving",
+   "serving_size": "35 g",
+   "per_serving": {
+    "energy_kcal": 74.58,
+    "protein_g": 1.9,
+    "fat_g": 1.63,
+    "sat_fat_g": 1.13,
+    "cholesterol_mg": 4,
+    "carb_g": 14.04,
+    "sugar_g": 10.86,
+    "sodium_mg": 38.78
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "page 35 (read from page image)"
+  },
+  {
+   "name": "Sundae Mango (Regular)",
+   "category": "McDonald's",
+   "serving_unit": "serving",
+   "serving_size": "86 g",
+   "per_serving": {
+    "energy_kcal": 193.73,
+    "protein_g": 3.09,
+    "fat_g": 10,
+    "sat_fat_g": 7.68,
+    "cholesterol_mg": 6.69,
+    "carb_g": 22.84,
+    "sugar_g": 21.27,
+    "sodium_mg": 57.5
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "page 36 (read from page image)"
+  },
+  {
+   "name": "Sundae Mango (Medium)",
+   "category": "McDonald's",
+   "serving_unit": "serving",
+   "serving_size": "128 g",
+   "per_serving": {
+    "energy_kcal": 252.37,
+    "protein_g": 4.39,
+    "fat_g": 11.5,
+    "sat_fat_g": 8.78,
+    "cholesterol_mg": 10.72,
+    "carb_g": 32.81,
+    "sugar_g": 30.39,
+    "sodium_mg": 84.05
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "page 36 (read from page image)"
+  },
+  {
+   "name": "McSwirl Mango Dip",
+   "category": "McDonald's",
+   "serving_unit": "serving",
+   "serving_size": "91 g",
+   "per_serving": {
+    "energy_kcal": 150.03,
+    "protein_g": 2.6,
+    "fat_g": 9.32,
+    "sat_fat_g": 5.3,
+    "cholesterol_mg": 4.75,
+    "carb_g": 19.4,
+    "sugar_g": 14.8,
+    "sodium_mg": 49.78
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "page 37 (read from page image)"
+  },
+  {
+   "name": "Waffle McSwirl Choco (Regular)",
+   "category": "McDonald's",
+   "serving_unit": "serving",
+   "serving_size": "97 g",
+   "per_serving": {
+    "energy_kcal": 226.78,
+    "protein_g": 4.12,
+    "fat_g": 10.11,
+    "sat_fat_g": 7.7,
+    "cholesterol_mg": 6.69,
+    "carb_g": 31.86,
+    "sugar_g": 26.12,
+    "sodium_mg": 87.45
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "page 38 (read from page image)"
+  },
+  {
+   "name": "Waffle McSwirl Choco (Mini)",
+   "category": "McDonald's",
+   "serving_unit": "serving",
+   "serving_size": "42 g",
+   "per_serving": {
+    "energy_kcal": 120.58,
+    "protein_g": 2.65,
+    "fat_g": 5.3,
+    "sat_fat_g": 3.9,
+    "cholesterol_mg": 4,
+    "carb_g": 19.86,
+    "sugar_g": 13.88,
+    "sodium_mg": 47.22
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "page 38 (read from page image)"
+  },
+  {
+   "name": "Waffle McSwirl Mango (Regular)",
+   "category": "McDonald's",
+   "serving_unit": "serving",
+   "serving_size": "97 g",
+   "per_serving": {
+    "energy_kcal": 228.78,
+    "protein_g": 4.42,
+    "fat_g": 10.3,
+    "sat_fat_g": 7.74,
+    "cholesterol_mg": 6.69,
+    "carb_g": 31.79,
+    "sugar_g": 25.12,
+    "sodium_mg": 84.45
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "page 39 (read from page image)"
+  },
+  {
+   "name": "Waffle McSwirl Mango (Mini)",
+   "category": "McDonald's",
+   "serving_unit": "serving",
+   "serving_size": "42 g",
+   "per_serving": {
+    "energy_kcal": 122.58,
+    "protein_g": 2.35,
+    "fat_g": 5.33,
+    "sat_fat_g": 3.93,
+    "cholesterol_mg": 4.03,
+    "carb_g": 19.4,
+    "sugar_g": 13.96,
+    "sodium_mg": 45.58
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "page 39 (read from page image)"
+  },
+  {
+   "name": "McSwirl Chocodip",
+   "category": "McDonald's",
+   "serving_unit": "serving",
+   "serving_size": "93 g",
+   "per_serving": {
+    "energy_kcal": 160.14,
+    "protein_g": 2.71,
+    "fat_g": 7.14,
+    "sat_fat_g": 5.25,
+    "cholesterol_mg": 5.71,
+    "carb_g": 20.92,
+    "sugar_g": 15.39,
+    "sodium_mg": 51.31
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "page 40 (read from page image)"
+  },
+  {
+   "name": "Waffle McSwirl ButterScotch (Regular)",
+   "category": "McDonald's",
+   "serving_unit": "serving",
+   "serving_size": "99 g",
+   "per_serving": {
+    "energy_kcal": 230.78,
+    "protein_g": 4,
+    "fat_g": 11.11,
+    "sat_fat_g": 8.7,
+    "cholesterol_mg": 6.89,
+    "carb_g": 32.26,
+    "sugar_g": 26.8,
+    "sodium_mg": 89.45
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "page 41 (read from page image)"
+  },
+  {
+   "name": "Waffle McSwirl ButterScotch (Mini)",
+   "category": "McDonald's",
+   "serving_unit": "serving",
+   "serving_size": "44 g",
+   "per_serving": {
+    "energy_kcal": 121.8,
+    "protein_g": 2.36,
+    "fat_g": 6.3,
+    "sat_fat_g": 4.1,
+    "cholesterol_mg": 4.04,
+    "carb_g": 19.27,
+    "sugar_g": 12.88,
+    "sodium_mg": 45.22
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "page 41 (read from page image)"
+  },
+  {
+   "name": "Sundae Chocolate (92 g)",
+   "category": "McDonald's",
+   "serving_unit": "serving",
+   "serving_size": "92 g",
+   "per_serving": {
+    "energy_kcal": 121.64,
+    "protein_g": 2.25,
+    "fat_g": 4.02,
+    "sat_fat_g": 3.01,
+    "cholesterol_mg": 5.85,
+    "carb_g": 19.11,
+    "sugar_g": 17.07,
+    "sodium_mg": 65.56
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "page 42 (read from page image)"
+  },
+  {
+   "name": "Sundae Chocolate (132 g)",
+   "category": "McDonald's",
+   "serving_unit": "serving",
+   "serving_size": "132 g",
+   "per_serving": {
+    "energy_kcal": 197.45,
+    "protein_g": 3.49,
+    "fat_g": 6.87,
+    "sat_fat_g": 5.16,
+    "cholesterol_mg": 8.55,
+    "carb_g": 30.42,
+    "sugar_g": 27.01,
+    "sodium_mg": 110.39
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "page 42 (read from page image)"
+  },
+  {
+   "name": "McFlurry Choco Crunch (Regular)",
+   "category": "McDonald's",
+   "serving_unit": "serving",
+   "serving_size": "94 g",
+   "per_serving": {
+    "energy_kcal": 154.19,
+    "protein_g": 2.62,
+    "fat_g": 5.39,
+    "sat_fat_g": 3.91,
+    "cholesterol_mg": 5.37,
+    "carb_g": 23.67,
+    "sugar_g": 17.36,
+    "sodium_mg": 420
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "page 43 (read from page image)"
+  },
+  {
+   "name": "McFlurry Choco Crunch (Medium)",
+   "category": "McDonald's",
+   "serving_unit": "serving",
+   "serving_size": "167 g",
+   "per_serving": {
+    "energy_kcal": 332.91,
+    "protein_g": 5.04,
+    "fat_g": 16,
+    "sat_fat_g": 6.94,
+    "cholesterol_mg": 9.53,
+    "carb_g": 42.02,
+    "sugar_g": 33.6,
+    "sodium_mg": 700
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "page 43 (read from page image)"
+  },
+  {
+   "name": "Fanta (Small, 299 ml)",
+   "category": "McDonald's",
+   "serving_unit": "glass",
+   "serving_size": "299 ml",
+   "per_serving": {
+    "energy_kcal": 129.48,
+    "protein_g": 0,
+    "fat_g": 0,
+    "carb_g": 32.37,
+    "sugar_g": 32.37,
+    "sodium_mg": 55.53
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "page 46 (read from page image)"
+  },
+  {
+   "name": "Fanta (Medium, 394 ml)",
+   "category": "McDonald's",
+   "serving_unit": "glass",
+   "serving_size": "394 ml",
+   "per_serving": {
+    "energy_kcal": 178.88,
+    "protein_g": 0,
+    "fat_g": 0,
+    "carb_g": 44.72,
+    "sugar_g": 44.72,
+    "sodium_mg": 76.71
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "page 46 (read from page image)"
+  },
+  {
+   "name": "Fanta (Large, 544 ml)",
+   "category": "McDonald's",
+   "serving_unit": "glass",
+   "serving_size": "544 ml",
+   "per_serving": {
+    "energy_kcal": 256.88,
+    "protein_g": 0,
+    "fat_g": 0,
+    "carb_g": 64.22,
+    "sugar_g": 64.22,
+    "sodium_mg": 110.16
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "page 46 (read from page image)"
+  },
+  {
+   "name": "McFlurry Oreo (Regular)",
+   "category": "McDonald's",
+   "serving_unit": "serving",
+   "serving_size": "87 g",
+   "per_serving": {
+    "energy_kcal": 116.36,
+    "protein_g": 2.05,
+    "fat_g": 3.7,
+    "sat_fat_g": 2.25,
+    "cholesterol_mg": 4.8,
+    "carb_g": 18.69,
+    "sugar_g": 14.49,
+    "sodium_mg": 80.73
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "page 47 (read from page image)"
+  },
+  {
+   "name": "McFlurry Oreo (Medium)",
+   "category": "McDonald's",
+   "serving_unit": "serving",
+   "serving_size": "147 g",
+   "per_serving": {
+    "energy_kcal": 209.39,
+    "protein_g": 3.58,
+    "fat_g": 6.81,
+    "sat_fat_g": 4.07,
+    "cholesterol_mg": 8,
+    "carb_g": 33.42,
+    "sugar_g": 25.35,
+    "sodium_mg": 150.9
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "page 47 (read from page image)"
+  },
+  {
+   "name": "Coca-Cola (Small, 299 ml)",
+   "category": "McDonald's",
+   "serving_unit": "glass",
+   "serving_size": "299 ml",
+   "per_serving": {
+    "energy_kcal": 109.56,
+    "protein_g": 0,
+    "fat_g": 0,
+    "carb_g": 27.39,
+    "sugar_g": 27.39,
+    "sodium_mg": 21.17
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "page 48 (read from page image)"
+  },
+  {
+   "name": "Coca-Cola (Medium, 394 ml)",
+   "category": "McDonald's",
+   "serving_unit": "glass",
+   "serving_size": "394 ml",
+   "per_serving": {
+    "energy_kcal": 151.36,
+    "protein_g": 0,
+    "fat_g": 0,
+    "carb_g": 37.84,
+    "sugar_g": 37.84,
+    "sodium_mg": 29.24
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "page 48 (read from page image)"
+  },
+  {
+   "name": "Coca-Cola (Large, 544 ml)",
+   "category": "McDonald's",
+   "serving_unit": "glass",
+   "serving_size": "544 ml",
+   "per_serving": {
+    "energy_kcal": 217.36,
+    "protein_g": 0,
+    "fat_g": 0,
+    "carb_g": 54.34,
+    "sugar_g": 54.34,
+    "sodium_mg": 41.99
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "page 48 (read from page image)"
+  },
+  {
+   "name": "Sundae Strawberry (Regular)",
+   "category": "McDonald's",
+   "serving_unit": "serving",
+   "serving_size": "92 g",
+   "per_serving": {
+    "energy_kcal": 100.99,
+    "protein_g": 1.54,
+    "fat_g": 1.77,
+    "sat_fat_g": 1.3,
+    "cholesterol_mg": 4.85,
+    "carb_g": 19.78,
+    "sugar_g": 17.66,
+    "sodium_mg": 34.51
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "page 49 (read from page image)"
+  },
+  {
+   "name": "Sundae Strawberry (Medium)",
+   "category": "McDonald's",
+   "serving_unit": "serving",
+   "serving_size": "132 g",
+   "per_serving": {
+    "energy_kcal": 156.14,
+    "protein_g": 2.05,
+    "fat_g": 2.36,
+    "sat_fat_g": 1.74,
+    "cholesterol_mg": 6.55,
+    "carb_g": 31.77,
+    "sugar_g": 28.2,
+    "sodium_mg": 48.28
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "page 49 (read from page image)"
+  },
+  {
+   "name": "Sundae Chocolate Brownie (Regular)",
+   "category": "McDonald's",
+   "serving_unit": "serving",
+   "serving_size": "111 g",
+   "per_serving": {
+    "energy_kcal": 203.26,
+    "protein_g": 3.2,
+    "fat_g": 5.45,
+    "sat_fat_g": 3.65,
+    "cholesterol_mg": 6.04,
+    "carb_g": 35.26,
+    "sugar_g": 20.75,
+    "sodium_mg": 100.89
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "page 51 (read from page image)"
+  },
+  {
+   "name": "Sundae Chocolate Brownie (Medium)",
+   "category": "McDonald's",
+   "serving_unit": "serving",
+   "serving_size": "155 g",
+   "per_serving": {
+    "energy_kcal": 307.39,
+    "protein_g": 4.65,
+    "fat_g": 7.46,
+    "sat_fat_g": 4.71,
+    "cholesterol_mg": 7.78,
+    "carb_g": 55.24,
+    "sugar_g": 27.94,
+    "sodium_mg": 146.4
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "page 51 (read from page image)"
+  },
+  {
+   "name": "Coca-Cola Zero (300 ml)",
+   "category": "McDonald's",
+   "serving_unit": "glass",
+   "serving_size": "300 ml",
+   "per_serving": {
+    "energy_kcal": 0,
+    "protein_g": 0,
+    "fat_g": 0,
+    "carb_g": 0,
+    "sugar_g": 0,
+    "sodium_mg": 7.5
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "page 53 (read from page image)"
+  },
+  {
+   "name": "Sprite (Small, 299 ml)",
+   "category": "McDonald's",
+   "serving_unit": "glass",
+   "serving_size": "299 ml",
+   "per_serving": {
+    "energy_kcal": 119.52,
+    "protein_g": 0,
+    "fat_g": 0,
+    "carb_g": 29.88,
+    "sugar_g": 29.88,
+    "sodium_mg": 2.02
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "page 54 (read from page image)"
+  },
+  {
+   "name": "Sprite (Medium, 394 ml)",
+   "category": "McDonald's",
+   "serving_unit": "glass",
+   "serving_size": "394 ml",
+   "per_serving": {
+    "energy_kcal": 165.12,
+    "protein_g": 0,
+    "fat_g": 0,
+    "carb_g": 41.28,
+    "sugar_g": 41.28,
+    "sodium_mg": 2.79
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "page 54 (read from page image)"
+  },
+  {
+   "name": "Sprite (Large, 544 ml)",
+   "category": "McDonald's",
+   "serving_unit": "glass",
+   "serving_size": "544 ml",
+   "per_serving": {
+    "energy_kcal": 237.12,
+    "protein_g": 0,
+    "fat_g": 0,
+    "carb_g": 59.28,
+    "sugar_g": 59.28,
+    "sodium_mg": 4
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "page 54 (read from page image)"
+  },
+  {
+   "name": "Cold Coffee (300 ml)",
+   "category": "McDonald's",
+   "serving_unit": "glass",
+   "serving_size": "300 ml",
+   "per_serving": {
+    "energy_kcal": 301.1,
+    "protein_g": 9.75,
+    "fat_g": 11.15,
+    "sat_fat_g": 7.45,
+    "cholesterol_mg": 27.4,
+    "carb_g": 40.2,
+    "sodium_mg": 175
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "page 55 (read from page image)"
+  },
+  {
+   "name": "Cold Coffee (270 ml)",
+   "category": "McDonald's",
+   "serving_unit": "glass",
+   "serving_size": "270 ml",
+   "per_serving": {
+    "energy_kcal": 270.05,
+    "protein_g": 5.91,
+    "fat_g": 7.18,
+    "sat_fat_g": 4.89,
+    "cholesterol_mg": 15.81,
+    "carb_g": 45.44,
+    "sodium_mg": 173.59
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "page 55 (read from page image)"
+  },
+  {
+   "name": "McFloat Coke",
+   "category": "McDonald's",
+   "serving_unit": "glass",
+   "serving_size": "287 ml",
+   "per_serving": {
+    "energy_kcal": 138.76,
+    "fat_g": 1.75,
+    "sat_fat_g": 1.28,
+    "sugar_g": 24.54,
+    "sodium_mg": 44.53,
+    "carb_g": 30.75
+   },
+   "diet": "veg",
+   "flags": [
+    "carbs_by_difference"
+   ],
+   "ref": "page 56 (read from page image)"
+  },
+  {
+   "name": "McFloat Fanta",
+   "category": "McDonald's",
+   "serving_unit": "glass",
+   "serving_size": "287 ml",
+   "per_serving": {
+    "energy_kcal": 151.56,
+    "fat_g": 1.75,
+    "sat_fat_g": 1.28,
+    "sugar_g": 27.74,
+    "sodium_mg": 66.61,
+    "carb_g": 33.95
+   },
+   "diet": "veg",
+   "flags": [
+    "carbs_by_difference"
+   ],
+   "ref": "page 56 (read from page image)"
+  },
+  {
+   "name": "McFloat Sprite",
+   "category": "McDonald's",
+   "serving_unit": "glass",
+   "serving_size": "287 ml",
+   "per_serving": {
+    "energy_kcal": 145.16,
+    "fat_g": 1.75,
+    "sat_fat_g": 1.28,
+    "sugar_g": 26.14,
+    "sodium_mg": 47.09,
+    "carb_g": 32.35
+   },
+   "diet": "veg",
+   "flags": [
+    "carbs_by_difference"
+   ],
+   "ref": "page 56 (read from page image)"
+  },
+  {
+   "name": "Masala Chai (150 ml)",
+   "category": "McDonald's",
+   "serving_unit": "glass",
+   "serving_size": "150 ml",
+   "per_serving": {
+    "energy_kcal": 94.23,
+    "fat_g": 1.46,
+    "sat_fat_g": 0.87,
+    "sugar_g": 13.68,
+    "sodium_mg": 7.08,
+    "carb_g": 20.27
+   },
+   "diet": "veg",
+   "flags": [
+    "carbs_by_difference"
+   ],
+   "ref": "page 57 (read from page image)"
+  },
+  {
+   "name": "Masala Chai (90 ml)",
+   "category": "McDonald's",
+   "serving_unit": "glass",
+   "serving_size": "90 ml",
+   "per_serving": {
+    "energy_kcal": 54.97,
+    "fat_g": 0.85,
+    "sat_fat_g": 0.51,
+    "sugar_g": 7.98,
+    "sodium_mg": 4.13,
+    "carb_g": 11.83
+   },
+   "diet": "veg",
+   "flags": [
+    "carbs_by_difference"
+   ],
+   "ref": "page 57 (read from page image)"
+  },
+  {
+   "name": "Minute Maid Pulpy Orange (300 ml)",
+   "category": "McDonald's",
+   "serving_unit": "glass",
+   "serving_size": "300 ml",
+   "per_serving": {
+    "energy_kcal": 156,
+    "protein_g": 0,
+    "sugar_g": 34.5,
+    "sodium_mg": 1,
+    "carb_g": 39.0
+   },
+   "diet": "veg",
+   "flags": [
+    "carbs_by_difference"
+   ],
+   "ref": "page 58 (read from page image)"
+  },
+  {
+   "name": "Coke Zero (330 ml)",
+   "category": "McDonald's",
+   "serving_unit": "glass",
+   "serving_size": "330 ml",
+   "per_serving": {
+    "energy_kcal": 0.1,
+    "fat_g": 0,
+    "sugar_g": 0,
+    "sodium_mg": 24.75,
+    "carb_g": 0.03
+   },
+   "diet": "veg",
+   "flags": [
+    "carbs_by_difference"
+   ],
+   "ref": "page 59 (read from page image)"
+  },
+  {
+   "name": "Mustard Dip Sauce",
+   "category": "McDonald's",
+   "serving_unit": "serving",
+   "serving_size": "25 g",
+   "per_serving": {
+    "energy_kcal": 81.18,
+    "protein_g": 0.52,
+    "fat_g": 5.57,
+    "sat_fat_g": 1.78,
+    "cholesterol_mg": 0.29,
+    "carb_g": 7.24,
+    "sugar_g": 6.65,
+    "sodium_mg": 221.32
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "page 61 (read from page image)"
+  },
+  {
+   "name": "Barbeque Dip Sauce",
+   "category": "McDonald's",
+   "serving_unit": "serving",
+   "serving_size": "25 g",
+   "per_serving": {
+    "energy_kcal": 54.89,
+    "protein_g": 0.26,
+    "fat_g": 0.49,
+    "sat_fat_g": 0.15,
+    "cholesterol_mg": 0.25,
+    "carb_g": 12.36,
+    "sugar_g": 7.65,
+    "sodium_mg": 113.23
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "page 62 (read from page image)"
+  },
+  {
+   "name": "Cheese Slice (Extra)",
+   "category": "McDonald's",
+   "serving_unit": "serving",
+   "serving_size": "14 g",
+   "per_serving": {
+    "energy_kcal": 51.03,
+    "protein_g": 3.06,
+    "fat_g": 3.99,
+    "sat_fat_g": 2.89,
+    "cholesterol_mg": 13.43,
+    "carb_g": 0.72,
+    "sugar_g": 0.54,
+    "sodium_mg": 178.95
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "page 64 (read from page image)"
+  },
+  {
+   "name": "Tomato Ketchup sachet",
+   "category": "McDonald's",
+   "serving_unit": "serving",
+   "serving_size": "8 g",
+   "per_serving": {
+    "energy_kcal": 10,
+    "protein_g": 0,
+    "fat_g": 0,
+    "carb_g": 2.5,
+    "sugar_g": 2,
+    "sodium_mg": 78.8
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "page 65 (read from page image)"
+  }
+ ],
+ "not_included": [
+  "Desi Dragon Burger: energy disagrees with its macros in the source",
+  "Maple Flavoured Syrup: 72 g carbohydrate in a 28 g serving in the source"
+ ]
+}

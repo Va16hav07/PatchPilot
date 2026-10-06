@@ -3,6 +3,7 @@ import { Navigate, useLocation, useNavigate } from 'react-router-dom'
 import type { Draft } from '../ai/meal'
 import { mapPortion } from '../ai/meal'
 import { api } from '../api'
+import { hapticCommit } from '../feedback'
 import FoodPicker, { SourceTag } from '../components/FoodPicker'
 import Icon from '../components/Icon'
 import { MacroRow } from '../components/Macros'
@@ -172,6 +173,7 @@ export default function Review() {
         date, meal,
         items: drafts.map((d) => ({ food_id: d.food!.id, quantity: d.quantity, unit: d.unit, oil_level: d.oil_level })),
       })
+      hapticCommit()
       navigate(date === today() ? '/' : `/?date=${date}`, { replace: true })
     } catch (e) {
       setError(e instanceof Error ? e.message : 'Could not save')

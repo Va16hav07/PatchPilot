@@ -1,0 +1,23 @@
+{
+ "source": {
+  "brand": "Coca-Cola India",
+  "url": "https://www.coca-cola.com/in/en/brands",
+  "title": "Coca-Cola India product pages: nutrition per 100 ml (pack label values)",
+  "published": "accessed 2026-10-06"
+ },
+ "per_100ml": [
+  {"name": "Thums Up", "url": "https://www.coca-cola.com/in/en/brands/thums-up/products-thums-up",
+   "values": {"energy_kcal": 42, "carb_g": 10.6, "sugar_g": 10.4, "protein_g": 0, "fat_g": 0, "sodium_mg": 0.81}},
+  {"name": "Limca", "url": "https://www.coca-cola.com/in/en/brands/limca/products-limca",
+   "values": {"energy_kcal": 44, "carb_g": 11.1, "sugar_g": 10.7, "protein_g": 0, "fat_g": 0, "sodium_mg": 5.6}},
+  {"name": "Maaza Original (mango drink)", "url": "https://www.coca-cola.com/in/en/brands/maaza",
+   "values": {"energy_kcal": 63, "carb_g": 15.8, "sugar_g": 14.9, "sodium_mg": 21.9}},
+  {"name": "Sprite (bottle / can)", "url": "https://www.coca-cola.com/in/en/brands/sprite",
+   "values": {"energy_kcal": 49, "carb_g": 12.2, "sugar_g": 11.7, "protein_g": 0, "fat_g": 0, "sodium_mg": 10.1}},
+  {"name": "Diet Coke", "url": "https://www.coca-cola.com/in/en/brands/coca-cola/products-diet-coke",
+   "values": {"energy_kcal": 0, "carb_g": 0, "sugar_g": 0, "protein_g": 0, "fat_g": 0, "sodium_mg": 8.3}}
+ ],
+ "not_included": [
+  "Coca-Cola Original and Fanta bottle pages could not be read; McDonald's lab values for both are included instead"
+ ]
+}

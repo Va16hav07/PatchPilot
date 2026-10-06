@@ -1,0 +1,4792 @@
+{
+ "source": {
+  "brand": "Pizza Hut",
+  "url": "https://www.pizzahut.co.in/order/pdfs/in/nutritionals.2602cddd8cb981ebba811b2951cfad28.pdf",
+  "title": "Pizza Hut India: Menu card nutrition & allergen information booklet (lab-tested, FSSAI format)",
+  "published": "2022"
+ },
+ "foods": [
+  {
+   "name": "Margherita Pizza (Personal), Pan (4 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "62 g",
+   "per_serving": {
+    "energy_kcal": 181.28,
+    "carb_g": 25.4,
+    "protein_g": 7.97,
+    "fibre_g": 2.05,
+    "fat_g": 5.3,
+    "sat_fat_g": 1.93,
+    "cholesterol_mg": 13.25,
+    "sodium_mg": 357.7
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "Pan Pizza"
+  },
+  {
+   "name": "Schezwan Margherita Pizza (Personal), Pan (4 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "62 g",
+   "per_serving": {
+    "energy_kcal": 185.93,
+    "carb_g": 26.0,
+    "protein_g": 7.92,
+    "fibre_g": 2.25,
+    "sugar_g": 0.78,
+    "fat_g": 5.58,
+    "sat_fat_g": 2.0,
+    "cholesterol_mg": 13.28,
+    "sodium_mg": 411.52
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "Pan Pizza"
+  },
+  {
+   "name": "Corn n Cheese Pizza (Personal), Pan (4 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "68 g",
+   "per_serving": {
+    "energy_kcal": 217.28,
+    "carb_g": 32.98,
+    "protein_g": 9.0,
+    "fibre_g": 1.93,
+    "fat_g": 5.5,
+    "sat_fat_g": 2.58,
+    "cholesterol_mg": 8.12,
+    "sodium_mg": 250.97
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "Pan Pizza"
+  },
+  {
+   "name": "Veggie Feast Pizza (Personal), Pan (4 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "76 g",
+   "per_serving": {
+    "energy_kcal": 205.7,
+    "carb_g": 30.52,
+    "protein_g": 8.95,
+    "fibre_g": 2.12,
+    "fat_g": 5.3,
+    "sat_fat_g": 2.08,
+    "cholesterol_mg": 11.07,
+    "sodium_mg": 438.27
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "Pan Pizza"
+  },
+  {
+   "name": "Spiced Paneer Pizza (Personal), Pan (4 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "74 g",
+   "per_serving": {
+    "energy_kcal": 203.88,
+    "carb_g": 23.75,
+    "protein_g": 10.82,
+    "fibre_g": 3.45,
+    "fat_g": 7.28,
+    "sat_fat_g": 4.0,
+    "cholesterol_mg": 18.68,
+    "sodium_mg": 311.0
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "Pan Pizza"
+  },
+  {
+   "name": "Mexican Fiesta Veg (Personal), Pan (4 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "80 g",
+   "per_serving": {
+    "energy_kcal": 213.9,
+    "carb_g": 27.23,
+    "protein_g": 9.22,
+    "fibre_g": 2.45,
+    "fat_g": 7.58,
+    "sat_fat_g": 3.1,
+    "cholesterol_mg": 8.6,
+    "sodium_mg": 664.58
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "Pan Pizza"
+  },
+  {
+   "name": "Tandoori Paneer Pizza (Personal), Pan (4 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "80 g",
+   "per_serving": {
+    "energy_kcal": 266.18,
+    "carb_g": 38.2,
+    "protein_g": 8.93,
+    "fibre_g": 3.52,
+    "fat_g": 8.62,
+    "sat_fat_g": 3.33,
+    "cholesterol_mg": 10.85,
+    "sodium_mg": 480.7
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "Pan Pizza"
+  },
+  {
+   "name": "Country Feast Pizza (Personal), Pan (4 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "84 g",
+   "per_serving": {
+    "energy_kcal": 203.8,
+    "carb_g": 33.55,
+    "protein_g": 8.38,
+    "fibre_g": 3.6,
+    "fat_g": 4.03,
+    "sat_fat_g": 1.62,
+    "cholesterol_mg": 33.4,
+    "sodium_mg": 450.27
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "Pan Pizza"
+  },
+  {
+   "name": "Ultimate Tandoori Veggie (Personal), Pan (4 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "85 g",
+   "per_serving": {
+    "energy_kcal": 266.88,
+    "carb_g": 39.1,
+    "protein_g": 8.07,
+    "fibre_g": 2.8,
+    "fat_g": 8.68,
+    "sat_fat_g": 2.98,
+    "cholesterol_mg": 7.0,
+    "sodium_mg": 688.48
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "Pan Pizza"
+  },
+  {
+   "name": "Veggie Supreme Pizza (Personal), Pan (4 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "84 g",
+   "per_serving": {
+    "energy_kcal": 213.3,
+    "carb_g": 27.7,
+    "protein_g": 8.88,
+    "fibre_g": 2.23,
+    "fat_g": 7.2,
+    "sat_fat_g": 2.75,
+    "cholesterol_mg": 16.23,
+    "sodium_mg": 295.55
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "Pan Pizza"
+  },
+  {
+   "name": "Mazedar Makhni Paneer (Personal), Pan (4 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "76 g",
+   "per_serving": {
+    "energy_kcal": 219.97,
+    "carb_g": 25.18,
+    "protein_g": 10.03,
+    "fibre_g": 2.12,
+    "fat_g": 8.8,
+    "sat_fat_g": 3.92,
+    "cholesterol_mg": 6.8,
+    "sodium_mg": 700.33
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "Pan Pizza"
+  },
+  {
+   "name": "Royal Spice Paneer (Personal), Pan (4 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "90 g",
+   "per_serving": {
+    "energy_kcal": 223.78,
+    "carb_g": 25.3,
+    "protein_g": 10.05,
+    "fibre_g": 3.65,
+    "fat_g": 9.15,
+    "sat_fat_g": 3.4,
+    "cholesterol_mg": 12.75,
+    "sodium_mg": 392.23
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "Pan Pizza"
+  },
+  {
+   "name": "Kadhai Paneer (Personal), Pan (4 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "89 g",
+   "per_serving": {
+    "energy_kcal": 292.7,
+    "carb_g": 42.88,
+    "protein_g": 9.95,
+    "fibre_g": 3.65,
+    "sugar_g": 1.68,
+    "fat_g": 9.05,
+    "sat_fat_g": 3.33,
+    "cholesterol_mg": 12.43,
+    "sodium_mg": 420.57
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "Pan Pizza"
+  },
+  {
+   "name": "Southern Fiery Paneer (Personal), Pan (4 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "91 g",
+   "per_serving": {
+    "energy_kcal": 299.38,
+    "carb_g": 43.83,
+    "protein_g": 10.4,
+    "fibre_g": 3.67,
+    "fat_g": 9.18,
+    "sat_fat_g": 3.45,
+    "cholesterol_mg": 12.93,
+    "sodium_mg": 486.6
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "Pan Pizza"
+  },
+  {
+   "name": "Bold BBQ Veggies (Personal), Pan (4 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "80 g",
+   "per_serving": {
+    "energy_kcal": 194.78,
+    "carb_g": 27.05,
+    "protein_g": 9.62,
+    "fibre_g": 2.55,
+    "sugar_g": 4.7,
+    "fat_g": 5.35,
+    "sat_fat_g": 2.4,
+    "cholesterol_mg": 4.8,
+    "sodium_mg": 320.77
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "Pan Pizza"
+  },
+  {
+   "name": "Chicken Sausage Pizza (Personal), Pan (4 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "72 g",
+   "per_serving": {
+    "energy_kcal": 222.88,
+    "carb_g": 24.62,
+    "protein_g": 9.05,
+    "fibre_g": 2.35,
+    "fat_g": 9.8,
+    "sat_fat_g": 4.05,
+    "cholesterol_mg": 19.43,
+    "sodium_mg": 341.57
+   },
+   "diet": "nonveg",
+   "flags": [],
+   "ref": "Pan Pizza"
+  },
+  {
+   "name": "Sausage & Sweet Corn (Personal), Pan (4 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "75 g",
+   "per_serving": {
+    "energy_kcal": 207.45,
+    "carb_g": 26.43,
+    "protein_g": 9.38,
+    "fibre_g": 4.88,
+    "fat_g": 7.12,
+    "sat_fat_g": 3.02,
+    "cholesterol_mg": 6.42,
+    "sodium_mg": 601.65
+   },
+   "diet": "nonveg",
+   "flags": [],
+   "ref": "Pan Pizza"
+  },
+  {
+   "name": "Sizzling Schezwan Chicken (Personal), Pan (4 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "69 g",
+   "per_serving": {
+    "energy_kcal": 190.8,
+    "carb_g": 24.95,
+    "protein_g": 10.0,
+    "fibre_g": 3.38,
+    "fat_g": 5.67,
+    "sat_fat_g": 2.42,
+    "cholesterol_mg": 10.15,
+    "sodium_mg": 668.33
+   },
+   "diet": "nonveg",
+   "flags": [],
+   "ref": "Pan Pizza"
+  },
+  {
+   "name": "Dhabe Da Keema (Personal), Pan (4 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "80 g",
+   "per_serving": {
+    "energy_kcal": 216.18,
+    "carb_g": 24.88,
+    "protein_g": 10.0,
+    "fibre_g": 3.42,
+    "fat_g": 8.53,
+    "sat_fat_g": 3.02,
+    "cholesterol_mg": 11.82,
+    "sodium_mg": 687.38
+   },
+   "diet": "nonveg",
+   "flags": [],
+   "ref": "Pan Pizza"
+  },
+  {
+   "name": "Chicken Pepperoni Pizza (Personal), Pan (4 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "73 g",
+   "per_serving": {
+    "energy_kcal": 219.4,
+    "carb_g": 25.18,
+    "protein_g": 7.42,
+    "fibre_g": 2.38,
+    "sugar_g": 1.8,
+    "fat_g": 9.88,
+    "sat_fat_g": 3.9,
+    "cholesterol_mg": 56.17,
+    "sodium_mg": 473.9
+   },
+   "diet": "nonveg",
+   "flags": [],
+   "ref": "Pan Pizza"
+  },
+  {
+   "name": "Chicken Tikka Pizza (Personal), Pan (4 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "72 g",
+   "per_serving": {
+    "energy_kcal": 198.12,
+    "carb_g": 24.3,
+    "protein_g": 8.82,
+    "fibre_g": 3.42,
+    "fat_g": 7.3,
+    "sat_fat_g": 3.1,
+    "cholesterol_mg": 18.8,
+    "sodium_mg": 329.35
+   },
+   "diet": "nonveg",
+   "flags": [],
+   "ref": "Pan Pizza"
+  },
+  {
+   "name": "Murg Malai Chicken(Personal), Pan (4 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "79 g",
+   "per_serving": {
+    "energy_kcal": 212.72,
+    "carb_g": 27.0,
+    "protein_g": 10.8,
+    "fibre_g": 1.95,
+    "fat_g": 6.83,
+    "sat_fat_g": 3.02,
+    "cholesterol_mg": 12.32,
+    "sodium_mg": 642.15
+   },
+   "diet": "nonveg",
+   "flags": [],
+   "ref": "Pan Pizza"
+  },
+  {
+   "name": "Chicken Supreme Pizza (Personal), Pan (4 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "82 g",
+   "per_serving": {
+    "energy_kcal": 222.68,
+    "carb_g": 23.7,
+    "protein_g": 11.95,
+    "fibre_g": 2.6,
+    "fat_g": 8.9,
+    "sat_fat_g": 3.33,
+    "cholesterol_mg": 19.8,
+    "sodium_mg": 632.55
+   },
+   "diet": "nonveg",
+   "flags": [],
+   "ref": "Pan Pizza"
+  },
+  {
+   "name": "Chicken Tikka Supreme Pizza (Personal), Pan (4 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "82 g",
+   "per_serving": {
+    "energy_kcal": 217.68,
+    "carb_g": 24.77,
+    "protein_g": 11.28,
+    "fibre_g": 2.15,
+    "fat_g": 8.18,
+    "sat_fat_g": 3.08,
+    "cholesterol_mg": 12.72,
+    "sodium_mg": 665.27
+   },
+   "diet": "nonveg",
+   "flags": [],
+   "ref": "Pan Pizza"
+  },
+  {
+   "name": "Nawabi Murg Makhni (Personal), Pan (4 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "86 g",
+   "per_serving": {
+    "energy_kcal": 217.6,
+    "carb_g": 25.88,
+    "protein_g": 11.03,
+    "fibre_g": 3.3,
+    "fat_g": 7.78,
+    "sat_fat_g": 3.08,
+    "cholesterol_mg": 16.2,
+    "sodium_mg": 812.08
+   },
+   "diet": "nonveg",
+   "flags": [],
+   "ref": "Pan Pizza"
+  },
+  {
+   "name": "Triple Chicken Feast (Personal), Pan (4 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "92 g",
+   "per_serving": {
+    "energy_kcal": 240.97,
+    "carb_g": 22.7,
+    "protein_g": 12.07,
+    "fibre_g": 2.73,
+    "fat_g": 11.32,
+    "sat_fat_g": 4.67,
+    "cholesterol_mg": 12.97,
+    "sodium_mg": 540.95
+   },
+   "diet": "nonveg",
+   "flags": [],
+   "ref": "Pan Pizza"
+  },
+  {
+   "name": "Royal Spice Chicken (Personal), Pan (4 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "90 g",
+   "per_serving": {
+    "energy_kcal": 247.55,
+    "carb_g": 30.25,
+    "protein_g": 11.1,
+    "fibre_g": 3.98,
+    "fat_g": 9.12,
+    "sat_fat_g": 2.98,
+    "cholesterol_mg": 24.43,
+    "sodium_mg": 340.8
+   },
+   "diet": "nonveg",
+   "flags": [],
+   "ref": "Pan Pizza"
+  },
+  {
+   "name": "Kadhai Chicken (Personal), Pan (4 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "88 g",
+   "per_serving": {
+    "energy_kcal": 238.8,
+    "carb_g": 29.23,
+    "protein_g": 10.6,
+    "fibre_g": 3.77,
+    "sugar_g": 1.4,
+    "fat_g": 8.85,
+    "sat_fat_g": 2.9,
+    "cholesterol_mg": 24.45,
+    "sodium_mg": 417.93
+   },
+   "diet": "nonveg",
+   "flags": [],
+   "ref": "Pan Pizza"
+  },
+  {
+   "name": "Southern Fiery Chicken (Personal), Pan (4 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "88 g",
+   "per_serving": {
+    "energy_kcal": 244.43,
+    "carb_g": 32.23,
+    "protein_g": 12.57,
+    "fibre_g": 4.17,
+    "fat_g": 7.25,
+    "sat_fat_g": 2.85,
+    "cholesterol_mg": 13.38,
+    "sodium_mg": 388.15
+   },
+   "diet": "nonveg",
+   "flags": [],
+   "ref": "Pan Pizza"
+  },
+  {
+   "name": "Margherita Pizza (Medium), Pan (6 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "78 g",
+   "per_serving": {
+    "energy_kcal": 229.52,
+    "carb_g": 32.17,
+    "protein_g": 10.12,
+    "fibre_g": 2.58,
+    "fat_g": 6.72,
+    "sat_fat_g": 2.45,
+    "cholesterol_mg": 16.8,
+    "sodium_mg": 452.9
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "Pan Pizza"
+  },
+  {
+   "name": "Schezwan Margherita Pizza (Medium), Pan (6 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "78 g",
+   "per_serving": {
+    "energy_kcal": 235.4,
+    "carb_g": 32.92,
+    "protein_g": 10.05,
+    "fibre_g": 2.83,
+    "sugar_g": 1.0,
+    "fat_g": 7.07,
+    "sat_fat_g": 2.53,
+    "cholesterol_mg": 16.8,
+    "sodium_mg": 521.03
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "Pan Pizza"
+  },
+  {
+   "name": "Corn n Cheese Pizza (Medium), Pan (6 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "88 g",
+   "per_serving": {
+    "energy_kcal": 279.57,
+    "carb_g": 42.42,
+    "protein_g": 11.57,
+    "fibre_g": 2.48,
+    "fat_g": 7.07,
+    "sat_fat_g": 3.32,
+    "cholesterol_mg": 10.47,
+    "sodium_mg": 322.95
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "Pan Pizza"
+  },
+  {
+   "name": "Veggie Feast Pizza (Medium), Pan (6 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "100 g",
+   "per_serving": {
+    "energy_kcal": 267.55,
+    "carb_g": 39.72,
+    "protein_g": 11.63,
+    "fibre_g": 2.78,
+    "fat_g": 6.9,
+    "sat_fat_g": 2.7,
+    "cholesterol_mg": 14.4,
+    "sodium_mg": 570.03
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "Pan Pizza"
+  },
+  {
+   "name": "Spiced Paneer Pizza (Medium), Pan (6 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "96 g",
+   "per_serving": {
+    "energy_kcal": 265.87,
+    "carb_g": 30.98,
+    "protein_g": 14.13,
+    "fibre_g": 4.52,
+    "fat_g": 9.48,
+    "sat_fat_g": 5.23,
+    "cholesterol_mg": 24.35,
+    "sodium_mg": 405.55
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "Pan Pizza"
+  },
+  {
+   "name": "Mexican Fiesta Veg (Medium), Pan (6 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "104 g",
+   "per_serving": {
+    "energy_kcal": 275.03,
+    "carb_g": 35.02,
+    "protein_g": 11.87,
+    "fibre_g": 3.13,
+    "fat_g": 9.73,
+    "sat_fat_g": 3.97,
+    "cholesterol_mg": 11.05,
+    "sodium_mg": 854.45
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "Pan Pizza"
+  },
+  {
+   "name": "Tandoori Paneer Pizza (Medium), Pan (6 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "102 g",
+   "per_serving": {
+    "energy_kcal": 341.52,
+    "carb_g": 49.02,
+    "protein_g": 11.43,
+    "fibre_g": 4.53,
+    "fat_g": 11.08,
+    "sat_fat_g": 4.28,
+    "cholesterol_mg": 13.92,
+    "sodium_mg": 616.77
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "Pan Pizza"
+  },
+  {
+   "name": "Country Feast Pizza (Medium), Pan (6 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "112 g",
+   "per_serving": {
+    "energy_kcal": 273.37,
+    "carb_g": 45.0,
+    "protein_g": 11.22,
+    "fibre_g": 4.82,
+    "fat_g": 5.38,
+    "sat_fat_g": 2.17,
+    "cholesterol_mg": 44.8,
+    "sodium_mg": 603.97
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "Pan Pizza"
+  },
+  {
+   "name": "Ultimate Tandoori Veggie (Medium), Pan (6 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "110 g",
+   "per_serving": {
+    "energy_kcal": 343.82,
+    "carb_g": 50.38,
+    "protein_g": 10.4,
+    "fibre_g": 3.6,
+    "fat_g": 11.18,
+    "sat_fat_g": 3.83,
+    "cholesterol_mg": 9.02,
+    "sodium_mg": 886.92
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "Pan Pizza"
+  },
+  {
+   "name": "Veggie Supreme Pizza (Medium), Pan (6 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "108 g",
+   "per_serving": {
+    "energy_kcal": 275.52,
+    "carb_g": 35.78,
+    "protein_g": 11.47,
+    "fibre_g": 2.87,
+    "fat_g": 9.32,
+    "sat_fat_g": 3.57,
+    "cholesterol_mg": 20.95,
+    "sodium_mg": 381.75
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "Pan Pizza"
+  },
+  {
+   "name": "Mazedar Makhni Paneer (Medium), Pan (6 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "100 g",
+   "per_serving": {
+    "energy_kcal": 287.57,
+    "carb_g": 32.9,
+    "protein_g": 13.1,
+    "fibre_g": 2.78,
+    "fat_g": 11.52,
+    "sat_fat_g": 5.13,
+    "cholesterol_mg": 8.9,
+    "sodium_mg": 915.47
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "Pan Pizza"
+  },
+  {
+   "name": "Bold BBQ Veggies (Medium), Pan (6 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "102 g",
+   "per_serving": {
+    "energy_kcal": 246.8,
+    "carb_g": 34.28,
+    "protein_g": 12.2,
+    "fibre_g": 3.25,
+    "sugar_g": 5.97,
+    "fat_g": 6.77,
+    "sat_fat_g": 3.03,
+    "cholesterol_mg": 6.07,
+    "sodium_mg": 406.45
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "Pan Pizza"
+  },
+  {
+   "name": "Royal Spice Paneer (Medium), Pan (6 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "120 g",
+   "per_serving": {
+    "energy_kcal": 299.18,
+    "carb_g": 33.82,
+    "protein_g": 13.43,
+    "fibre_g": 4.9,
+    "fat_g": 12.23,
+    "sat_fat_g": 4.55,
+    "cholesterol_mg": 17.07,
+    "sodium_mg": 524.43
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "Pan Pizza"
+  },
+  {
+   "name": "Kadhai Paneer (Medium), Pan (6 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "118 g",
+   "per_serving": {
+    "energy_kcal": 389.72,
+    "carb_g": 57.07,
+    "protein_g": 13.23,
+    "fibre_g": 4.87,
+    "sugar_g": 2.25,
+    "fat_g": 12.05,
+    "sat_fat_g": 4.42,
+    "cholesterol_mg": 16.53,
+    "sodium_mg": 559.98
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "Pan Pizza"
+  },
+  {
+   "name": "Southern Fiery Paneer (Medium), Pan (6 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "121 g",
+   "per_serving": {
+    "energy_kcal": 399.73,
+    "carb_g": 58.52,
+    "protein_g": 13.87,
+    "fibre_g": 4.9,
+    "fat_g": 12.23,
+    "sat_fat_g": 4.6,
+    "cholesterol_mg": 17.27,
+    "sodium_mg": 649.7
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "Pan Pizza"
+  },
+  {
+   "name": "Chicken Sausage Pizza (Medium), Pan (6 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "92 g",
+   "per_serving": {
+    "energy_kcal": 283.25,
+    "carb_g": 31.28,
+    "protein_g": 11.5,
+    "fibre_g": 2.98,
+    "fat_g": 12.45,
+    "sat_fat_g": 5.13,
+    "cholesterol_mg": 24.68,
+    "sodium_mg": 434.08
+   },
+   "diet": "nonveg",
+   "flags": [],
+   "ref": "Pan Pizza"
+  },
+  {
+   "name": "Sausage & Sweet Corn (Medium), Pan (6 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "97 g",
+   "per_serving": {
+    "energy_kcal": 268.28,
+    "carb_g": 34.18,
+    "protein_g": 12.12,
+    "fibre_g": 6.32,
+    "fat_g": 9.23,
+    "sat_fat_g": 3.92,
+    "cholesterol_mg": 8.33,
+    "sodium_mg": 778.15
+   },
+   "diet": "nonveg",
+   "flags": [],
+   "ref": "Pan Pizza"
+  },
+  {
+   "name": "Sizzling Schezwan Chicken (Medium), Pan (6 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "88 g",
+   "per_serving": {
+    "energy_kcal": 243.33,
+    "carb_g": 31.82,
+    "protein_g": 12.75,
+    "fibre_g": 4.32,
+    "fat_g": 7.23,
+    "sat_fat_g": 3.08,
+    "cholesterol_mg": 12.97,
+    "sodium_mg": 852.35
+   },
+   "diet": "nonveg",
+   "flags": [],
+   "ref": "Pan Pizza"
+  },
+  {
+   "name": "Dhabe Da Keema (Medium), Pan (6 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "102 g",
+   "per_serving": {
+    "energy_kcal": 276.97,
+    "carb_g": 31.87,
+    "protein_g": 12.8,
+    "fibre_g": 4.4,
+    "fat_g": 10.92,
+    "sat_fat_g": 3.87,
+    "cholesterol_mg": 15.15,
+    "sodium_mg": 880.7
+   },
+   "diet": "nonveg",
+   "flags": [],
+   "ref": "Pan Pizza"
+  },
+  {
+   "name": "Chicken Pepperoni Pizza (Medium), Pan (6 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "94 g",
+   "per_serving": {
+    "energy_kcal": 281.02,
+    "carb_g": 32.27,
+    "protein_g": 9.5,
+    "fibre_g": 3.03,
+    "sugar_g": 2.32,
+    "fat_g": 12.67,
+    "sat_fat_g": 4.98,
+    "cholesterol_mg": 71.95,
+    "sodium_mg": 606.98
+   },
+   "diet": "nonveg",
+   "flags": [],
+   "ref": "Pan Pizza"
+  },
+  {
+   "name": "Chicken Tikka Pizza (Medium), Pan (6 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "107 g",
+   "per_serving": {
+    "energy_kcal": 294.42,
+    "carb_g": 36.13,
+    "protein_g": 13.1,
+    "fibre_g": 5.1,
+    "fat_g": 10.83,
+    "sat_fat_g": 4.62,
+    "cholesterol_mg": 27.95,
+    "sodium_mg": 489.45
+   },
+   "diet": "nonveg",
+   "flags": [],
+   "ref": "Pan Pizza"
+  },
+  {
+   "name": "Murg Malai Chicken (Medium), Pan (6 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "102 g",
+   "per_serving": {
+    "energy_kcal": 274.65,
+    "carb_g": 34.85,
+    "protein_g": 13.97,
+    "fibre_g": 2.52,
+    "fat_g": 8.82,
+    "sat_fat_g": 3.92,
+    "cholesterol_mg": 15.9,
+    "sodium_mg": 829.12
+   },
+   "diet": "nonveg",
+   "flags": [],
+   "ref": "Pan Pizza"
+  },
+  {
+   "name": "Chicken Supreme Pizza (Medium), Pan (6 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "107 g",
+   "per_serving": {
+    "energy_kcal": 292.35,
+    "carb_g": 31.1,
+    "protein_g": 15.68,
+    "fibre_g": 3.4,
+    "fat_g": 11.68,
+    "sat_fat_g": 4.37,
+    "cholesterol_mg": 26.02,
+    "sodium_mg": 830.45
+   },
+   "diet": "nonveg",
+   "flags": [],
+   "ref": "Pan Pizza"
+  },
+  {
+   "name": "Chicken Tikka Supreme Pizza (Medium), Pan (6 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "106 g",
+   "per_serving": {
+    "energy_kcal": 281.77,
+    "carb_g": 32.07,
+    "protein_g": 14.58,
+    "fibre_g": 2.8,
+    "fat_g": 10.58,
+    "sat_fat_g": 3.98,
+    "cholesterol_mg": 16.47,
+    "sodium_mg": 861.18
+   },
+   "diet": "nonveg",
+   "flags": [],
+   "ref": "Pan Pizza"
+  },
+  {
+   "name": "Nawabi Murg Makhni (Medium), Pan (6 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "113 g",
+   "per_serving": {
+    "energy_kcal": 284.25,
+    "carb_g": 33.78,
+    "protein_g": 14.4,
+    "fibre_g": 4.32,
+    "fat_g": 10.17,
+    "sat_fat_g": 4.0,
+    "cholesterol_mg": 21.15,
+    "sodium_mg": 1060.85
+   },
+   "diet": "nonveg",
+   "flags": [],
+   "ref": "Pan Pizza"
+  },
+  {
+   "name": "Triple Chicken Feast (Medium), Pan (6 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "120 g",
+   "per_serving": {
+    "energy_kcal": 313.02,
+    "carb_g": 29.5,
+    "protein_g": 15.68,
+    "fibre_g": 3.55,
+    "fat_g": 14.7,
+    "sat_fat_g": 6.07,
+    "cholesterol_mg": 16.85,
+    "sodium_mg": 702.63
+   },
+   "diet": "nonveg",
+   "flags": [],
+   "ref": "Pan Pizza"
+  },
+  {
+   "name": "Royal Spice Chicken (Medium), Pan (6 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "117 g",
+   "per_serving": {
+    "energy_kcal": 323.62,
+    "carb_g": 39.55,
+    "protein_g": 14.5,
+    "fibre_g": 5.2,
+    "fat_g": 11.93,
+    "sat_fat_g": 3.9,
+    "cholesterol_mg": 31.93,
+    "sodium_mg": 445.5
+   },
+   "diet": "nonveg",
+   "flags": [],
+   "ref": "Pan Pizza"
+  },
+  {
+   "name": "Kadhai Chicken (Medium), Pan (6 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "114 g",
+   "per_serving": {
+    "energy_kcal": 311.1,
+    "carb_g": 38.08,
+    "protein_g": 13.8,
+    "fibre_g": 4.9,
+    "sugar_g": 1.82,
+    "fat_g": 11.52,
+    "sat_fat_g": 3.77,
+    "cholesterol_mg": 31.83,
+    "sodium_mg": 544.52
+   },
+   "diet": "nonveg",
+   "flags": [],
+   "ref": "Pan Pizza"
+  },
+  {
+   "name": "Southern Fiery Chicken (Medium), Pan (6 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "116 g",
+   "per_serving": {
+    "energy_kcal": 319.93,
+    "carb_g": 42.17,
+    "protein_g": 16.45,
+    "fibre_g": 5.45,
+    "fat_g": 9.5,
+    "sat_fat_g": 3.73,
+    "cholesterol_mg": 17.5,
+    "sodium_mg": 508.03
+   },
+   "diet": "nonveg",
+   "flags": [],
+   "ref": "Pan Pizza"
+  },
+  {
+   "name": "Margherita Pizza (Large), Pan (8 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "97 g",
+   "per_serving": {
+    "energy_kcal": 283.6,
+    "carb_g": 39.74,
+    "protein_g": 12.49,
+    "fibre_g": 3.2,
+    "fat_g": 8.3,
+    "sat_fat_g": 3.02,
+    "cholesterol_mg": 20.75,
+    "sodium_mg": 559.65
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "Pan Pizza"
+  },
+  {
+   "name": "Schezwan Margherita Pizza (Large), Pan (8 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "100 g",
+   "per_serving": {
+    "energy_kcal": 298.36,
+    "carb_g": 41.73,
+    "protein_g": 12.74,
+    "fibre_g": 3.59,
+    "sugar_g": 1.26,
+    "fat_g": 8.95,
+    "sat_fat_g": 3.2,
+    "cholesterol_mg": 21.3,
+    "sodium_mg": 660.41
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "Pan Pizza"
+  },
+  {
+   "name": "Corn n Cheese Pizza (Large), Pan (8 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "106 g",
+   "per_serving": {
+    "energy_kcal": 340.27,
+    "carb_g": 51.62,
+    "protein_g": 14.09,
+    "fibre_g": 3.02,
+    "fat_g": 8.6,
+    "sat_fat_g": 4.04,
+    "cholesterol_mg": 12.74,
+    "sodium_mg": 393.07
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "Pan Pizza"
+  },
+  {
+   "name": "Veggie Feast Pizza (Large), Pan (8 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "122 g",
+   "per_serving": {
+    "energy_kcal": 326.7,
+    "carb_g": 48.5,
+    "protein_g": 14.21,
+    "fibre_g": 3.39,
+    "fat_g": 8.43,
+    "sat_fat_g": 3.3,
+    "cholesterol_mg": 17.57,
+    "sodium_mg": 696.08
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "Pan Pizza"
+  },
+  {
+   "name": "Spiced Paneer Pizza (Large), Pan (8 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "118 g",
+   "per_serving": {
+    "energy_kcal": 326.48,
+    "carb_g": 38.04,
+    "protein_g": 17.35,
+    "fibre_g": 5.54,
+    "fat_g": 11.65,
+    "sat_fat_g": 6.42,
+    "cholesterol_mg": 29.9,
+    "sodium_mg": 498.0
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "Pan Pizza"
+  },
+  {
+   "name": "Mexican Fiesta Pizza (Large), Pan (8 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "126 g",
+   "per_serving": {
+    "energy_kcal": 333.49,
+    "carb_g": 42.45,
+    "protein_g": 14.39,
+    "fibre_g": 3.8,
+    "fat_g": 11.8,
+    "sat_fat_g": 4.81,
+    "cholesterol_mg": 13.39,
+    "sodium_mg": 1036.06
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "Pan Pizza"
+  },
+  {
+   "name": "Tandoori Paneer Pizza (Large), Pan (8 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "125 g",
+   "per_serving": {
+    "energy_kcal": 418.51,
+    "carb_g": 60.08,
+    "protein_g": 14.03,
+    "fibre_g": 5.56,
+    "fat_g": 13.57,
+    "sat_fat_g": 5.25,
+    "cholesterol_mg": 17.05,
+    "sodium_mg": 755.84
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "Pan Pizza"
+  },
+  {
+   "name": "Country Feast Pizza (Large), Pan (8 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "136 g",
+   "per_serving": {
+    "energy_kcal": 331.94,
+    "carb_g": 54.65,
+    "protein_g": 13.62,
+    "fibre_g": 5.86,
+    "fat_g": 6.54,
+    "sat_fat_g": 2.64,
+    "cholesterol_mg": 54.4,
+    "sodium_mg": 733.39
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "Pan Pizza"
+  },
+  {
+   "name": "Ultimate Tandoori Veggie (Large), Pan (8 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "134 g",
+   "per_serving": {
+    "energy_kcal": 419.18,
+    "carb_g": 61.41,
+    "protein_g": 12.69,
+    "fibre_g": 4.39,
+    "fat_g": 13.64,
+    "sat_fat_g": 4.67,
+    "cholesterol_mg": 10.99,
+    "sodium_mg": 1081.31
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "Pan Pizza"
+  },
+  {
+   "name": "Veggie Supreme Pizza (Large), Pan (8 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "132 g",
+   "per_serving": {
+    "energy_kcal": 335.19,
+    "carb_g": 43.52,
+    "protein_g": 13.95,
+    "fibre_g": 3.49,
+    "fat_g": 11.32,
+    "sat_fat_g": 4.34,
+    "cholesterol_mg": 25.49,
+    "sodium_mg": 464.44
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "Pan Pizza"
+  },
+  {
+   "name": "Mazedar Makhni Paneer (Large), Pan (8 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "123 g",
+   "per_serving": {
+    "energy_kcal": 353.7,
+    "carb_g": 40.46,
+    "protein_g": 16.11,
+    "fibre_g": 3.42,
+    "fat_g": 14.16,
+    "sat_fat_g": 6.3,
+    "cholesterol_mg": 10.95,
+    "sodium_mg": 1126.01
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "Pan Pizza"
+  },
+  {
+   "name": "Veg Exotica Pizza (Large), Pan (8 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "125 g",
+   "per_serving": {
+    "energy_kcal": 281.91,
+    "carb_g": 42.67,
+    "protein_g": 10.62,
+    "fibre_g": 3.77,
+    "fat_g": 7.64,
+    "sat_fat_g": 3.06,
+    "cholesterol_mg": 9.9,
+    "sodium_mg": 521.3
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "Pan Pizza"
+  },
+  {
+   "name": "Royal Spice Paneer Large Pan Pizza (8 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "145 g",
+   "per_serving": {
+    "energy_kcal": 368.93,
+    "carb_g": 44.08,
+    "protein_g": 14.6,
+    "fibre_g": 6.1,
+    "fat_g": 16.26,
+    "sat_fat_g": 7.85,
+    "cholesterol_mg": 15.75,
+    "sodium_mg": 1107.3
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "Pan Pizza"
+  },
+  {
+   "name": "Kadhai Paneer Large Pan Pizza (8 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "143 g",
+   "per_serving": {
+    "energy_kcal": 356.06,
+    "carb_g": 40.42,
+    "protein_g": 14.99,
+    "fibre_g": 4.42,
+    "fat_g": 17.09,
+    "sat_fat_g": 7.66,
+    "cholesterol_mg": 13.57,
+    "sodium_mg": 1369.69
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "Pan Pizza"
+  },
+  {
+   "name": "Southern Fiery Paneer Large Pan Pizza (8 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "144 g",
+   "per_serving": {
+    "energy_kcal": 342.75,
+    "carb_g": 42.14,
+    "protein_g": 14.07,
+    "fibre_g": 5.7,
+    "fat_g": 14.38,
+    "sat_fat_g": 6.65,
+    "cholesterol_mg": 13.16,
+    "sodium_mg": 1178.31
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "Pan Pizza"
+  },
+  {
+   "name": "Chicken Sausage Pizza (Large), Pan (8 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "113 g",
+   "per_serving": {
+    "energy_kcal": 349.8,
+    "carb_g": 38.64,
+    "protein_g": 14.2,
+    "fibre_g": 3.69,
+    "fat_g": 15.39,
+    "sat_fat_g": 6.34,
+    "cholesterol_mg": 30.49,
+    "sodium_mg": 536.09
+   },
+   "diet": "nonveg",
+   "flags": [],
+   "ref": "Pan Pizza"
+  },
+  {
+   "name": "Sausage & Sweet Corn Pizza(Large), Pan (8 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "116 g",
+   "per_serving": {
+    "energy_kcal": 319.45,
+    "carb_g": 40.71,
+    "protein_g": 14.43,
+    "fibre_g": 7.51,
+    "fat_g": 10.99,
+    "sat_fat_g": 4.65,
+    "cholesterol_mg": 9.91,
+    "sodium_mg": 926.55
+   },
+   "diet": "nonveg",
+   "flags": [],
+   "ref": "Pan Pizza"
+  },
+  {
+   "name": "Sizzling Schezwan Chicken Pizza(Large), Pan (8 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "102 g",
+   "per_serving": {
+    "energy_kcal": 283.43,
+    "carb_g": 37.06,
+    "protein_g": 14.86,
+    "fibre_g": 5.03,
+    "fat_g": 8.41,
+    "sat_fat_g": 3.59,
+    "cholesterol_mg": 15.1,
+    "sodium_mg": 992.8
+   },
+   "diet": "nonveg",
+   "flags": [],
+   "ref": "Pan Pizza"
+  },
+  {
+   "name": "Dhabe Da Keema (Large), Pan (8 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "124 g",
+   "per_serving": {
+    "energy_kcal": 335.07,
+    "carb_g": 38.55,
+    "protein_g": 15.5,
+    "fibre_g": 5.31,
+    "fat_g": 13.21,
+    "sat_fat_g": 4.67,
+    "cholesterol_mg": 18.34,
+    "sodium_mg": 1065.42
+   },
+   "diet": "nonveg",
+   "flags": [],
+   "ref": "Pan Pizza"
+  },
+  {
+   "name": "Chicken Pepperoni Pizza (Large), Pan (8 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "116 g",
+   "per_serving": {
+    "energy_kcal": 347.14,
+    "carb_g": 39.85,
+    "protein_g": 11.74,
+    "fibre_g": 3.75,
+    "sugar_g": 2.85,
+    "fat_g": 15.64,
+    "sat_fat_g": 6.15,
+    "cholesterol_mg": 88.88,
+    "sodium_mg": 749.81
+   },
+   "diet": "nonveg",
+   "flags": [],
+   "ref": "Pan Pizza"
+  },
+  {
+   "name": "Chicken Tikka Pizza (Large), Pan (8 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "127 g",
+   "per_serving": {
+    "energy_kcal": 349.45,
+    "carb_g": 42.88,
+    "protein_g": 15.55,
+    "fibre_g": 6.05,
+    "fat_g": 12.86,
+    "sat_fat_g": 5.47,
+    "cholesterol_mg": 33.19,
+    "sodium_mg": 580.94
+   },
+   "diet": "nonveg",
+   "flags": [],
+   "ref": "Pan Pizza"
+  },
+  {
+   "name": "Murg Malai Chicken (Large), Pan (8 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "127 g",
+   "per_serving": {
+    "energy_kcal": 341.98,
+    "carb_g": 43.39,
+    "protein_g": 17.39,
+    "fibre_g": 3.14,
+    "fat_g": 10.99,
+    "sat_fat_g": 4.88,
+    "cholesterol_mg": 19.8,
+    "sodium_mg": 1032.33
+   },
+   "diet": "nonveg",
+   "flags": [],
+   "ref": "Pan Pizza"
+  },
+  {
+   "name": "Chicken Supreme Pizza (Large), Pan (8 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "132 g",
+   "per_serving": {
+    "energy_kcal": 360.66,
+    "carb_g": 38.38,
+    "protein_g": 19.34,
+    "fibre_g": 4.19,
+    "fat_g": 14.4,
+    "sat_fat_g": 5.39,
+    "cholesterol_mg": 32.09,
+    "sodium_mg": 1024.49
+   },
+   "diet": "nonveg",
+   "flags": [],
+   "ref": "Pan Pizza"
+  },
+  {
+   "name": "Nawabi Murg Makhni (Large), Pan (8 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "142 g",
+   "per_serving": {
+    "energy_kcal": 355.94,
+    "carb_g": 42.31,
+    "protein_g": 18.04,
+    "fibre_g": 5.41,
+    "fat_g": 12.72,
+    "sat_fat_g": 5.03,
+    "cholesterol_mg": 26.49,
+    "sodium_mg": 1328.41
+   },
+   "diet": "nonveg",
+   "flags": [],
+   "ref": "Pan Pizza"
+  },
+  {
+   "name": "Triple Chicken Feast (Large), Pan (8 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "146 g",
+   "per_serving": {
+    "energy_kcal": 381.11,
+    "carb_g": 35.91,
+    "protein_g": 19.1,
+    "fibre_g": 4.33,
+    "fat_g": 17.9,
+    "sat_fat_g": 7.4,
+    "cholesterol_mg": 20.52,
+    "sodium_mg": 855.51
+   },
+   "diet": "nonveg",
+   "flags": [],
+   "ref": "Pan Pizza"
+  },
+  {
+   "name": "Royal Spice Chicken Large Pan Pizza (8 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "140 g",
+   "per_serving": {
+    "energy_kcal": 331.27,
+    "carb_g": 44.41,
+    "protein_g": 13.09,
+    "fibre_g": 4.55,
+    "fat_g": 12.26,
+    "sat_fat_g": 4.8,
+    "cholesterol_mg": 10.85,
+    "sodium_mg": 795.26
+   },
+   "diet": "nonveg",
+   "flags": [],
+   "ref": "Pan Pizza"
+  },
+  {
+   "name": "Kadhai Chicken Large Pan Pizza (8 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "138 g",
+   "per_serving": {
+    "energy_kcal": 370.89,
+    "carb_g": 34.44,
+    "protein_g": 26.15,
+    "fibre_g": 4.67,
+    "fat_g": 14.71,
+    "sat_fat_g": 5.72,
+    "cholesterol_mg": 14.4,
+    "sodium_mg": 927.92
+   },
+   "diet": "nonveg",
+   "flags": [],
+   "ref": "Pan Pizza"
+  },
+  {
+   "name": "Southern Fiery Chicken Large Pan Pizza (8 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "138 g",
+   "per_serving": {
+    "energy_kcal": 333.29,
+    "carb_g": 40.96,
+    "protein_g": 13.28,
+    "fibre_g": 4.45,
+    "fat_g": 13.93,
+    "sat_fat_g": 5.17,
+    "cholesterol_mg": 16.62,
+    "sodium_mg": 892.27
+   },
+   "diet": "nonveg",
+   "flags": [],
+   "ref": "Pan Pizza"
+  },
+  {
+   "name": "Mazedar Makhni Paneer Pizza, Thin 'n Crispy (8 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "64 g",
+   "per_serving": {
+    "energy_kcal": 185.3,
+    "carb_g": 21.01,
+    "protein_g": 8.24,
+    "fibre_g": 1.89,
+    "fat_g": 7.65,
+    "sat_fat_g": 4.58,
+    "cholesterol_mg": 3.62,
+    "sodium_mg": 538.44
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "TnC Pizza"
+  },
+  {
+   "name": "Mexican Fiesta Pizza, Thin 'n Crispy (8 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "67 g",
+   "per_serving": {
+    "energy_kcal": 173.05,
+    "carb_g": 22.77,
+    "protein_g": 7.61,
+    "fibre_g": 2.08,
+    "fat_g": 5.75,
+    "sat_fat_g": 3.35,
+    "cholesterol_mg": 3.83,
+    "sodium_mg": 503.46
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "TnC Pizza"
+  },
+  {
+   "name": "Bold BBQ Veggies TNC Pizza, Thin 'n Crispy (8 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "66 g",
+   "per_serving": {
+    "energy_kcal": 173.91,
+    "carb_g": 22.77,
+    "protein_g": 9.75,
+    "fibre_g": 2.1,
+    "sugar_g": 4.17,
+    "fat_g": 4.89,
+    "sat_fat_g": 2.66,
+    "cholesterol_mg": 3.94,
+    "sodium_mg": 327.02
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "TnC Pizza"
+  },
+  {
+   "name": "Schezwan Margherita Pizza, Thin 'n Crispy (8 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "48 g",
+   "per_serving": {
+    "energy_kcal": 148.39,
+    "carb_g": 20.82,
+    "protein_g": 6.09,
+    "fibre_g": 1.85,
+    "fat_g": 4.61,
+    "sat_fat_g": 2.34,
+    "cholesterol_mg": 3.25,
+    "sodium_mg": 317.6
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "TnC Pizza"
+  },
+  {
+   "name": "Margherita Pizza, Thin 'n Crispy (8 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "48 g",
+   "per_serving": {
+    "energy_kcal": 139.1,
+    "carb_g": 19.11,
+    "protein_g": 6.22,
+    "fibre_g": 1.62,
+    "fat_g": 4.17,
+    "sat_fat_g": 2.41,
+    "cholesterol_mg": 2.81,
+    "sodium_mg": 268.7
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "TnC Pizza"
+  },
+  {
+   "name": "Veggie Feast Pizza, Thin 'n Crispy (8 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "63 g",
+   "per_serving": {
+    "energy_kcal": 172.59,
+    "carb_g": 24.77,
+    "protein_g": 7.91,
+    "fibre_g": 2.46,
+    "fat_g": 4.49,
+    "sat_fat_g": 2.41,
+    "cholesterol_mg": 3.71,
+    "sodium_mg": 328.8
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "TnC Pizza"
+  },
+  {
+   "name": "Spiced Paneer Pizza, Thin 'n Crispy (8 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "62 g",
+   "per_serving": {
+    "energy_kcal": 174.05,
+    "carb_g": 21.0,
+    "protein_g": 8.68,
+    "fibre_g": 2.61,
+    "fat_g": 6.16,
+    "sat_fat_g": 3.66,
+    "cholesterol_mg": 3.44,
+    "sodium_mg": 205.79
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "TnC Pizza"
+  },
+  {
+   "name": "Tandoori Paneer Pizza, Thin 'n Crispy (8 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "65 g",
+   "per_serving": {
+    "energy_kcal": 211.68,
+    "carb_g": 28.11,
+    "protein_g": 8.7,
+    "fibre_g": 2.88,
+    "fat_g": 7.12,
+    "sat_fat_g": 3.83,
+    "cholesterol_mg": 3.98,
+    "sodium_mg": 350.09
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "TnC Pizza"
+  },
+  {
+   "name": "Veggie Supreme Pizza, Thin 'n Crispy (8 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "71 g",
+   "per_serving": {
+    "energy_kcal": 183.03,
+    "carb_g": 24.14,
+    "protein_g": 7.49,
+    "fibre_g": 1.96,
+    "fat_g": 6.29,
+    "sat_fat_g": 3.55,
+    "cholesterol_mg": 4.17,
+    "sodium_mg": 261.46
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "TnC Pizza"
+  },
+  {
+   "name": "Corn & Cheese (Classic Corn), Thin 'n Crispy (8 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "54 g",
+   "per_serving": {
+    "energy_kcal": 164.1,
+    "carb_g": 22.57,
+    "protein_g": 7.35,
+    "fibre_g": 1.91,
+    "fat_g": 4.94,
+    "sat_fat_g": 2.85,
+    "cholesterol_mg": 3.31,
+    "sodium_mg": 317.49
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "TnC Pizza"
+  },
+  {
+   "name": "Country Feast, Thin 'n Crispy (8 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "70 g",
+   "per_serving": {
+    "energy_kcal": 197.59,
+    "carb_g": 32.7,
+    "protein_g": 9.06,
+    "fibre_g": 3.02,
+    "fat_g": 5.41,
+    "sat_fat_g": 2.75,
+    "cholesterol_mg": 4.25,
+    "sodium_mg": 375.95
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "TnC Pizza"
+  },
+  {
+   "name": "Royal Spice Paneer TnC Pizza (8 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "82 g",
+   "per_serving": {
+    "energy_kcal": 214.76,
+    "carb_g": 23.34,
+    "protein_g": 9.82,
+    "fibre_g": 3.23,
+    "fat_g": 9.84,
+    "sat_fat_g": 5.45,
+    "cholesterol_mg": 14.76,
+    "sodium_mg": 641.56
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "TnC Pizza"
+  },
+  {
+   "name": "Kadhai Paneer TnC Pizza (8 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "80 g",
+   "per_serving": {
+    "energy_kcal": 211.51,
+    "carb_g": 22.96,
+    "protein_g": 10.32,
+    "fibre_g": 2.38,
+    "fat_g": 9.24,
+    "sat_fat_g": 5.47,
+    "cholesterol_mg": 9.84,
+    "sodium_mg": 481.41
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "TnC Pizza"
+  },
+  {
+   "name": "Southern Fiery Paneer TnC Pizza (8 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "81 g",
+   "per_serving": {
+    "energy_kcal": 204.15,
+    "carb_g": 26.11,
+    "protein_g": 8.15,
+    "fibre_g": 3.3,
+    "fat_g": 8.19,
+    "sat_fat_g": 4.6,
+    "cholesterol_mg": 11.35,
+    "sodium_mg": 621.46
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "TnC Pizza"
+  },
+  {
+   "name": "Dhabe Da Keema Pizza, Thin 'n Crispy (8 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "82 g",
+   "per_serving": {
+    "energy_kcal": 239.59,
+    "carb_g": 28.44,
+    "protein_g": 9.96,
+    "fibre_g": 3.46,
+    "fat_g": 9.61,
+    "sat_fat_g": 4.26,
+    "cholesterol_mg": 5.34,
+    "sodium_mg": 651.04
+   },
+   "diet": "nonveg",
+   "flags": [],
+   "ref": "TnC Pizza"
+  },
+  {
+   "name": "Sausage & Sweet Corn Pizza, Thin 'n Crispy (8 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "62 g",
+   "per_serving": {
+    "energy_kcal": 174.55,
+    "carb_g": 22.66,
+    "protein_g": 7.62,
+    "fibre_g": 3.59,
+    "fat_g": 6.14,
+    "sat_fat_g": 3.33,
+    "cholesterol_mg": 4.03,
+    "sodium_mg": 439.59
+   },
+   "diet": "nonveg",
+   "flags": [],
+   "ref": "TnC Pizza"
+  },
+  {
+   "name": "Sizzling Schezwan Chicken Pizza, Thin 'n Crispy (8 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "55 g",
+   "per_serving": {
+    "energy_kcal": 157.4,
+    "carb_g": 21.25,
+    "protein_g": 8.1,
+    "fibre_g": 2.59,
+    "fat_g": 4.54,
+    "sat_fat_g": 2.31,
+    "cholesterol_mg": 3.09,
+    "sodium_mg": 467.98
+   },
+   "diet": "nonveg",
+   "flags": [],
+   "ref": "TnC Pizza"
+  },
+  {
+   "name": "Nawabi Murg Makhni Pizza, Thin 'n Crispy (8 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "74 g",
+   "per_serving": {
+    "energy_kcal": 199.04,
+    "carb_g": 24.09,
+    "protein_g": 9.49,
+    "fibre_g": 2.86,
+    "fat_g": 7.16,
+    "sat_fat_g": 3.2,
+    "cholesterol_mg": 3.96,
+    "sodium_mg": 599.64
+   },
+   "diet": "nonveg",
+   "flags": [],
+   "ref": "TnC Pizza"
+  },
+  {
+   "name": "Murg Malai Chicken Pizza, Thin 'n Crispy (8 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "66 g",
+   "per_serving": {
+    "energy_kcal": 195.97,
+    "carb_g": 21.12,
+    "protein_g": 8.78,
+    "fibre_g": 1.76,
+    "fat_g": 8.5,
+    "sat_fat_g": 4.86,
+    "cholesterol_mg": 3.59,
+    "sodium_mg": 460.2
+   },
+   "diet": "nonveg",
+   "flags": [],
+   "ref": "TnC Pizza"
+  },
+  {
+   "name": "Triple Chicken Feast Pizza, Thin 'n Crispy (8 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "79 g",
+   "per_serving": {
+    "energy_kcal": 218.53,
+    "carb_g": 21.99,
+    "protein_g": 10.31,
+    "fibre_g": 2.25,
+    "fat_g": 9.9,
+    "sat_fat_g": 4.99,
+    "cholesterol_mg": 4.94,
+    "sodium_mg": 544.8
+   },
+   "diet": "nonveg",
+   "flags": [],
+   "ref": "TnC Pizza"
+  },
+  {
+   "name": "Chicken Supreme Pizza, Thin 'n Crispy (8 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "70 g",
+   "per_serving": {
+    "energy_kcal": 198.78,
+    "carb_g": 22.23,
+    "protein_g": 10.4,
+    "fibre_g": 2.52,
+    "fat_g": 7.59,
+    "sat_fat_g": 3.66,
+    "cholesterol_mg": 4.31,
+    "sodium_mg": 510.94
+   },
+   "diet": "nonveg",
+   "flags": [],
+   "ref": "TnC Pizza"
+  },
+  {
+   "name": "Chicken Tikka Supreme Pizza, Thin 'n Crispy (8 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "68 g",
+   "per_serving": {
+    "energy_kcal": 187.65,
+    "carb_g": 21.74,
+    "protein_g": 9.68,
+    "fibre_g": 1.95,
+    "fat_g": 6.89,
+    "sat_fat_g": 3.58,
+    "cholesterol_mg": 3.88,
+    "sodium_mg": 519.11
+   },
+   "diet": "nonveg",
+   "flags": [],
+   "ref": "TnC Pizza"
+  },
+  {
+   "name": "Chicken Sausage, Thin 'n Crispy (8 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "58 g",
+   "per_serving": {
+    "energy_kcal": 179.29,
+    "carb_g": 19.94,
+    "protein_g": 7.26,
+    "fibre_g": 2.25,
+    "fat_g": 7.83,
+    "sat_fat_g": 4.51,
+    "cholesterol_mg": 5.4,
+    "sodium_mg": 256.43
+   },
+   "diet": "nonveg",
+   "flags": [],
+   "ref": "TnC Pizza"
+  },
+  {
+   "name": "Chicken Pepperoni, Thin 'n Crispy (8 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "56 g",
+   "per_serving": {
+    "energy_kcal": 174.39,
+    "carb_g": 20.65,
+    "protein_g": 5.76,
+    "fibre_g": 2.06,
+    "fat_g": 7.64,
+    "sat_fat_g": 4.26,
+    "cholesterol_mg": 5.26,
+    "sodium_mg": 343.16
+   },
+   "diet": "nonveg",
+   "flags": [],
+   "ref": "TnC Pizza"
+  },
+  {
+   "name": "Chicken Tikka, Thin 'n Crispy (8 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "66 g",
+   "per_serving": {
+    "energy_kcal": 186.46,
+    "carb_g": 23.27,
+    "protein_g": 8.43,
+    "fibre_g": 3.14,
+    "fat_g": 6.62,
+    "sat_fat_g": 3.25,
+    "cholesterol_mg": 5.01,
+    "sodium_mg": 286.75
+   },
+   "diet": "nonveg",
+   "flags": [],
+   "ref": "TnC Pizza"
+  },
+  {
+   "name": "Southern Fiery Chicken TnC Pizza (8 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "77 g",
+   "per_serving": {
+    "energy_kcal": 180.54,
+    "carb_g": 19.93,
+    "protein_g": 9.45,
+    "fibre_g": 2.56,
+    "fat_g": 7.58,
+    "sat_fat_g": 4.24,
+    "cholesterol_mg": 10.03,
+    "sodium_mg": 550.25
+   },
+   "diet": "nonveg",
+   "flags": [],
+   "ref": "TnC Pizza"
+  },
+  {
+   "name": "Kadhai Chicken TnC Pizza (8 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "76 g",
+   "per_serving": {
+    "energy_kcal": 198.75,
+    "carb_g": 22.93,
+    "protein_g": 10.36,
+    "fibre_g": 2.75,
+    "fat_g": 7.9,
+    "sat_fat_g": 3.91,
+    "cholesterol_mg": 11.86,
+    "sodium_mg": 619.08
+   },
+   "diet": "nonveg",
+   "flags": [],
+   "ref": "TnC Pizza"
+  },
+  {
+   "name": "Royal Spice Chicken TnC Pizza (8 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "78 g",
+   "per_serving": {
+    "energy_kcal": 192.91,
+    "carb_g": 22.44,
+    "protein_g": 10.35,
+    "fibre_g": 2.62,
+    "fat_g": 7.45,
+    "sat_fat_g": 3.76,
+    "cholesterol_mg": 9.03,
+    "sodium_mg": 562.48
+   },
+   "diet": "nonveg",
+   "flags": [],
+   "ref": "TnC Pizza"
+  },
+  {
+   "name": "Margherita Pizza Ultimate Cheese (Personal) (4 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "86 g",
+   "per_serving": {
+    "energy_kcal": 242.72,
+    "carb_g": 34.17,
+    "protein_g": 10.5,
+    "fibre_g": 2.67,
+    "fat_g": 7.7,
+    "sat_fat_g": 4.75,
+    "cholesterol_mg": 7.92,
+    "sodium_mg": 568.05
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "Ultimate Cheese Pizzas"
+  },
+  {
+   "name": "Veggie Supreme Ultimate Cheese (Personal) (4 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "109 g",
+   "per_serving": {
+    "energy_kcal": 275.93,
+    "carb_g": 36.52,
+    "protein_g": 10.8,
+    "fibre_g": 2.62,
+    "fat_g": 10.22,
+    "sat_fat_g": 5.55,
+    "cholesterol_mg": 9.8,
+    "sodium_mg": 533.75
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "Ultimate Cheese Pizzas"
+  },
+  {
+   "name": "Tandoori Paneer Ultimate Cheese (Personal) (4 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "104 g",
+   "per_serving": {
+    "energy_kcal": 359.18,
+    "carb_g": 51.1,
+    "protein_g": 12.15,
+    "fibre_g": 4.42,
+    "fat_g": 12.78,
+    "sat_fat_g": 5.08,
+    "cholesterol_mg": 14.78,
+    "sodium_mg": 668.15
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "Ultimate Cheese Pizzas"
+  },
+  {
+   "name": "Triple Chicken Feast Ultimate Cheese (Personal) (4 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "117 g",
+   "per_serving": {
+    "energy_kcal": 304.6,
+    "carb_g": 30.62,
+    "protein_g": 15.7,
+    "fibre_g": 3.12,
+    "fat_g": 13.95,
+    "sat_fat_g": 7.9,
+    "cholesterol_mg": 8.47,
+    "sodium_mg": 737.45
+   },
+   "diet": "nonveg",
+   "flags": [],
+   "ref": "Ultimate Cheese Pizzas"
+  },
+  {
+   "name": "Chicken Sausage Ultimate Cheese (Personal) (4 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "96 g",
+   "per_serving": {
+    "energy_kcal": 283.23,
+    "carb_g": 32.95,
+    "protein_g": 11.47,
+    "fibre_g": 2.98,
+    "fat_g": 12.3,
+    "sat_fat_g": 6.88,
+    "cholesterol_mg": 14.28,
+    "sodium_mg": 544.38
+   },
+   "diet": "nonveg",
+   "flags": [],
+   "ref": "Ultimate Cheese Pizzas"
+  },
+  {
+   "name": "Chicken Tikka Ultimate Cheese (Personal) (4 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "104 g",
+   "per_serving": {
+    "energy_kcal": 288.1,
+    "carb_g": 36.4,
+    "protein_g": 12.6,
+    "fibre_g": 4.62,
+    "fat_g": 10.82,
+    "sat_fat_g": 6.35,
+    "cholesterol_mg": 16.7,
+    "sodium_mg": 581.12
+   },
+   "diet": "nonveg",
+   "flags": [],
+   "ref": "Ultimate Cheese Pizzas"
+  },
+  {
+   "name": "Veggie Supreme Ultimate Cheese (Medium) (6 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "135 g",
+   "per_serving": {
+    "energy_kcal": 340.55,
+    "carb_g": 45.07,
+    "protein_g": 13.32,
+    "fibre_g": 3.25,
+    "fat_g": 12.6,
+    "sat_fat_g": 6.85,
+    "cholesterol_mg": 12.1,
+    "sodium_mg": 658.75
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "Ultimate Cheese Pizzas"
+  },
+  {
+   "name": "Tandoori Paneer Ultimate Cheese (Medium) (6 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "127 g",
+   "per_serving": {
+    "energy_kcal": 439.17,
+    "carb_g": 62.48,
+    "protein_g": 14.85,
+    "fibre_g": 5.4,
+    "fat_g": 15.63,
+    "sat_fat_g": 6.2,
+    "cholesterol_mg": 18.07,
+    "sodium_mg": 816.98
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "Ultimate Cheese Pizzas"
+  },
+  {
+   "name": "Margherita Pizza Ultimate Cheese (Medium) (6 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "103 g",
+   "per_serving": {
+    "energy_kcal": 291.92,
+    "carb_g": 41.1,
+    "protein_g": 12.62,
+    "fibre_g": 3.22,
+    "fat_g": 9.28,
+    "sat_fat_g": 5.7,
+    "cholesterol_mg": 9.53,
+    "sodium_mg": 683.22
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "Ultimate Cheese Pizzas"
+  },
+  {
+   "name": "Triple Chicken Feast Ultimate Cheese (Medium) (6 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "146 g",
+   "per_serving": {
+    "energy_kcal": 381.42,
+    "carb_g": 38.33,
+    "protein_g": 19.65,
+    "fibre_g": 3.92,
+    "fat_g": 17.48,
+    "sat_fat_g": 9.88,
+    "cholesterol_mg": 10.62,
+    "sodium_mg": 923.38
+   },
+   "diet": "nonveg",
+   "flags": [],
+   "ref": "Ultimate Cheese Pizzas"
+  },
+  {
+   "name": "Chicken Sausage Ultimate Cheese (Medium) (6 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "117 g",
+   "per_serving": {
+    "energy_kcal": 345.67,
+    "carb_g": 40.23,
+    "protein_g": 14.0,
+    "fibre_g": 3.62,
+    "fat_g": 15.02,
+    "sat_fat_g": 8.38,
+    "cholesterol_mg": 17.43,
+    "sodium_mg": 664.4
+   },
+   "diet": "nonveg",
+   "flags": [],
+   "ref": "Ultimate Cheese Pizzas"
+  },
+  {
+   "name": "Chicken Tikka Ultimate Cheese (Medium) (6 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "128 g",
+   "per_serving": {
+    "energy_kcal": 356.83,
+    "carb_g": 45.07,
+    "protein_g": 15.6,
+    "fibre_g": 5.72,
+    "fat_g": 13.4,
+    "sat_fat_g": 7.87,
+    "cholesterol_mg": 20.7,
+    "sodium_mg": 719.77
+   },
+   "diet": "nonveg",
+   "flags": [],
+   "ref": "Ultimate Cheese Pizzas"
+  },
+  {
+   "name": "Korean Red Chilli (Veg, Personal), Pan (4 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "78 g",
+   "per_serving": {
+    "energy_kcal": 184.06,
+    "carb_g": 25.65,
+    "protein_g": 7.83,
+    "fibre_g": 2.48,
+    "sugar_g": 4.26,
+    "fat_g": 6.12,
+    "sat_fat_g": 2.02,
+    "cholesterol_mg": 10.23,
+    "sodium_mg": 538.47
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "Spicy Range Pizzas"
+  },
+  {
+   "name": "Mexican Mango Habanero (Veg, Personal), Pan (4 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "74 g",
+   "per_serving": {
+    "energy_kcal": 179.44,
+    "carb_g": 25.81,
+    "protein_g": 8.26,
+    "fibre_g": 2.44,
+    "sugar_g": 5.46,
+    "fat_g": 5.31,
+    "sat_fat_g": 1.99,
+    "cholesterol_mg": 9.66,
+    "sodium_mg": 495.16
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "Spicy Range Pizzas"
+  },
+  {
+   "name": "American Nashville (Veg, Personal), Pan (4 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "74 g",
+   "per_serving": {
+    "energy_kcal": 181.99,
+    "carb_g": 24.88,
+    "protein_g": 8.39,
+    "fibre_g": 2.52,
+    "sugar_g": 4.46,
+    "fat_g": 6.01,
+    "sat_fat_g": 2.15,
+    "cholesterol_mg": 9.88,
+    "sodium_mg": 526.51
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "Spicy Range Pizzas"
+  },
+  {
+   "name": "Japanese Wasabi (Veg, Personal), Pan (4 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "78 g",
+   "per_serving": {
+    "energy_kcal": 189.72,
+    "carb_g": 25.42,
+    "protein_g": 9.07,
+    "fibre_g": 2.63,
+    "sugar_g": 4.8,
+    "fat_g": 6.36,
+    "sat_fat_g": 2.17,
+    "cholesterol_mg": 11.24,
+    "sodium_mg": 492.98
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "Spicy Range Pizzas"
+  },
+  {
+   "name": "Korean Red Chilli (Chicken, Personal), Pan (4 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "88 g",
+   "per_serving": {
+    "energy_kcal": 212.58,
+    "carb_g": 23.72,
+    "protein_g": 11.33,
+    "fibre_g": 3.36,
+    "sugar_g": 7.43,
+    "fat_g": 8.76,
+    "sat_fat_g": 3.01,
+    "cholesterol_mg": 23.27,
+    "sodium_mg": 564.72
+   },
+   "diet": "nonveg",
+   "flags": [],
+   "ref": "Spicy Range Pizzas"
+  },
+  {
+   "name": "Mexican Mango Habanero (Chicken, Personal), Pan (4 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "83 g",
+   "per_serving": {
+    "energy_kcal": 203.93,
+    "carb_g": 23.41,
+    "protein_g": 11.46,
+    "fibre_g": 2.99,
+    "sugar_g": 5.39,
+    "fat_g": 7.8,
+    "sat_fat_g": 3.07,
+    "cholesterol_mg": 21.5,
+    "sodium_mg": 640.26
+   },
+   "diet": "nonveg",
+   "flags": [],
+   "ref": "Spicy Range Pizzas"
+  },
+  {
+   "name": "American Nashville (Chicken, Personal), Pan (4 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "83 g",
+   "per_serving": {
+    "energy_kcal": 208.66,
+    "carb_g": 24.4,
+    "protein_g": 10.96,
+    "fibre_g": 3.24,
+    "sugar_g": 5.31,
+    "fat_g": 8.22,
+    "sat_fat_g": 2.99,
+    "cholesterol_mg": 21.91,
+    "sodium_mg": 551.37
+   },
+   "diet": "nonveg",
+   "flags": [],
+   "ref": "Spicy Range Pizzas"
+  },
+  {
+   "name": "Japanese Wasabi (Chicken, Personal), Pan (4 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "88 g",
+   "per_serving": {
+    "energy_kcal": 212.87,
+    "carb_g": 22.61,
+    "protein_g": 11.35,
+    "fibre_g": 3.25,
+    "sugar_g": 3.87,
+    "fat_g": 9.24,
+    "sat_fat_g": 2.38,
+    "cholesterol_mg": 23.67,
+    "sodium_mg": 592.95
+   },
+   "diet": "nonveg",
+   "flags": [],
+   "ref": "Spicy Range Pizzas"
+  },
+  {
+   "name": "Korean Red Chilli (Veg, Medium), Pan (6 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "99 g",
+   "per_serving": {
+    "energy_kcal": 235.92,
+    "carb_g": 32.88,
+    "protein_g": 10.03,
+    "fibre_g": 3.18,
+    "sugar_g": 5.46,
+    "fat_g": 7.85,
+    "sat_fat_g": 2.58,
+    "cholesterol_mg": 13.11,
+    "sodium_mg": 690.17
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "Spicy Range Pizzas"
+  },
+  {
+   "name": "Mexican Mango Habanero (Veg, Medium), Pan (6 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "91 g",
+   "per_serving": {
+    "energy_kcal": 222.21,
+    "carb_g": 31.97,
+    "protein_g": 10.23,
+    "fibre_g": 3.01,
+    "sugar_g": 6.76,
+    "fat_g": 6.58,
+    "sat_fat_g": 2.47,
+    "cholesterol_mg": 11.97,
+    "sodium_mg": 613.21
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "Spicy Range Pizzas"
+  },
+  {
+   "name": "American Nashville (Veg, Medium), Pan (6 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "93 g",
+   "per_serving": {
+    "energy_kcal": 227.94,
+    "carb_g": 31.16,
+    "protein_g": 10.51,
+    "fibre_g": 3.16,
+    "sugar_g": 5.58,
+    "fat_g": 7.53,
+    "sat_fat_g": 2.7,
+    "cholesterol_mg": 12.37,
+    "sodium_mg": 659.46
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "Spicy Range Pizzas"
+  },
+  {
+   "name": "Japanese Wasabi (Veg, Medium), Pan (6 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "99 g",
+   "per_serving": {
+    "energy_kcal": 242.76,
+    "carb_g": 32.53,
+    "protein_g": 11.6,
+    "fibre_g": 3.37,
+    "sugar_g": 6.15,
+    "fat_g": 8.13,
+    "sat_fat_g": 2.78,
+    "cholesterol_mg": 14.38,
+    "sodium_mg": 630.8
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "Spicy Range Pizzas"
+  },
+  {
+   "name": "Korean Red Chilli (Chicken, Medium), Pan (6 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "112 g",
+   "per_serving": {
+    "energy_kcal": 267.82,
+    "carb_g": 29.88,
+    "protein_g": 14.27,
+    "fibre_g": 4.24,
+    "sugar_g": 9.37,
+    "fat_g": 11.04,
+    "sat_fat_g": 3.79,
+    "cholesterol_mg": 29.32,
+    "sodium_mg": 711.48
+   },
+   "diet": "nonveg",
+   "flags": [],
+   "ref": "Spicy Range Pizzas"
+  },
+  {
+   "name": "Mexican Mango Habanero (Chicken, Medium), Pan (6 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "101 g",
+   "per_serving": {
+    "energy_kcal": 248.57,
+    "carb_g": 28.53,
+    "protein_g": 13.96,
+    "fibre_g": 3.64,
+    "sugar_g": 6.58,
+    "fat_g": 9.51,
+    "sat_fat_g": 3.74,
+    "cholesterol_mg": 26.2,
+    "sodium_mg": 780.4
+   },
+   "diet": "nonveg",
+   "flags": [],
+   "ref": "Spicy Range Pizzas"
+  },
+  {
+   "name": "American Nashville (Chicken, Medium), Pan (6 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "100 g",
+   "per_serving": {
+    "energy_kcal": 250.56,
+    "carb_g": 29.3,
+    "protein_g": 13.16,
+    "fibre_g": 3.89,
+    "sugar_g": 6.38,
+    "fat_g": 9.87,
+    "sat_fat_g": 3.59,
+    "cholesterol_mg": 26.31,
+    "sodium_mg": 662.09
+   },
+   "diet": "nonveg",
+   "flags": [],
+   "ref": "Spicy Range Pizzas"
+  },
+  {
+   "name": "Japanese Wasabi (Chicken, Medium), Pan (6 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "112 g",
+   "per_serving": {
+    "energy_kcal": 270.53,
+    "carb_g": 28.74,
+    "protein_g": 14.43,
+    "fibre_g": 4.14,
+    "sugar_g": 4.92,
+    "fat_g": 11.74,
+    "sat_fat_g": 3.02,
+    "cholesterol_mg": 30.08,
+    "sodium_mg": 753.53
+   },
+   "diet": "nonveg",
+   "flags": [],
+   "ref": "Spicy Range Pizzas"
+  },
+  {
+   "name": "Paneer Makhni Masala Crafted Flatzz",
+   "category": "Crafted Flatzz",
+   "serving_unit": "serving",
+   "serving_size": "427 g",
+   "per_serving": {
+    "energy_kcal": 1165.6,
+    "carb_g": 151.6,
+    "protein_g": 44.0,
+    "fibre_g": 13.2,
+    "sugar_g": 14.7,
+    "fat_g": 45.5,
+    "sat_fat_g": 21.4,
+    "cholesterol_mg": 66.8,
+    "sodium_mg": 2865.8
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "Crafted Flatzz"
+  },
+  {
+   "name": "Overloaded Veggies Crafted Flatzz",
+   "category": "Crafted Flatzz",
+   "serving_unit": "serving",
+   "serving_size": "467 g",
+   "per_serving": {
+    "energy_kcal": 1134.1,
+    "carb_g": 143.7,
+    "protein_g": 51.0,
+    "fibre_g": 14.6,
+    "sugar_g": 20.0,
+    "fat_g": 42.7,
+    "sat_fat_g": 19.4,
+    "cholesterol_mg": 50.9,
+    "sodium_mg": 2980.9
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "Crafted Flatzz"
+  },
+  {
+   "name": "Fiery Schezwan Veggie Crafted Flatzz",
+   "category": "Crafted Flatzz",
+   "serving_unit": "serving",
+   "serving_size": "411 g",
+   "per_serving": {
+    "energy_kcal": 1083.7,
+    "carb_g": 136.5,
+    "protein_g": 49.0,
+    "fibre_g": 13.4,
+    "sugar_g": 9.5,
+    "fat_g": 40.9,
+    "sat_fat_g": 19.5,
+    "cholesterol_mg": 51.3,
+    "sodium_mg": 2845.6
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "Crafted Flatzz"
+  },
+  {
+   "name": "Smokey BBQ Veggie Crafted Flatzz",
+   "category": "Crafted Flatzz",
+   "serving_unit": "serving",
+   "serving_size": "421 g",
+   "per_serving": {
+    "energy_kcal": 1084.4,
+    "carb_g": 137.3,
+    "protein_g": 47.5,
+    "fibre_g": 12.5,
+    "sugar_g": 19.0,
+    "fat_g": 41.2,
+    "sat_fat_g": 22.3,
+    "cholesterol_mg": 44.2,
+    "sodium_mg": 2688.8
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "Crafted Flatzz"
+  },
+  {
+   "name": "Keema Masala Crafted Flatzz",
+   "category": "Crafted Flatzz",
+   "serving_unit": "serving",
+   "serving_size": "436 g",
+   "per_serving": {
+    "energy_kcal": 1202.7,
+    "carb_g": 144.4,
+    "protein_g": 52.1,
+    "fibre_g": 15.2,
+    "sugar_g": 12.9,
+    "fat_g": 49.6,
+    "sat_fat_g": 19.5,
+    "cholesterol_mg": 98.2,
+    "sodium_mg": 3788.0
+   },
+   "diet": "nonveg",
+   "flags": [],
+   "ref": "Crafted Flatzz"
+  },
+  {
+   "name": "Ultimate Crafted Flatzz",
+   "category": "Crafted Flatzz",
+   "serving_unit": "serving",
+   "serving_size": "472 g",
+   "per_serving": {
+    "energy_kcal": 1208.7,
+    "carb_g": 142.4,
+    "protein_g": 56.7,
+    "fibre_g": 18.1,
+    "sugar_g": 13.8,
+    "fat_g": 49.8,
+    "sat_fat_g": 18.2,
+    "cholesterol_mg": 135.4,
+    "sodium_mg": 3980.5
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "Crafted Flatzz"
+  },
+  {
+   "name": "Tandoori Chicken Crafted Flatzz",
+   "category": "Crafted Flatzz",
+   "serving_unit": "serving",
+   "serving_size": "473 g",
+   "per_serving": {
+    "energy_kcal": 1221.0,
+    "carb_g": 148.2,
+    "protein_g": 57.2,
+    "fibre_g": 18.3,
+    "sugar_g": 14.0,
+    "fat_g": 48.4,
+    "sat_fat_g": 16.8,
+    "cholesterol_mg": 136.2,
+    "sodium_mg": 3477.2
+   },
+   "diet": "nonveg",
+   "flags": [],
+   "ref": "Crafted Flatzz"
+  },
+  {
+   "name": "Schezwan Veggie (Personal), Pan (4 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "67 g",
+   "per_serving": {
+    "energy_kcal": 173.55,
+    "carb_g": 22.6,
+    "protein_g": 7.7,
+    "fibre_g": 1.8,
+    "sugar_g": 2.5,
+    "fat_g": 6.22,
+    "sat_fat_g": 2.5,
+    "cholesterol_mg": 10.2,
+    "sodium_mg": 404.95
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "New Menu Gap Pizzas - Pan Pizzas"
+  },
+  {
+   "name": "Tandoori Onion (Personal), Pan (4 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "64 g",
+   "per_serving": {
+    "energy_kcal": 176.12,
+    "carb_g": 21.75,
+    "protein_g": 8.2,
+    "fibre_g": 1.38,
+    "sugar_g": 2.77,
+    "fat_g": 6.55,
+    "sat_fat_g": 2.33,
+    "cholesterol_mg": 9.5,
+    "sodium_mg": 441.0
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "New Menu Gap Pizzas - Pan Pizzas"
+  },
+  {
+   "name": "Veg Delight (Personal), Pan (4 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "70 g",
+   "per_serving": {
+    "energy_kcal": 178.85,
+    "carb_g": 24.35,
+    "protein_g": 7.28,
+    "fibre_g": 1.4,
+    "sugar_g": 2.12,
+    "fat_g": 6.12,
+    "sat_fat_g": 1.93,
+    "cholesterol_mg": 10.7,
+    "sodium_mg": 483.0
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "New Menu Gap Pizzas - Pan Pizzas"
+  },
+  {
+   "name": "Cheese Supreme Margherita (Personal), Pan (4 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "63 g",
+   "per_serving": {
+    "energy_kcal": 168.85,
+    "carb_g": 22.0,
+    "protein_g": 7.15,
+    "fibre_g": 1.82,
+    "sugar_g": 1.75,
+    "fat_g": 6.22,
+    "sat_fat_g": 2.6,
+    "cholesterol_mg": 14.1,
+    "sodium_mg": 402.25
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "New Menu Gap Pizzas - Pan Pizzas"
+  },
+  {
+   "name": "Herbed Chicken & Onion(Personal), Pan (4 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "69 g",
+   "per_serving": {
+    "energy_kcal": 176.57,
+    "carb_g": 20.2,
+    "protein_g": 10.18,
+    "fibre_g": 2.12,
+    "sugar_g": 2.17,
+    "fat_g": 6.6,
+    "sat_fat_g": 2.73,
+    "cholesterol_mg": 18.38,
+    "sodium_mg": 471.57
+   },
+   "diet": "nonveg",
+   "flags": [],
+   "ref": "New Menu Gap Pizzas - Pan Pizzas"
+  },
+  {
+   "name": "Schezwan Veggie (Medium), Pan (6 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "86 g",
+   "per_serving": {
+    "energy_kcal": 224.03,
+    "carb_g": 29.17,
+    "protein_g": 9.93,
+    "fibre_g": 2.33,
+    "sugar_g": 3.23,
+    "fat_g": 8.03,
+    "sat_fat_g": 3.23,
+    "cholesterol_mg": 13.15,
+    "sodium_mg": 522.73
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "New Menu Gap Pizzas - Pan Pizzas"
+  },
+  {
+   "name": "Tandoori Onion (Medium), Pan (6 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "81 g",
+   "per_serving": {
+    "energy_kcal": 224.2,
+    "carb_g": 27.7,
+    "protein_g": 10.43,
+    "fibre_g": 1.73,
+    "sugar_g": 3.53,
+    "fat_g": 8.35,
+    "sat_fat_g": 2.97,
+    "cholesterol_mg": 12.1,
+    "sodium_mg": 561.38
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "New Menu Gap Pizzas - Pan Pizzas"
+  },
+  {
+   "name": "Veg Delight (Medium), Pan (6 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "90 g",
+   "per_serving": {
+    "energy_kcal": 230.73,
+    "carb_g": 31.42,
+    "protein_g": 9.38,
+    "fibre_g": 1.8,
+    "sugar_g": 2.73,
+    "fat_g": 7.92,
+    "sat_fat_g": 2.48,
+    "cholesterol_mg": 13.78,
+    "sodium_mg": 623.15
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "New Menu Gap Pizzas - Pan Pizzas"
+  },
+  {
+   "name": "Cheese Supreme Margherita (Medium), Pan (6 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "80 g",
+   "per_serving": {
+    "energy_kcal": 216.63,
+    "carb_g": 28.22,
+    "protein_g": 9.18,
+    "fibre_g": 2.35,
+    "sugar_g": 2.23,
+    "fat_g": 7.98,
+    "sat_fat_g": 3.33,
+    "cholesterol_mg": 18.08,
+    "sodium_mg": 516.03
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "New Menu Gap Pizzas - Pan Pizzas"
+  },
+  {
+   "name": "Herbed Chicken & Onion (Medium), Pan (6 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "89 g",
+   "per_serving": {
+    "energy_kcal": 228.15,
+    "carb_g": 26.1,
+    "protein_g": 13.13,
+    "fibre_g": 2.75,
+    "sugar_g": 2.82,
+    "fat_g": 8.52,
+    "sat_fat_g": 3.52,
+    "cholesterol_mg": 23.73,
+    "sodium_mg": 609.33
+   },
+   "diet": "nonveg",
+   "flags": [],
+   "ref": "New Menu Gap Pizzas - Pan Pizzas"
+  },
+  {
+   "name": "TnC Schezwan Veggie (8 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "51 g",
+   "per_serving": {
+    "energy_kcal": 136.62,
+    "carb_g": 16.7,
+    "protein_g": 6.26,
+    "fibre_g": 1.4,
+    "sugar_g": 1.6,
+    "fat_g": 5.29,
+    "sat_fat_g": 2.92,
+    "cholesterol_mg": 2.76,
+    "sodium_mg": 338.95
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "New Menu Gap Pizzas - TnC Range"
+  },
+  {
+   "name": "TnC Tandoori Onion (8 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "36 g",
+   "per_serving": {
+    "energy_kcal": 100.62,
+    "carb_g": 11.53,
+    "protein_g": 4.92,
+    "fibre_g": 0.85,
+    "sugar_g": 1.2,
+    "fat_g": 4.05,
+    "sat_fat_g": 1.95,
+    "cholesterol_mg": 1.88,
+    "sodium_mg": 384.35
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "New Menu Gap Pizzas - TnC Range"
+  },
+  {
+   "name": "TnC Veg Delight (8 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "45 g",
+   "per_serving": {
+    "energy_kcal": 117.28,
+    "carb_g": 15.29,
+    "protein_g": 5.24,
+    "fibre_g": 1.14,
+    "sugar_g": 1.36,
+    "fat_g": 4.16,
+    "sat_fat_g": 1.84,
+    "cholesterol_mg": 2.54,
+    "sodium_mg": 352.55
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "New Menu Gap Pizzas - TnC Range"
+  },
+  {
+   "name": "TnC Cheese Supreme Margherita (8 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "37 g",
+   "per_serving": {
+    "energy_kcal": 106.15,
+    "carb_g": 12.01,
+    "protein_g": 4.88,
+    "fibre_g": 1.05,
+    "sugar_g": 1.46,
+    "fat_g": 4.53,
+    "sat_fat_g": 2.51,
+    "cholesterol_mg": 2.23,
+    "sodium_mg": 292.24
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "New Menu Gap Pizzas - TnC Range"
+  },
+  {
+   "name": "TnC Herbed Chicken & Onion (8 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "48 g",
+   "per_serving": {
+    "energy_kcal": 125.26,
+    "carb_g": 14.65,
+    "protein_g": 6.49,
+    "fibre_g": 1.52,
+    "sugar_g": 1.5,
+    "fat_g": 4.86,
+    "sat_fat_g": 2.66,
+    "cholesterol_mg": 4.15,
+    "sodium_mg": 352.19
+   },
+   "diet": "nonveg",
+   "flags": [],
+   "ref": "New Menu Gap Pizzas - TnC Range"
+  },
+  {
+   "name": "TnC Double Chicken Delight (8 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "46 g",
+   "per_serving": {
+    "energy_kcal": 128.1,
+    "carb_g": 13.43,
+    "protein_g": 6.51,
+    "fibre_g": 1.14,
+    "sugar_g": 1.25,
+    "fat_g": 5.62,
+    "sat_fat_g": 2.74,
+    "cholesterol_mg": 4.12,
+    "sodium_mg": 382.21
+   },
+   "diet": "nonveg",
+   "flags": [],
+   "ref": "New Menu Gap Pizzas - TnC Range"
+  },
+  {
+   "name": "Cheezy Cheese Veg Melts",
+   "category": "Melts",
+   "serving_unit": "piece",
+   "serving_size": "122 g",
+   "per_serving": {
+    "energy_kcal": 361.5,
+    "carb_g": 49.1,
+    "protein_g": 11.35,
+    "fibre_g": 3.85,
+    "fat_g": 13.3,
+    "sat_fat_g": 5.75,
+    "cholesterol_mg": 7.45,
+    "sodium_mg": 436.55
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "Melts"
+  },
+  {
+   "name": "Cheezy Cheese Chicken Melts",
+   "category": "Melts",
+   "serving_unit": "piece",
+   "serving_size": "130 g",
+   "per_serving": {
+    "energy_kcal": 349.0,
+    "carb_g": 43.05,
+    "protein_g": 12.85,
+    "fibre_g": 4.2,
+    "fat_g": 15.2,
+    "sat_fat_g": 5.2,
+    "cholesterol_mg": 8.05,
+    "sodium_mg": 512.1
+   },
+   "diet": "nonveg",
+   "flags": [],
+   "ref": "Melts"
+  },
+  {
+   "name": "Loaded Veggie BBQ Melts",
+   "category": "Melts",
+   "serving_unit": "piece",
+   "serving_size": "136 g",
+   "per_serving": {
+    "energy_kcal": 347.35,
+    "carb_g": 50.5,
+    "protein_g": 9.3,
+    "fibre_g": 4.5,
+    "sugar_g": 7.6,
+    "fat_g": 12.2,
+    "sat_fat_g": 4.5,
+    "cholesterol_mg": 8.2,
+    "sodium_mg": 531.0
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "Melts"
+  },
+  {
+   "name": "Loaded Chicken BBQ Melts",
+   "category": "Melts",
+   "serving_unit": "piece",
+   "serving_size": "147 g",
+   "per_serving": {
+    "energy_kcal": 485.25,
+    "carb_g": 64.9,
+    "protein_g": 16.3,
+    "fibre_g": 5.0,
+    "sugar_g": 8.2,
+    "fat_g": 17.85,
+    "sat_fat_g": 6.05,
+    "cholesterol_mg": 8.75,
+    "sodium_mg": 692.85
+   },
+   "diet": "nonveg",
+   "flags": [],
+   "ref": "Melts"
+  },
+  {
+   "name": "Royal Spice Paneer Melts",
+   "category": "Melts",
+   "serving_unit": "piece",
+   "serving_size": "127 g",
+   "per_serving": {
+    "energy_kcal": 348.85,
+    "carb_g": 38.85,
+    "protein_g": 14.35,
+    "fibre_g": 3.8,
+    "fat_g": 15.1,
+    "sat_fat_g": 7.8,
+    "cholesterol_mg": 8.65,
+    "sodium_mg": 561.9
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "Melts"
+  },
+  {
+   "name": "Kadhai Paneer Melts",
+   "category": "Melts",
+   "serving_unit": "piece",
+   "serving_size": "136 g",
+   "per_serving": {
+    "energy_kcal": 367.05,
+    "carb_g": 41.35,
+    "protein_g": 15.25,
+    "fibre_g": 3.25,
+    "fat_g": 15.65,
+    "sat_fat_g": 8.2,
+    "cholesterol_mg": 9.1,
+    "sodium_mg": 706.55
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "Melts"
+  },
+  {
+   "name": "Kadhai Chicken Melts",
+   "category": "Melts",
+   "serving_unit": "piece",
+   "serving_size": "140 g",
+   "per_serving": {
+    "energy_kcal": 463.1,
+    "carb_g": 61.9,
+    "protein_g": 15.95,
+    "fibre_g": 4.5,
+    "sugar_g": 7.4,
+    "fat_g": 16.85,
+    "sat_fat_g": 5.5,
+    "cholesterol_mg": 8.75,
+    "sodium_mg": 796.2
+   },
+   "diet": "nonveg",
+   "flags": [],
+   "ref": "Melts"
+  },
+  {
+   "name": "Royal Spice Chicken Melts",
+   "category": "Melts",
+   "serving_unit": "piece",
+   "serving_size": "142 g",
+   "per_serving": {
+    "energy_kcal": 475.5,
+    "carb_g": 63.9,
+    "protein_g": 16.3,
+    "fibre_g": 4.55,
+    "sugar_g": 7.25,
+    "fat_g": 17.2,
+    "sat_fat_g": 5.65,
+    "cholesterol_mg": 8.65,
+    "sodium_mg": 731.35
+   },
+   "diet": "nonveg",
+   "flags": [],
+   "ref": "Melts"
+  },
+  {
+   "name": "Classic Corn, Pan (4 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "62 g",
+   "per_serving": {
+    "energy_kcal": 197.68,
+    "carb_g": 26.48,
+    "protein_g": 4.3,
+    "fibre_g": 2.95,
+    "fat_g": 8.28,
+    "sat_fat_g": 1.43,
+    "sodium_mg": 398.9
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "Flavour Fun Pizza"
+  },
+  {
+   "name": "Classic Onion Capsicum, Pan (4 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "64 g",
+   "per_serving": {
+    "energy_kcal": 195.12,
+    "carb_g": 27.57,
+    "protein_g": 4.08,
+    "fibre_g": 2.27,
+    "fat_g": 7.6,
+    "sat_fat_g": 1.35,
+    "sodium_mg": 413.38
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "Flavour Fun Pizza"
+  },
+  {
+   "name": "Chatpata Chicken Feast, Pan (4 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "76 g",
+   "per_serving": {
+    "energy_kcal": 223.07,
+    "carb_g": 29.35,
+    "protein_g": 6.4,
+    "fibre_g": 1.82,
+    "fat_g": 8.9,
+    "sat_fat_g": 1.6,
+    "sodium_mg": 420.32
+   },
+   "diet": "nonveg",
+   "flags": [],
+   "ref": "Flavour Fun Pizza"
+  },
+  {
+   "name": "Classic Herbed Chicken & Capsicum, Pan (4 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "66 g",
+   "per_serving": {
+    "energy_kcal": 220.12,
+    "carb_g": 26.35,
+    "protein_g": 6.38,
+    "fibre_g": 1.98,
+    "fat_g": 9.9,
+    "sat_fat_g": 1.8,
+    "sodium_mg": 348.82
+   },
+   "diet": "nonveg",
+   "flags": [],
+   "ref": "Flavour Fun Pizza"
+  },
+  {
+   "name": "Cheesy Spicy Delight, Pan (4 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "60 g",
+   "per_serving": {
+    "energy_kcal": 220.3,
+    "carb_g": 25.23,
+    "protein_g": 7.83,
+    "fibre_g": 1.9,
+    "fat_g": 9.78,
+    "sat_fat_g": 2.3,
+    "sodium_mg": 603.58
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "Flavour Fun Pizza"
+  },
+  {
+   "name": "Spicy Sweet corn, Onion, Green Chilli, Pan (4 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "67 g",
+   "per_serving": {
+    "energy_kcal": 218.93,
+    "carb_g": 29.27,
+    "protein_g": 5.2,
+    "fibre_g": 2.0,
+    "fat_g": 9.0,
+    "sat_fat_g": 1.48,
+    "sodium_mg": 351.77
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "Flavour Fun Pizza"
+  },
+  {
+   "name": "Chatpata Tomato Onion & Chilli, Pan (4 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "66 g",
+   "per_serving": {
+    "energy_kcal": 218.25,
+    "carb_g": 28.65,
+    "protein_g": 4.97,
+    "fibre_g": 1.85,
+    "fat_g": 9.3,
+    "sat_fat_g": 1.52,
+    "sodium_mg": 359.73
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "Flavour Fun Pizza"
+  },
+  {
+   "name": "Chilli Paneer Sizzle, Pan (4 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "74 g",
+   "per_serving": {
+    "energy_kcal": 221.93,
+    "carb_g": 28.7,
+    "protein_g": 6.42,
+    "fibre_g": 5.45,
+    "fat_g": 9.05,
+    "sat_fat_g": 2.42,
+    "cholesterol_mg": 2.58,
+    "sodium_mg": 571.62
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "Flavour Fun Pizza"
+  },
+  {
+   "name": "Classic Chicken Pepperoni & Onion, Pan (4 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "64 g",
+   "per_serving": {
+    "energy_kcal": 212.6,
+    "carb_g": 28.45,
+    "protein_g": 4.65,
+    "fibre_g": 3.45,
+    "fat_g": 8.9,
+    "sat_fat_g": 1.6,
+    "cholesterol_mg": 2.77,
+    "sodium_mg": 467.73
+   },
+   "diet": "nonveg",
+   "flags": [],
+   "ref": "Flavour Fun Pizza"
+  },
+  {
+   "name": "Mexican Mango Habanero dip",
+   "category": "Triple Spice Range Dips",
+   "serving_unit": "serving",
+   "serving_size": "30 g",
+   "per_serving": {
+    "energy_kcal": 44.02,
+    "carb_g": 10.97,
+    "protein_g": 0.03,
+    "fibre_g": 0.28,
+    "sugar_g": 9.5,
+    "fat_g": 0.0,
+    "sat_fat_g": 0.0,
+    "sodium_mg": 450.0
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "Triple Spice Range Dips"
+  },
+  {
+   "name": "American Nashville dip",
+   "category": "Triple Spice Range Dips",
+   "serving_unit": "serving",
+   "serving_size": "30 g",
+   "per_serving": {
+    "energy_kcal": 55.95,
+    "carb_g": 10.35,
+    "protein_g": 0.27,
+    "fibre_g": 0.35,
+    "sugar_g": 8.88,
+    "fat_g": 1.5,
+    "sat_fat_g": 0.26,
+    "cholesterol_mg": 0.0,
+    "sodium_mg": 447.09
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "Triple Spice Range Dips"
+  },
+  {
+   "name": "Korean Red Chilli dip",
+   "category": "Triple Spice Range Dips",
+   "serving_unit": "serving",
+   "serving_size": "30 g",
+   "per_serving": {
+    "energy_kcal": 43.8,
+    "carb_g": 6.6,
+    "protein_g": 0.3,
+    "sugar_g": 6.3,
+    "fat_g": 1.8,
+    "sat_fat_g": 0.3,
+    "cholesterol_mg": 0.0,
+    "sodium_mg": 300.0
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "Triple Spice Range Dips"
+  },
+  {
+   "name": "Japanese Wasabi dip",
+   "category": "Triple Spice Range Dips",
+   "serving_unit": "serving",
+   "serving_size": "30 g",
+   "per_serving": {
+    "energy_kcal": 62.7,
+    "carb_g": 4.95,
+    "protein_g": 0.14,
+    "fibre_g": 0.12,
+    "sugar_g": 1.65,
+    "fat_g": 4.71,
+    "sat_fat_g": 0.72,
+    "cholesterol_mg": 0.0,
+    "sodium_mg": 248.4
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "Triple Spice Range Dips"
+  },
+  {
+   "name": "Spicy Korean Seasoning Hot Fries",
+   "category": "Triple Spice Range Fries",
+   "serving_unit": "serving",
+   "serving_size": "113 g",
+   "per_serving": {
+    "energy_kcal": 230.9,
+    "carb_g": 41.7,
+    "protein_g": 4.5,
+    "fibre_g": 5.0,
+    "sugar_g": 0.6,
+    "fat_g": 5.1,
+    "sat_fat_g": 2.3,
+    "sodium_mg": 1340.2
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "Triple Spice Range Fries"
+  },
+  {
+   "name": "Japanese Wasabi fries",
+   "category": "Triple Spice Range Fries",
+   "serving_unit": "serving",
+   "serving_size": "113 g",
+   "per_serving": {
+    "energy_kcal": 232.43,
+    "carb_g": 42.06,
+    "protein_g": 4.43,
+    "fibre_g": 5.06,
+    "sugar_g": 1.02,
+    "fat_g": 5.12,
+    "sat_fat_g": 2.31,
+    "sodium_mg": 1163.94
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "Triple Spice Range Fries"
+  },
+  {
+   "name": "Momo Dip",
+   "category": "Dips",
+   "serving_unit": "serving",
+   "serving_size": "15 g",
+   "per_serving": {
+    "energy_kcal": 17.6,
+    "carb_g": 2.5,
+    "protein_g": 0.4,
+    "sugar_g": 1.8,
+    "fat_g": 0.6,
+    "sat_fat_g": 0.2,
+    "sodium_mg": 155.7
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "Dips"
+  },
+  {
+   "name": "Veg Mayonnaise Dip",
+   "category": "Dips",
+   "serving_unit": "serving",
+   "serving_size": "15 g",
+   "per_serving": {
+    "energy_kcal": 55.4,
+    "carb_g": 1.9,
+    "protein_g": 0.1,
+    "sugar_g": 1.0,
+    "fat_g": 5.3,
+    "sat_fat_g": 0.9,
+    "cholesterol_mg": 0.0,
+    "sodium_mg": 106.6
+   },
+   "diet": "egg",
+   "flags": [],
+   "ref": "Dips"
+  },
+  {
+   "name": "Jalapeno Pepper Dip",
+   "category": "Dips",
+   "serving_unit": "serving",
+   "serving_size": "20 g",
+   "per_serving": {
+    "energy_kcal": 49.1,
+    "carb_g": 1.8,
+    "protein_g": 0.2,
+    "sugar_g": 0.7,
+    "fat_g": 4.6,
+    "sat_fat_g": 0.9,
+    "sodium_mg": 240.0
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "Dips"
+  },
+  {
+   "name": "Tomato Ketchup",
+   "category": "Dips",
+   "serving_unit": "serving",
+   "serving_size": "8 g",
+   "per_serving": {
+    "energy_kcal": 11.2,
+    "carb_g": 2.7,
+    "protein_g": 0.1,
+    "sugar_g": 1.8,
+    "fat_g": 0.0,
+    "sat_fat_g": 0.0,
+    "cholesterol_mg": 0.0,
+    "sodium_mg": 72.0
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "Dips"
+  },
+  {
+   "name": "Classic Bread Stix",
+   "category": "Garlic Breads",
+   "serving_unit": "serving",
+   "serving_size": "180 g",
+   "per_serving": {
+    "energy_kcal": 517.0,
+    "carb_g": 111.2,
+    "protein_g": 15.6,
+    "fibre_g": 4.4,
+    "sugar_g": 6.3,
+    "fat_g": 2.2,
+    "sat_fat_g": 0.4,
+    "sodium_mg": 949.3
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "Garlic Breads"
+  },
+  {
+   "name": "Loaded Bread Stix",
+   "category": "Garlic Breads",
+   "serving_unit": "serving",
+   "serving_size": "210 g",
+   "per_serving": {
+    "energy_kcal": 673.0,
+    "carb_g": 113.2,
+    "protein_g": 16.4,
+    "fibre_g": 4.4,
+    "sugar_g": 8.1,
+    "fat_g": 18.3,
+    "sat_fat_g": 3.2,
+    "sodium_mg": 1300.5
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "Garlic Breads"
+  },
+  {
+   "name": "Garlic Bread Cheese",
+   "category": "Garlic Breads",
+   "serving_unit": "serving",
+   "serving_size": "136 g",
+   "per_serving": {
+    "energy_kcal": 493.6,
+    "carb_g": 54.8,
+    "protein_g": 10.4,
+    "fibre_g": 4.1,
+    "sugar_g": 1.7,
+    "fat_g": 31.7,
+    "sat_fat_g": 26.7,
+    "sodium_mg": 1731.2
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "Garlic Breads"
+  },
+  {
+   "name": "Garlic Bread Spicy Supreme",
+   "category": "Garlic Breads",
+   "serving_unit": "piece",
+   "serving_size": "39 g",
+   "per_serving": {
+    "energy_kcal": 135.07,
+    "carb_g": 14.6,
+    "protein_g": 2.62,
+    "fibre_g": 1.35,
+    "sugar_g": 0.5,
+    "fat_g": 7.35,
+    "sat_fat_g": 5.0,
+    "cholesterol_mg": 4.53,
+    "sodium_mg": 443.75
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "Garlic Breads"
+  },
+  {
+   "name": "Exotica Veggie Garlic Bread",
+   "category": "Garlic Breads",
+   "serving_unit": "piece",
+   "serving_size": "44 g",
+   "per_serving": {
+    "energy_kcal": 195.4,
+    "carb_g": 18.0,
+    "protein_g": 3.35,
+    "fibre_g": 1.55,
+    "fat_g": 12.22,
+    "sat_fat_g": 6.1,
+    "cholesterol_mg": 8.68,
+    "sodium_mg": 383.32
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "Garlic Breads"
+  },
+  {
+   "name": "Kadhai Garlic Bread",
+   "category": "Garlic Breads",
+   "serving_unit": "piece",
+   "serving_size": "50 g",
+   "per_serving": {
+    "energy_kcal": 185.18,
+    "carb_g": 19.4,
+    "protein_g": 3.62,
+    "fibre_g": 1.73,
+    "sugar_g": 2.3,
+    "fat_g": 10.35,
+    "sat_fat_g": 6.92,
+    "cholesterol_mg": 6.08,
+    "sodium_mg": 331.3
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "Garlic Breads"
+  },
+  {
+   "name": "Southern Fiery Garlic Bread",
+   "category": "Garlic Breads",
+   "serving_unit": "piece",
+   "serving_size": "48 g",
+   "per_serving": {
+    "energy_kcal": 183.15,
+    "carb_g": 19.52,
+    "protein_g": 3.4,
+    "fibre_g": 1.68,
+    "sugar_g": 1.45,
+    "fat_g": 10.18,
+    "sat_fat_g": 6.83,
+    "cholesterol_mg": 5.9,
+    "sodium_mg": 340.3
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "Garlic Breads"
+  },
+  {
+   "name": "Indi Garlic Bread Combo",
+   "category": "Garlic Breads",
+   "serving_unit": "piece",
+   "serving_size": "48 g",
+   "per_serving": {
+    "energy_kcal": 184.18,
+    "carb_g": 19.48,
+    "protein_g": 3.5,
+    "fibre_g": 1.7,
+    "sugar_g": 1.88,
+    "fat_g": 10.25,
+    "sat_fat_g": 6.88,
+    "cholesterol_mg": 6.0,
+    "sodium_mg": 335.8
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "Garlic Breads"
+  },
+  {
+   "name": "Masala Keema Garlic Bread",
+   "category": "Garlic Breads",
+   "serving_unit": "piece",
+   "serving_size": "46 g",
+   "per_serving": {
+    "energy_kcal": 203.4,
+    "carb_g": 17.65,
+    "protein_g": 4.45,
+    "fibre_g": 0.68,
+    "fat_g": 12.78,
+    "sat_fat_g": 6.12,
+    "cholesterol_mg": 9.93,
+    "sodium_mg": 402.43
+   },
+   "diet": "nonveg",
+   "flags": [],
+   "ref": "Garlic Breads"
+  },
+  {
+   "name": "Kadhai Keema Garlic Bread",
+   "category": "Garlic Breads",
+   "serving_unit": "piece",
+   "serving_size": "58 g",
+   "per_serving": {
+    "energy_kcal": 251.97,
+    "carb_g": 23.45,
+    "protein_g": 5.62,
+    "fibre_g": 0.82,
+    "sugar_g": 2.25,
+    "fat_g": 15.07,
+    "sat_fat_g": 6.03,
+    "cholesterol_mg": 13.22,
+    "sodium_mg": 385.3
+   },
+   "diet": "nonveg",
+   "flags": [],
+   "ref": "Garlic Breads"
+  },
+  {
+   "name": "Southern Fiery Keema Garlic Bread",
+   "category": "Garlic Breads",
+   "serving_unit": "piece",
+   "serving_size": "56 g",
+   "per_serving": {
+    "energy_kcal": 242.28,
+    "carb_g": 22.52,
+    "protein_g": 5.45,
+    "fibre_g": 0.78,
+    "sugar_g": 1.45,
+    "fat_g": 14.47,
+    "sat_fat_g": 6.33,
+    "cholesterol_mg": 13.25,
+    "sodium_mg": 270.6
+   },
+   "diet": "nonveg",
+   "flags": [],
+   "ref": "Garlic Breads"
+  },
+  {
+   "name": "Indi Keema Garlic Bread Combo",
+   "category": "Garlic Breads",
+   "serving_unit": "piece",
+   "serving_size": "56 g",
+   "per_serving": {
+    "energy_kcal": 247.12,
+    "carb_g": 23.0,
+    "protein_g": 5.55,
+    "fibre_g": 0.8,
+    "sugar_g": 1.85,
+    "fat_g": 14.78,
+    "sat_fat_g": 6.17,
+    "cholesterol_mg": 13.25,
+    "sodium_mg": 327.95
+   },
+   "diet": "nonveg",
+   "flags": [],
+   "ref": "Garlic Breads"
+  },
+  {
+   "name": "BBQ Chicken Wings",
+   "category": "Chicken Wings",
+   "serving_unit": "piece",
+   "serving_size": "39 g",
+   "per_serving": {
+    "energy_kcal": 80.5,
+    "carb_g": 4.03,
+    "protein_g": 7.58,
+    "fibre_g": 1.1,
+    "sugar_g": 2.25,
+    "fat_g": 3.83,
+    "sat_fat_g": 1.02,
+    "cholesterol_mg": 40.83,
+    "sodium_mg": 652.05
+   },
+   "diet": "nonveg",
+   "flags": [],
+   "ref": "Chicken Wings"
+  },
+  {
+   "name": "Baked Royal Spice Chicken Wings",
+   "category": "Chicken Wings",
+   "serving_unit": "piece",
+   "serving_size": "40 g",
+   "per_serving": {
+    "energy_kcal": 90.38,
+    "carb_g": 4.18,
+    "protein_g": 7.75,
+    "fibre_g": 0.95,
+    "sugar_g": 1.75,
+    "fat_g": 4.73,
+    "sat_fat_g": 1.35,
+    "cholesterol_mg": 47.05,
+    "sodium_mg": 397.42
+   },
+   "diet": "nonveg",
+   "flags": [],
+   "ref": "Chicken Wings"
+  },
+  {
+   "name": "Baked Southern Fiery Chicken Wings",
+   "category": "Chicken Wings",
+   "serving_unit": "piece",
+   "serving_size": "38 g",
+   "per_serving": {
+    "energy_kcal": 86.82,
+    "carb_g": 4.0,
+    "protein_g": 7.4,
+    "fibre_g": 0.97,
+    "sugar_g": 1.58,
+    "fat_g": 4.58,
+    "sat_fat_g": 1.3,
+    "cholesterol_mg": 46.58,
+    "sodium_mg": 471.67
+   },
+   "diet": "nonveg",
+   "flags": [],
+   "ref": "Chicken Wings"
+  },
+  {
+   "name": "Makhni Chicken Wings",
+   "category": "Chicken Wings",
+   "serving_unit": "piece",
+   "serving_size": "38 g",
+   "per_serving": {
+    "energy_kcal": 70.16,
+    "carb_g": 3.99,
+    "protein_g": 6.33,
+    "fibre_g": 0.74,
+    "sugar_g": 0.5,
+    "fat_g": 4.28,
+    "sat_fat_g": 1.16,
+    "cholesterol_mg": 38.02,
+    "sodium_mg": 470.2
+   },
+   "diet": "nonveg",
+   "flags": [],
+   "ref": "Chicken Wings"
+  },
+  {
+   "name": "Schezwan Chicken Wings",
+   "category": "Chicken Wings",
+   "serving_unit": "piece",
+   "serving_size": "38 g",
+   "per_serving": {
+    "energy_kcal": 67.1,
+    "carb_g": 3.87,
+    "protein_g": 6.26,
+    "fibre_g": 0.74,
+    "sugar_g": 0.68,
+    "fat_g": 4.02,
+    "sat_fat_g": 1.18,
+    "cholesterol_mg": 38.02,
+    "sodium_mg": 486.59
+   },
+   "diet": "nonveg",
+   "flags": [],
+   "ref": "Chicken Wings"
+  },
+  {
+   "name": "Mexican Mango Habanero Chicken wings",
+   "category": "Chicken Wings Spicy Range",
+   "serving_unit": "piece",
+   "serving_size": "38 g",
+   "per_serving": {
+    "energy_kcal": 69.8,
+    "carb_g": 5.22,
+    "protein_g": 6.12,
+    "fibre_g": 0.8,
+    "sugar_g": 1.98,
+    "fat_g": 3.77,
+    "sat_fat_g": 1.12,
+    "sodium_mg": 523.25
+   },
+   "diet": "nonveg",
+   "flags": [],
+   "ref": "Chicken Wings Spicy Range"
+  },
+  {
+   "name": "American Nashville Chicken Wings",
+   "category": "Chicken Wings Spicy Range",
+   "serving_unit": "piece",
+   "serving_size": "38 g",
+   "per_serving": {
+    "energy_kcal": 72.3,
+    "carb_g": 5.1,
+    "protein_g": 6.17,
+    "fibre_g": 0.8,
+    "sugar_g": 1.85,
+    "fat_g": 4.1,
+    "sat_fat_g": 1.18,
+    "cholesterol_mg": 38.02,
+    "sodium_mg": 522.65
+   },
+   "diet": "nonveg",
+   "flags": [],
+   "ref": "Chicken Wings Spicy Range"
+  },
+  {
+   "name": "Korean Red Chilli Chicken Wings",
+   "category": "Chicken Wings Spicy Range",
+   "serving_unit": "piece",
+   "serving_size": "38 g",
+   "per_serving": {
+    "energy_kcal": 69.78,
+    "carb_g": 4.33,
+    "protein_g": 6.17,
+    "sugar_g": 1.32,
+    "fat_g": 4.15,
+    "sat_fat_g": 1.18,
+    "cholesterol_mg": 38.02,
+    "sodium_mg": 492.0
+   },
+   "diet": "nonveg",
+   "flags": [],
+   "ref": "Chicken Wings Spicy Range"
+  },
+  {
+   "name": "Japanese Wasabi Chicken Wings",
+   "category": "Chicken Wings Spicy Range",
+   "serving_unit": "piece",
+   "serving_size": "38 g",
+   "per_serving": {
+    "energy_kcal": 73.7,
+    "carb_g": 3.98,
+    "protein_g": 6.15,
+    "fibre_g": 0.75,
+    "sugar_g": 0.35,
+    "fat_g": 4.75,
+    "sat_fat_g": 1.27,
+    "cholesterol_mg": 38.02,
+    "sodium_mg": 481.25
+   },
+   "diet": "nonveg",
+   "flags": [],
+   "ref": "Chicken Wings Spicy Range"
+  },
+  {
+   "name": "Italian Red Sauce Pasta",
+   "category": "Pastas",
+   "serving_unit": "serving",
+   "serving_size": "339 g",
+   "per_serving": {
+    "energy_kcal": 449.9,
+    "carb_g": 70.4,
+    "protein_g": 15.0,
+    "fibre_g": 8.9,
+    "sugar_g": 17.8,
+    "fat_g": 14.0,
+    "sat_fat_g": 3.5,
+    "cholesterol_mg": 32.9,
+    "sodium_mg": 1758.5
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "Pastas"
+  },
+  {
+   "name": "Classic White Sauce Pasta",
+   "category": "Pastas",
+   "serving_unit": "serving",
+   "serving_size": "343 g",
+   "per_serving": {
+    "energy_kcal": 601.6,
+    "carb_g": 73.5,
+    "protein_g": 17.5,
+    "fibre_g": 10.2,
+    "sugar_g": 17.8,
+    "fat_g": 28.6,
+    "sat_fat_g": 18.4,
+    "cholesterol_mg": 79.1,
+    "sodium_mg": 1753.7
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "Pastas"
+  },
+  {
+   "name": "Creamy Tomato Mix Sauce Pasta",
+   "category": "Pastas",
+   "serving_unit": "serving",
+   "serving_size": "348 g",
+   "per_serving": {
+    "energy_kcal": 485.9,
+    "carb_g": 69.7,
+    "protein_g": 14.7,
+    "fibre_g": 11.0,
+    "sugar_g": 17.5,
+    "fat_g": 18.9,
+    "sat_fat_g": 9.0,
+    "cholesterol_mg": 50.1,
+    "sodium_mg": 1957.8
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "Pastas"
+  },
+  {
+   "name": "Non-Veg Classic White Sauce Pasta",
+   "category": "Pastas",
+   "serving_unit": "serving",
+   "serving_size": "375 g",
+   "per_serving": {
+    "energy_kcal": 666.5,
+    "carb_g": 74.4,
+    "protein_g": 23.2,
+    "fibre_g": 12.0,
+    "sugar_g": 19.5,
+    "fat_g": 33.4,
+    "sat_fat_g": 19.7,
+    "cholesterol_mg": 159.0,
+    "sodium_mg": 2059.1
+   },
+   "diet": "nonveg",
+   "flags": [],
+   "ref": "Pastas"
+  },
+  {
+   "name": "Non- Veg Creamy Tomato Mix Sauce Pasta 373",
+   "category": "Pastas",
+   "serving_unit": "serving",
+   "serving_size": "1 g",
+   "per_serving": {
+    "energy_kcal": 544.6,
+    "carb_g": 75.1,
+    "protein_g": 19.0,
+    "fibre_g": 12.7,
+    "sugar_g": 18.2,
+    "fat_g": 21.7,
+    "sat_fat_g": 10.9,
+    "cholesterol_mg": 97.4,
+    "sodium_mg": 1876.8
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "Pastas"
+  },
+  {
+   "name": "Jalapeno Poppers",
+   "category": "Sides",
+   "serving_unit": "piece",
+   "serving_size": "22 g",
+   "per_serving": {
+    "energy_kcal": 56.33,
+    "carb_g": 6.78,
+    "protein_g": 1.52,
+    "sugar_g": 0.85,
+    "fat_g": 2.58,
+    "sat_fat_g": 1.5,
+    "cholesterol_mg": 5.17,
+    "sodium_mg": 144.12
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "Sides"
+  },
+  {
+   "name": "Sprinkled Fries",
+   "category": "Sides",
+   "serving_unit": "serving",
+   "serving_size": "110 g",
+   "per_serving": {
+    "energy_kcal": 224.2,
+    "carb_g": 40.4,
+    "protein_g": 4.3,
+    "fibre_g": 5.0,
+    "fat_g": 5.0,
+    "sat_fat_g": 2.3,
+    "sodium_mg": 876.0
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "Sides"
+  },
+  {
+   "name": "Cheezy Sprinkled Fries",
+   "category": "Sides",
+   "serving_unit": "serving",
+   "serving_size": "110 g",
+   "per_serving": {
+    "energy_kcal": 233.9,
+    "carb_g": 40.0,
+    "protein_g": 4.4,
+    "fibre_g": 4.3,
+    "fat_g": 6.3,
+    "sat_fat_g": 3.1,
+    "cholesterol_mg": 6.8,
+    "sodium_mg": 293.4
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "Sides"
+  },
+  {
+   "name": "Baked Cheesy Momo (Veg)",
+   "category": "Sides",
+   "serving_unit": "serving",
+   "serving_size": "161 g",
+   "per_serving": {
+    "energy_kcal": 317.2,
+    "carb_g": 39.5,
+    "protein_g": 10.9,
+    "fibre_g": 5.0,
+    "sugar_g": 5.6,
+    "fat_g": 12.8,
+    "sat_fat_g": 7.9,
+    "sodium_mg": 1150.7
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "Sides"
+  },
+  {
+   "name": "Cheesy Pocket",
+   "category": "Sides",
+   "serving_unit": "piece",
+   "serving_size": "138 g",
+   "per_serving": {
+    "energy_kcal": 402.5,
+    "carb_g": 56.0,
+    "protein_g": 12.2,
+    "fibre_g": 4.05,
+    "fat_g": 15.3,
+    "sat_fat_g": 6.9,
+    "cholesterol_mg": 11.85,
+    "sodium_mg": 1005.2
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "Sides"
+  },
+  {
+   "name": "Choco Vanilla Romance",
+   "category": "Dessert",
+   "serving_unit": "serving",
+   "serving_size": "55 g",
+   "per_serving": {
+    "energy_kcal": 90.5,
+    "carb_g": 17.9,
+    "protein_g": 1.4,
+    "fibre_g": 0.4,
+    "sugar_g": 13.5,
+    "fat_g": 1.6,
+    "sat_fat_g": 1.2,
+    "cholesterol_mg": 3.3,
+    "sodium_mg": 40.3
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "Dessert"
+  },
+  {
+   "name": "Ebony & Ivory With Brownie",
+   "category": "Dessert",
+   "serving_unit": "serving",
+   "serving_size": "118 g",
+   "per_serving": {
+    "energy_kcal": 380.6,
+    "carb_g": 51.3,
+    "protein_g": 5.1,
+    "fibre_g": 1.5,
+    "sugar_g": 31.3,
+    "fat_g": 17.2,
+    "sat_fat_g": 11.3,
+    "cholesterol_mg": 13.8,
+    "sodium_mg": 153.3
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "Dessert"
+  },
+  {
+   "name": "Brow-wow-nie",
+   "category": "Dessert",
+   "serving_unit": "serving",
+   "serving_size": "55 g",
+   "per_serving": {
+    "energy_kcal": 272.7,
+    "carb_g": 38.1,
+    "protein_g": 3.3,
+    "fibre_g": 1.3,
+    "sugar_g": 22.2,
+    "fat_g": 11.9,
+    "sat_fat_g": 7.9,
+    "sodium_mg": 95.4
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "Dessert"
+  },
+  {
+   "name": "Lemon Mint Mojito (220 ml)",
+   "category": "Beverages",
+   "serving_unit": "glass",
+   "serving_size": "220 ml",
+   "per_serving": {
+    "energy_kcal": 132.8,
+    "carb_g": 33.2,
+    "sugar_g": 31.3,
+    "sodium_mg": 16.9
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "Beverages"
+  },
+  {
+   "name": "Fresh Lime Soda (Sweet) (215 ml)",
+   "category": "Beverages",
+   "serving_unit": "glass",
+   "serving_size": "215 ml",
+   "per_serving": {
+    "energy_kcal": 43.0,
+    "carb_g": 10.8,
+    "sugar_g": 13.0
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "Beverages"
+  },
+  {
+   "name": "Fresh Lime Soda (Sweet & Salty) (216 ml)",
+   "category": "Beverages",
+   "serving_unit": "glass",
+   "serving_size": "216 ml",
+   "per_serving": {
+    "energy_kcal": 43.0,
+    "carb_g": 10.8,
+    "sugar_g": 13.0,
+    "sodium_mg": 1290.0
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "Beverages"
+  },
+  {
+   "name": "Masala Pop (280 ml)",
+   "category": "Beverages",
+   "serving_unit": "glass",
+   "serving_size": "280 ml",
+   "per_serving": {
+    "energy_kcal": 217.6,
+    "carb_g": 53.3,
+    "sugar_g": 51.4,
+    "sodium_mg": 234.8
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "Beverages"
+  },
+  {
+   "name": "Masala Lemonade (250 ml)",
+   "category": "Beverages",
+   "serving_unit": "glass",
+   "serving_size": "250 ml",
+   "per_serving": {
+    "energy_kcal": 134.0,
+    "carb_g": 32.2,
+    "protein_g": 0.2,
+    "fibre_g": 0.1,
+    "sugar_g": 31.6,
+    "fat_g": 0.4,
+    "sat_fat_g": 0.0,
+    "sodium_mg": 450.1
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "Beverages"
+  },
+  {
+   "name": "Masal Pepsi (250 ml)",
+   "category": "Beverages",
+   "serving_unit": "glass",
+   "serving_size": "250 ml",
+   "per_serving": {
+    "energy_kcal": 126.5,
+    "carb_g": 30.9,
+    "protein_g": 0.2,
+    "fibre_g": 0.1,
+    "sugar_g": 30.3,
+    "fat_g": 0.4,
+    "sat_fat_g": 0.0,
+    "sodium_mg": 412.6
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "Beverages"
+  },
+  {
+   "name": "Masala Mirinda (250 ml)",
+   "category": "Beverages",
+   "serving_unit": "glass",
+   "serving_size": "250 ml",
+   "per_serving": {
+    "energy_kcal": 156.5,
+    "carb_g": 38.2,
+    "protein_g": 0.2,
+    "fibre_g": 0.1,
+    "sugar_g": 37.6,
+    "fat_g": 0.4,
+    "sat_fat_g": 0.0,
+    "sodium_mg": 420.0
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "Beverages"
+  },
+  {
+   "name": "Pepsi (250 ml)",
+   "category": "Beverages",
+   "serving_unit": "glass",
+   "serving_size": "250 ml",
+   "per_serving": {
+    "energy_kcal": 107.5,
+    "carb_g": 27.3,
+    "sugar_g": 27.3,
+    "sodium_mg": 7.5
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "Beverages"
+  },
+  {
+   "name": "Mirinda (250 ml)",
+   "category": "Beverages",
+   "serving_unit": "glass",
+   "serving_size": "250 ml",
+   "per_serving": {
+    "energy_kcal": 137.5,
+    "carb_g": 34.5,
+    "sugar_g": 34.5,
+    "sodium_mg": 15.0
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "Beverages"
+  },
+  {
+   "name": "Pepsi Black (250 ml)",
+   "category": "Beverages",
+   "serving_unit": "glass",
+   "serving_size": "250 ml",
+   "per_serving": {
+    "energy_kcal": 0.0,
+    "sodium_mg": 15.0,
+    "carb_g": 0.0
+   },
+   "diet": "veg",
+   "flags": [
+    "carbs_by_difference"
+   ],
+   "ref": "Beverages"
+  },
+  {
+   "name": "Masala Lemonade with 7UP Zero Sugar (250 ml)",
+   "category": "Beverages",
+   "serving_unit": "glass",
+   "serving_size": "250 ml",
+   "per_serving": {
+    "energy_kcal": 22.0,
+    "carb_g": 3.7,
+    "protein_g": 0.2,
+    "sugar_g": 3.1,
+    "fat_g": 0.4,
+    "sat_fat_g": 0.0,
+    "sodium_mg": 405.1
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "Beverages"
+  },
+  {
+   "name": "Cappuccino (185 ml)",
+   "category": "Beverages",
+   "serving_unit": "glass",
+   "serving_size": "185 ml",
+   "per_serving": {
+    "energy_kcal": 84.0,
+    "carb_g": 13.0,
+    "protein_g": 5.0,
+    "sugar_g": 10.0,
+    "fat_g": 1.0,
+    "sat_fat_g": 1.0,
+    "cholesterol_mg": 4.0,
+    "sodium_mg": 97.0
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "Beverages"
+  },
+  {
+   "name": "Hot Chocolate (202 ml)",
+   "category": "Beverages",
+   "serving_unit": "glass",
+   "serving_size": "202 ml",
+   "per_serving": {
+    "energy_kcal": 134.0,
+    "carb_g": 25.0,
+    "protein_g": 4.0,
+    "sugar_g": 22.0,
+    "fat_g": 1.0,
+    "sat_fat_g": 1.0,
+    "cholesterol_mg": 4.0,
+    "sodium_mg": 91.0
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "Beverages"
+  },
+  {
+   "name": "Masala Chai (194 ml)",
+   "category": "Beverages",
+   "serving_unit": "glass",
+   "serving_size": "194 ml",
+   "per_serving": {
+    "energy_kcal": 85.0,
+    "carb_g": 16.0,
+    "protein_g": 2.0,
+    "sugar_g": 14.0,
+    "fat_g": 1.0,
+    "sat_fat_g": 1.0,
+    "cholesterol_mg": 5.0,
+    "sodium_mg": 22.0
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "Beverages"
+  },
+  {
+   "name": "Cold Coffee (235 ml)",
+   "category": "Beverages",
+   "serving_unit": "glass",
+   "serving_size": "235 ml",
+   "per_serving": {
+    "energy_kcal": 136.0,
+    "carb_g": 24.0,
+    "protein_g": 5.0,
+    "sugar_g": 22.0,
+    "fat_g": 2.0,
+    "sat_fat_g": 2.0,
+    "cholesterol_mg": 4.0,
+    "sodium_mg": 61.0
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "Beverages"
+  },
+  {
+   "name": "Cold Chocolate (245 ml)",
+   "category": "Beverages",
+   "serving_unit": "glass",
+   "serving_size": "245 ml",
+   "per_serving": {
+    "energy_kcal": 140.0,
+    "carb_g": 27.0,
+    "protein_g": 4.0,
+    "sugar_g": 24.0,
+    "fat_g": 1.0,
+    "sat_fat_g": 1.0,
+    "cholesterol_mg": 4.0,
+    "sodium_mg": 86.0
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "Beverages"
+  },
+  {
+   "name": "Frappe Mocha (243 ml)",
+   "category": "Beverages",
+   "serving_unit": "glass",
+   "serving_size": "243 ml",
+   "per_serving": {
+    "energy_kcal": 163.0,
+    "carb_g": 29.0,
+    "protein_g": 6.0,
+    "sugar_g": 26.0,
+    "fat_g": 3.0,
+    "sat_fat_g": 2.0,
+    "cholesterol_mg": 5.0,
+    "sodium_mg": 76.0
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "Beverages"
+  },
+  {
+   "name": "Masala Guava Syrup (250 ml)",
+   "category": "Beverages",
+   "serving_unit": "glass",
+   "serving_size": "250 ml",
+   "per_serving": {
+    "energy_kcal": 187.8,
+    "carb_g": 46.5,
+    "protein_g": 0.5,
+    "sugar_g": 34.0,
+    "sodium_mg": 491.3
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "Beverages"
+  },
+  {
+   "name": "Desi Paneer Hand Stretched with WCD (6 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "51 g",
+   "per_serving": {
+    "energy_kcal": 142.75,
+    "carb_g": 14.12,
+    "protein_g": 5.6,
+    "fibre_g": 1.85,
+    "fat_g": 7.45,
+    "sat_fat_g": 3.38,
+    "cholesterol_mg": 7.55,
+    "sodium_mg": 393.78
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "Golden Hand Stretched Pizzas"
+  },
+  {
+   "name": "Veggie lover Hand Stretched with WCD (6 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "51 g",
+   "per_serving": {
+    "energy_kcal": 118.43,
+    "carb_g": 15.05,
+    "protein_g": 4.17,
+    "fibre_g": 1.93,
+    "fat_g": 5.03,
+    "sat_fat_g": 2.03,
+    "cholesterol_mg": 4.22,
+    "sodium_mg": 386.83
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "Golden Hand Stretched Pizzas"
+  },
+  {
+   "name": "Spicy Tikka Hand Stretchedwith WCD, Hand Stretched (6 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "51 g",
+   "per_serving": {
+    "energy_kcal": 131.07,
+    "carb_g": 15.7,
+    "protein_g": 6.28,
+    "fibre_g": 2.08,
+    "fat_g": 5.22,
+    "sat_fat_g": 2.03,
+    "cholesterol_mg": 11.15,
+    "sodium_mg": 384.25
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "Golden Hand Stretched Pizzas"
+  },
+  {
+   "name": "Stretched With WCD, Hand Stretched (6 slices per pizza)",
+   "category": "Pizza",
+   "serving_unit": "slice",
+   "serving_size": "52 g",
+   "per_serving": {
+    "energy_kcal": 138.9,
+    "carb_g": 14.98,
+    "protein_g": 6.08,
+    "fibre_g": 1.75,
+    "fat_g": 6.43,
+    "sat_fat_g": 2.52,
+    "cholesterol_mg": 15.77,
+    "sodium_mg": 379.55
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "Golden Hand Stretched Pizzas"
+  }
+ ],
+ "not_included": [
+  "Chicken Tikka Supreme Pizza (Large): energy disagrees with its macros in the source",
+  "Ultimate Tandoori Veggie Pizza: energy disagrees with its macros in the source",
+  "Wasabi + Korean Red Chilli: 3-in-1 combo whose name wraps across lines in the source",
+  "Japanese Wasabi (Spicy Range Pizzas): listed twice; the booklet tells them apart only by a veg/non-veg symbol",
+  "Wasabi + American Nashville: 3-in-1 combo whose name wraps across lines in the source",
+  "Chilli + American Nashville: 3-in-1 combo whose name wraps across lines in the source",
+  "Wasabi + Korean Red Chilli: 3-in-1 combo whose name wraps across lines in the source",
+  "Japanese Wasabi (Spicy Range Pizzas): listed twice; the booklet tells them apart only by a veg/non-veg symbol",
+  "Wasabi + American Nashville: 3-in-1 combo whose name wraps across lines in the source",
+  "Wasabi + Korean Red Chilli: 3-in-1 combo whose name wraps across lines in the source",
+  "Japanese Wasabi (Spicy Range Pizzas): listed twice; the booklet tells them apart only by a veg/non-veg symbol",
+  "Wasabi + American Nashville: 3-in-1 combo whose name wraps across lines in the source",
+  "Chilli + American Nashville: 3-in-1 combo whose name wraps across lines in the source",
+  "Wasabi + Korean Red Chilli: 3-in-1 combo whose name wraps across lines in the source",
+  "Japanese Wasabi (Spicy Range Pizzas): listed twice; the booklet tells them apart only by a veg/non-veg symbol",
+  "Wasabi + American Nashville: 3-in-1 combo whose name wraps across lines in the source",
+  "Double Chicken Delight (Personal) (New Menu Gap Pizzas - Pan Pizzas): listed twice; the booklet tells them apart only by a veg/non-veg symbol",
+  "Double Chicken Delight (Personal) (New Menu Gap Pizzas - Pan Pizzas): listed twice; the booklet tells them apart only by a veg/non-veg symbol",
+  "Spicy Baked Chicken Wing: energy disagrees with its macros in the source",
+  "Spicy Baked Chicken Wings: energy disagrees with its macros in the source",
+  "Spicy Baked Chicken Wings: energy disagrees with its macros in the source",
+  "Baked Cheesy Momo (Non Veg): energy disagrees with its macros in the source",
+  "Choco Volcano: energy disagrees with its macros in the source",
+  "Fresh Lime Soda (Salty): energy disagrees with its macros in the source",
+  "Pepsi Black 330 ml: inconsistent with the 250 ml row of the same drink",
+  "Mirinda 330 ml: inconsistent with the 250 ml row of the same drink",
+  "Stuffed Ultimate Cheese (Medium): crust add-on, not a dish",
+  "Ultimate Cheese (Medium): crust add-on, not a dish",
+  "Ultimate Cheese (Personal): crust add-on, not a dish",
+  "Stuff Crust Pizza Chicken Seekh Kebab (Medium): crust add-on, not a dish",
+  "Stuff Crust Pizza Chicken Seekh Kebab (Personal): crust add-on, not a dish"
+ ]
+}

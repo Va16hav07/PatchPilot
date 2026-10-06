@@ -16,7 +16,7 @@ router = APIRouter(prefix="/api/foods", tags=["foods"])
 
 def base_nutrients(food: dict) -> tuple[str, dict]:
     if food["kind"] == "ingredient":
-        return "100 g", food["per_100g"]
+        return ("100 ml" if food.get("group") == "Beverages" else "100 g"), food["per_100g"]
     return f"1 {food['serving']['unit']}", food["serving"]["nutrients"]
 
 
@@ -83,6 +83,8 @@ async def get_food(food_id: str, user: dict = Depends(current_user), db: AsyncDa
         added_fat_g=serving.get("added_fat_g"),
         ingredients=food.get("ingredients"),
         derived_from=food.get("recipe_source") if food.get("derived_from") else None,
+        source_note=food.get("source_note"),
+        serving_size=serving.get("size"),
         quality_flags=food.get("quality_flags", []),
     )
 

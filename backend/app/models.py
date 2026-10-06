@@ -123,4 +123,6 @@ class FoodDetail(FoodSummary):
     added_fat_g: float | None = None
     ingredients: list[dict] | None = None
     derived_from: str | None = None  # curated dishes: how they were made from an INDB recipe
+    source_note: str | None = None  # brand foods: the official document the values come from
+    serving_size: str | None = None  # brand foods: weight or volume of one serving
     quality_flags: list[str]

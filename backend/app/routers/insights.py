@@ -151,7 +151,8 @@ async def _suggest(db, user: dict, keys_targets: list[tuple[str, str, str, float
         return []
     # Unknown diet: suggest vegetarian food only, which suits everyone.
     diet = (user.get("profile") or {}).get("diet") or "vegetarian"
-    query = {"quarantined": False, **visible(user), **allowed_query(diet)}
+    # Brand fast food publishes only partial nutrients, and is not what we suggest.
+    query = {"quarantined": False, "quality_flags": {"$ne": "partial_nutrients"}, **visible(user), **allowed_query(diet)}
     projection = {"name": 1, "kind": 1, "group": 1, "source": 1, "source_code": 1, "owner_id": 1,
                   "per_100g": 1, "serving": 1, "density_g_per_ml": 1}
     foods = await db.foods.find(query, projection).to_list()

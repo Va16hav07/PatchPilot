@@ -18,7 +18,8 @@ from pymongo import ReplaceOne
 
 from app import db as dbmod
 from app.config import get_settings
-from app.importers import curated, ifct, indb
+from app import search_text
+from app.importers import brands, curated, ifct, indb
 
 ROOT = Path(__file__).resolve().parent.parent
 RAW = ROOT / "data" / "raw"
@@ -47,7 +48,10 @@ def load_all() -> list[dict]:
     with open(ifct_csv, encoding="utf-8") as fh:
         foods = ifct.load(fh)
     dishes = indb.build(sheet(paths["INDB.xlsx"]), sheet(paths["recipes.xlsx"]), sheet(paths["recipes_servingsize.xlsx"]))
-    return curated.apply(foods + dishes)
+    docs = curated.apply(foods + dishes) + brands.load()
+    for d in docs:
+        d["search_key"] = search_text.food_key(d)
+    return docs
 
 
 def write_report(docs: list[dict]) -> None:
@@ -84,7 +88,12 @@ async def upsert(docs: list[dict]) -> None:
     try:
         await dbmod.ensure_indexes(db)
         result = await db.foods.bulk_write([ReplaceOne({"_id": d["_id"]}, d, upsert=True) for d in docs])
-        print(f"foods: {result.upserted_count} inserted, {result.modified_count} updated")
+        # Shared foods that were renamed or dropped from a source. Users' recipes have no
+        # such prefix and are never touched; past log entries keep their own snapshot.
+        stale = await db.foods.delete_many({
+            "_id": {"$regex": "^(ifct|indb|usda|curated|brand):", "$nin": [d["_id"] for d in docs]},
+        })
+        print(f"foods: {result.upserted_count} inserted, {result.modified_count} updated, {stale.deleted_count} removed")
     finally:
         await dbmod.close()
 

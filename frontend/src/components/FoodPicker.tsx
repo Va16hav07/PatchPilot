@@ -5,7 +5,8 @@ import type { FoodSummary } from '../types'
 import Icon from './Icon'
 
 export function SourceTag({ source, kind }: { source: string; kind: string }) {
-  return <span className={`tag${kind === 'dish' || source === 'MY_RECIPE' ? ' green' : ''}`}>{SOURCE_LABEL[source] ?? source}</span>
+  const brand = !(source in SOURCE_LABEL)
+  return <span className={`tag${(kind === 'dish' && !brand) || source === 'MY_RECIPE' ? ' green' : ''}`}>{SOURCE_LABEL[source] ?? source}</span>
 }
 
 export function FoodRow({ food, onClick }: { food: FoodSummary; onClick: () => void }) {
@@ -71,7 +72,13 @@ export default function FoodPicker({
         {q && <button type="button" className="icon-btn" aria-label="Clear" onClick={() => setQ('')} style={{ width: 36, height: 36 }}><Icon name="close" size={18} /></button>}
       </label>
       {error && <p className="error" role="alert">{error}</p>}
-      {results && results.length === 0 && <p className="small muted" style={{ margin: 0 }}>No match for "{q}". Try a simpler word or the main ingredient.</p>}
+      {results && results.length === 0 && (
+        <p className="small muted" style={{ margin: 0 }}>
+          {/domino/i.test(q)
+            ? "Domino's doesn't publish nutrition information for India, so it isn't in the database. A similar Pizza Hut pizza, or the generic \"Pizza\", is the closest match."
+            : `No match for "${q}". Try a simpler word or the main ingredient.`}
+        </p>
+      )}
       {shown && shown.length > 0 && (
         <div className="card list" aria-live="polite">
           {shown.map((f) => <FoodRow key={f.id} food={f} onClick={() => onPick(f)} />)}

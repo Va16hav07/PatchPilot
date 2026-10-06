@@ -1,0 +1,592 @@
+{
+ "source": {
+  "brand": "KFC",
+  "url": "https://about.kfc.co.in/assets/files/jsk/nutrition-booklet-11.pdf",
+  "title": "KFC India: Menu card nutrition & allergen information booklet (FSSAI format)",
+  "published": "2022-05"
+ },
+ "foods": [
+  {
+   "name": "Hot Wings",
+   "category": "KFC",
+   "serving_unit": "piece",
+   "serving_size": "38 g",
+   "per_serving": {
+    "energy_kcal": 133.55,
+    "carb_g": 8.55,
+    "protein_g": 6.05,
+    "fat_g": 8.35,
+    "sat_fat_g": 3.3,
+    "sodium_mg": 150.0,
+    "sugar_g": 0.0
+   },
+   "diet": "nonveg",
+   "flags": [],
+   "ref": "row 0"
+  },
+  {
+   "name": "Veg Strips",
+   "category": "KFC",
+   "serving_unit": "piece",
+   "serving_size": "26 g",
+   "per_serving": {
+    "energy_kcal": 70.12,
+    "carb_g": 8.1,
+    "protein_g": 1.75,
+    "fat_g": 3.4,
+    "sat_fat_g": 1.57,
+    "sodium_mg": 150.0,
+    "sugar_g": 0.49
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "row 1"
+  },
+  {
+   "name": "Popcorn Chicken (Regular)",
+   "category": "KFC",
+   "serving_unit": "serving",
+   "serving_size": "80 g",
+   "per_serving": {
+    "energy_kcal": 272.0,
+    "carb_g": 18.0,
+    "protein_g": 15.0,
+    "fat_g": 15.6,
+    "sat_fat_g": 6.8,
+    "sodium_mg": 600.0,
+    "sugar_g": 0.0
+   },
+   "diet": "nonveg",
+   "flags": [],
+   "ref": "row 3"
+  },
+  {
+   "name": "Popcorn Chicken (Medium)",
+   "category": "KFC",
+   "serving_unit": "serving",
+   "serving_size": "110 g",
+   "per_serving": {
+    "energy_kcal": 374.0,
+    "carb_g": 24.7,
+    "protein_g": 20.6,
+    "fat_g": 21.4,
+    "sat_fat_g": 9.4,
+    "sodium_mg": 800.0,
+    "sugar_g": 0.0
+   },
+   "diet": "nonveg",
+   "flags": [],
+   "ref": "row 4"
+  },
+  {
+   "name": "Popcorn Chicken (Large)",
+   "category": "KFC",
+   "serving_unit": "serving",
+   "serving_size": "170 g",
+   "per_serving": {
+    "energy_kcal": 578.0,
+    "carb_g": 38.2,
+    "protein_g": 31.8,
+    "fat_g": 33.1,
+    "sat_fat_g": 14.5,
+    "sodium_mg": 1200.0,
+    "sugar_g": 0.0
+   },
+   "diet": "nonveg",
+   "flags": [],
+   "ref": "row 5"
+  },
+  {
+   "name": "Boneless Strips",
+   "category": "KFC",
+   "serving_unit": "piece",
+   "serving_size": "46 g",
+   "per_serving": {
+    "energy_kcal": 119.53,
+    "carb_g": 6.9,
+    "protein_g": 9.0,
+    "fat_g": 6.2,
+    "sat_fat_g": 2.73,
+    "sodium_mg": 166.67,
+    "sugar_g": 0.0
+   },
+   "diet": "nonveg",
+   "flags": [],
+   "ref": "row 6"
+  },
+  {
+   "name": "Veg Biryani",
+   "category": "KFC",
+   "serving_unit": "serving",
+   "serving_size": "305 g",
+   "per_serving": {
+    "energy_kcal": 512.4,
+    "carb_g": 74.5,
+    "protein_g": 9.7,
+    "fat_g": 19.3,
+    "sat_fat_g": 7.7,
+    "sodium_mg": 1200.0,
+    "sugar_g": 0.0
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "row 8"
+  },
+  {
+   "name": "Classic Chicken Biryani",
+   "category": "KFC",
+   "serving_unit": "serving",
+   "serving_size": "341 g",
+   "per_serving": {
+    "energy_kcal": 586.5,
+    "carb_g": 56.4,
+    "protein_g": 28.4,
+    "fat_g": 27.4,
+    "sat_fat_g": 10.3,
+    "sodium_mg": 1000.0,
+    "sugar_g": 0.0
+   },
+   "diet": "nonveg",
+   "flags": [],
+   "ref": "row 9"
+  },
+  {
+   "name": "Popcorn Chicken Biryani",
+   "category": "KFC",
+   "serving_unit": "serving",
+   "serving_size": "330 g",
+   "per_serving": {
+    "energy_kcal": 587.4,
+    "carb_g": 69.7,
+    "protein_g": 23.4,
+    "fat_g": 24.4,
+    "sat_fat_g": 10.0,
+    "sodium_mg": 1300.0,
+    "sugar_g": 0.0
+   },
+   "diet": "nonveg",
+   "flags": [],
+   "ref": "row 10"
+  },
+  {
+   "name": "Smoky Chicken Biryani",
+   "category": "KFC",
+   "serving_unit": "serving",
+   "serving_size": "341 g",
+   "per_serving": {
+    "energy_kcal": 509.5,
+    "carb_g": 64.0,
+    "protein_g": 22.4,
+    "fat_g": 18.4,
+    "sat_fat_g": 6.5,
+    "sodium_mg": 1400.0,
+    "sugar_g": 0.0
+   },
+   "diet": "nonveg",
+   "flags": [],
+   "ref": "row 11"
+  },
+  {
+   "name": "Veg Zinger Burger",
+   "category": "KFC",
+   "serving_unit": "serving",
+   "serving_size": "232 g",
+   "per_serving": {
+    "energy_kcal": 623.0,
+    "carb_g": 83.4,
+    "protein_g": 14.5,
+    "fat_g": 25.7,
+    "sat_fat_g": 9.5,
+    "sodium_mg": 400.0,
+    "sugar_g": 14.13
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "row 12"
+  },
+  {
+   "name": "Chicken Zinger Burger",
+   "category": "KFC",
+   "serving_unit": "serving",
+   "serving_size": "225 g",
+   "per_serving": {
+    "energy_kcal": 563.1,
+    "carb_g": 57.1,
+    "protein_g": 26.6,
+    "fat_g": 26.6,
+    "sat_fat_g": 8.2,
+    "sodium_mg": 300.0,
+    "sugar_g": 11.51
+   },
+   "diet": "nonveg",
+   "flags": [],
+   "ref": "row 13"
+  },
+  {
+   "name": "Spicy Zinger Burger",
+   "category": "KFC",
+   "serving_unit": "serving",
+   "serving_size": "212 g",
+   "per_serving": {
+    "energy_kcal": 433.2,
+    "carb_g": 46.2,
+    "protein_g": 26.6,
+    "fat_g": 15.6,
+    "sat_fat_g": 8.2,
+    "sodium_mg": 1100.0,
+    "sugar_g": 7.21
+   },
+   "diet": "nonveg",
+   "flags": [],
+   "ref": "row 14"
+  },
+  {
+   "name": "Classic Chicken Crisper Burger",
+   "category": "KFC",
+   "serving_unit": "serving",
+   "serving_size": "167 g",
+   "per_serving": {
+    "energy_kcal": 450.6,
+    "carb_g": 52.2,
+    "protein_g": 18.7,
+    "fat_g": 18.6,
+    "sat_fat_g": 5.5,
+    "sodium_mg": 500.0,
+    "sugar_g": 0.0
+   },
+   "diet": "nonveg",
+   "flags": [],
+   "ref": "row 17"
+  },
+  {
+   "name": "Spicy Chicken Crisper Burger",
+   "category": "KFC",
+   "serving_unit": "serving",
+   "serving_size": "167 g",
+   "per_serving": {
+    "energy_kcal": 393.7,
+    "carb_g": 56.8,
+    "protein_g": 20.7,
+    "fat_g": 9.3,
+    "sat_fat_g": 4.0,
+    "sodium_mg": 500.0,
+    "sugar_g": 3.72
+   },
+   "diet": "nonveg",
+   "flags": [],
+   "ref": "row 18"
+  },
+  {
+   "name": "Double Down Burger",
+   "category": "KFC",
+   "serving_unit": "serving",
+   "serving_size": "225 g",
+   "per_serving": {
+    "energy_kcal": 588.7,
+    "carb_g": 33.8,
+    "protein_g": 37.6,
+    "fat_g": 33.7,
+    "sat_fat_g": 12.2,
+    "sodium_mg": 1000.0,
+    "sugar_g": 2.79
+   },
+   "diet": "nonveg",
+   "flags": [],
+   "ref": "row 23"
+  },
+  {
+   "name": "Hot & Crispy Chicken",
+   "category": "KFC",
+   "serving_unit": "piece",
+   "serving_size": "91 g",
+   "per_serving": {
+    "energy_kcal": 264.7,
+    "carb_g": 12.9,
+    "protein_g": 15.9,
+    "fat_g": 16.6,
+    "sat_fat_g": 6.6,
+    "sodium_mg": 200.0,
+    "sugar_g": 0.0
+   },
+   "diet": "nonveg",
+   "flags": [],
+   "ref": "row 24"
+  },
+  {
+   "name": "Smoky Grilled Chicken",
+   "category": "KFC",
+   "serving_unit": "piece",
+   "serving_size": "92 g",
+   "per_serving": {
+    "energy_kcal": 174.9,
+    "carb_g": 8.0,
+    "protein_g": 21.3,
+    "fat_g": 6.4,
+    "sat_fat_g": 1.8,
+    "sodium_mg": 200.0,
+    "sugar_g": 0.0
+   },
+   "diet": "nonveg",
+   "flags": [],
+   "ref": "row 30"
+  },
+  {
+   "name": "7Up Krush Lime (210 ml)",
+   "category": "KFC",
+   "serving_unit": "glass",
+   "serving_size": "210 ml",
+   "per_serving": {
+    "energy_kcal": 81.9,
+    "carb_g": 20.4,
+    "protein_g": 4.1,
+    "fat_g": 0.0,
+    "sat_fat_g": 0.0,
+    "sodium_mg": 100.0,
+    "sugar_g": 34.1
+   },
+   "diet": "veg",
+   "flags": [
+    "source_columns_corrected"
+   ],
+   "ref": "row 48"
+  },
+  {
+   "name": "Fries (Regular)",
+   "category": "KFC",
+   "serving_unit": "serving",
+   "serving_size": "75 g",
+   "per_serving": {
+    "energy_kcal": 224.1,
+    "carb_g": 27.5,
+    "protein_g": 5.0,
+    "fat_g": 10.4,
+    "sat_fat_g": 4.9,
+    "sodium_mg": 200.0,
+    "sugar_g": 0.0
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "row 51"
+  },
+  {
+   "name": "Fries (Medium)",
+   "category": "KFC",
+   "serving_unit": "serving",
+   "serving_size": "100 g",
+   "per_serving": {
+    "energy_kcal": 298.8,
+    "carb_g": 36.7,
+    "protein_g": 6.7,
+    "fat_g": 13.9,
+    "sat_fat_g": 6.5,
+    "sodium_mg": 200.0,
+    "sugar_g": 0.0
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "row 52"
+  },
+  {
+   "name": "Fries (Large)",
+   "category": "KFC",
+   "serving_unit": "serving",
+   "serving_size": "135 g",
+   "per_serving": {
+    "energy_kcal": 403.3,
+    "carb_g": 49.6,
+    "protein_g": 9.1,
+    "fat_g": 18.8,
+    "sat_fat_g": 8.7,
+    "sodium_mg": 200.0,
+    "sugar_g": 0.0
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "row 53"
+  },
+  {
+   "name": "Choco Mud Pie",
+   "category": "KFC",
+   "serving_unit": "serving",
+   "serving_size": "93 g",
+   "per_serving": {
+    "energy_kcal": 240.9,
+    "carb_g": 37.3,
+    "protein_g": 2.7,
+    "fat_g": 8.6,
+    "sodium_mg": 100.0,
+    "sugar_g": 31.11
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "row 54"
+  },
+  {
+   "name": "Coffee Mousse Cake",
+   "category": "KFC",
+   "serving_unit": "serving",
+   "serving_size": "85 g",
+   "per_serving": {
+    "energy_kcal": 249.7,
+    "carb_g": 34.2,
+    "protein_g": 3.8,
+    "fat_g": 10.7,
+    "sodium_mg": 100.0,
+    "sugar_g": 28.43
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "row 55"
+  },
+  {
+   "name": "Pepsi (330 ml)",
+   "category": "KFC",
+   "serving_unit": "glass",
+   "serving_size": "330 ml",
+   "per_serving": {
+    "energy_kcal": 141.9,
+    "carb_g": 36.0,
+    "protein_g": 0.0,
+    "fat_g": 0.0,
+    "sat_fat_g": 0.0,
+    "sodium_mg": 0.0,
+    "sugar_g": 35.97
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "row 56"
+  },
+  {
+   "name": "Mirinda (330 ml)",
+   "category": "KFC",
+   "serving_unit": "glass",
+   "serving_size": "330 ml",
+   "per_serving": {
+    "energy_kcal": 181.5,
+    "carb_g": 45.5,
+    "protein_g": 0.0,
+    "fat_g": 0.0,
+    "sat_fat_g": 0.0,
+    "sodium_mg": 0.0,
+    "sugar_g": 45.54
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "row 57"
+  },
+  {
+   "name": "7Up (330 ml)",
+   "category": "KFC",
+   "serving_unit": "glass",
+   "serving_size": "330 ml",
+   "per_serving": {
+    "energy_kcal": 155.1,
+    "carb_g": 38.6,
+    "protein_g": 0.0,
+    "fat_g": 0.0,
+    "sat_fat_g": 0.0,
+    "sodium_mg": 0.0,
+    "sugar_g": 38.61
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "row 58"
+  },
+  {
+   "name": "Mountain Dew (330 ml)",
+   "category": "KFC",
+   "serving_unit": "glass",
+   "serving_size": "330 ml",
+   "per_serving": {
+    "energy_kcal": 161.7,
+    "carb_g": 40.6,
+    "protein_g": 0.0,
+    "fat_g": 0.0,
+    "sat_fat_g": 0.0,
+    "sodium_mg": 0.0,
+    "sugar_g": 40.59
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "row 59"
+  },
+  {
+   "name": "Dynamite Mayo dip",
+   "category": "KFC",
+   "serving_unit": "serving",
+   "serving_size": "20 g",
+   "per_serving": {
+    "energy_kcal": 77.4,
+    "carb_g": 3.4,
+    "protein_g": 0.2,
+    "fat_g": 7.0,
+    "sat_fat_g": 1.2,
+    "sodium_mg": 100.0,
+    "sugar_g": 1.6
+   },
+   "diet": "egg",
+   "flags": [],
+   "ref": "row 60"
+  },
+  {
+   "name": "Eggless Mayo dip",
+   "category": "KFC",
+   "serving_unit": "serving",
+   "serving_size": "20 g",
+   "per_serving": {
+    "energy_kcal": 73.9,
+    "carb_g": 2.5,
+    "protein_g": 0.2,
+    "fat_g": 7.0,
+    "sat_fat_g": 1.1,
+    "sodium_mg": 200.0,
+    "sugar_g": 1.28
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "row 61"
+  },
+  {
+   "name": "Tandoori Masala Mayo dip",
+   "category": "KFC",
+   "serving_unit": "serving",
+   "serving_size": "20 g",
+   "per_serving": {
+    "energy_kcal": 73.8,
+    "carb_g": 3.5,
+    "protein_g": 0.3,
+    "fat_g": 6.5,
+    "sat_fat_g": 1.2,
+    "sodium_mg": 200.0,
+    "sugar_g": 1.42
+   },
+   "diet": "egg",
+   "flags": [],
+   "ref": "row 62"
+  },
+  {
+   "name": "Red Bull (250 ml)",
+   "category": "KFC",
+   "serving_unit": "glass",
+   "serving_size": "250 ml",
+   "per_serving": {
+    "energy_kcal": 112.5,
+    "carb_g": 22.0,
+    "protein_g": 0.0,
+    "fat_g": 0.0,
+    "sat_fat_g": 0.0,
+    "sodium_mg": 0.0,
+    "sugar_g": 22.0
+   },
+   "diet": "veg",
+   "flags": [],
+   "ref": "row 65"
+  }
+ ],
+ "not_included": [
+  "Classic/Spicy Veg Crisper, Tandoori Zinger, Zinger Doubles, Crisper doubles: energy disagrees with macros in the source",
+  "Thousand Island Mayo: 108 g carbohydrate in a 20 g dip in the source",
+  "Multi-piece buckets and promotions: values are per serving of a bucket; log pieces instead",
+  "Two Krusher drinks: names unreadable in the source"
+ ]
+}

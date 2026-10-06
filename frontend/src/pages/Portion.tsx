@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import { useLocation, useNavigate, useParams, useSearchParams } from 'react-router-dom'
 import { api } from '../api'
+import { hapticCommit } from '../feedback'
 import Icon from '../components/Icon'
 import { MacroRow } from '../components/Macros'
 import { grams, kcal, qty, SOURCE_LABEL, today, unitLabel } from '../format'
@@ -18,6 +19,9 @@ const MICROS: [string, string, string][] = [
   ['folate_ug', 'Folate', 'µg'],
   ['vit_c_mg', 'Vitamin C', 'mg'],
 ]
+
+// What restaurant brands publish besides energy and macros.
+const BRAND_PUBLISHED = new Set(['sugar_g', 'sat_fat_g', 'sodium_mg'])
 
 const OIL: [OilLevel, string][] = [['low', 'Low'], ['home', 'Home-style'], ['restaurant', 'Restaurant']]
 
@@ -91,6 +95,7 @@ export default function Portion() {
       const portion = { quantity, unit, oil_level: oil }
       if (entry) await api.patch(`/api/logs/${entry.id}`, portion)
       else await api.post('/api/logs', { ...portion, date, meal, food_id: food.id })
+      hapticCommit()
       navigate(date === today() ? '/' : `/?date=${date}`)
     } catch (e) {
       setError(e instanceof Error ? e.message : 'Could not save')
@@ -117,6 +122,7 @@ export default function Portion() {
   const isDish = food.kind === 'dish'
   const mealLabel = MEALS.find((m) => m.key === meal)?.label ?? meal
   const showOil = isDish && (food.added_fat_g ?? 0) > 0
+  const partial = food.quality_flags.includes('partial_nutrients')
   const n = result?.nutrients
 
   return (
@@ -184,7 +190,7 @@ export default function Portion() {
           <div className="stack">
             <h2 className="section-label">More nutrients</h2>
             <div className="card list">
-              {MICROS.map(([k, label, u]) => (
+              {MICROS.filter(([k]) => !partial || BRAND_PUBLISHED.has(k)).map(([k, label, u]) => (
                 <div key={k} className="row between small" style={{ padding: '10px 16px' }}>
                   <span>{label}</span><span className="num" style={{ fontWeight: 700 }}>{grams(n[k] ?? 0)} {u}</span>
                 </div>
@@ -199,6 +205,13 @@ export default function Portion() {
             {food.source === 'IFCT2017' && <span>Indian Food Composition Tables 2017 (ICMR-NIN), lab-measured, per 100 g edible portion.</span>}
             {food.source === 'INDB' && <span>Indian Nutrient Databank standard recipe, calculated from IFCT ingredients. Values are per standard {food.serving_unit ?? 'serving'} of the recipe.</span>}
             {food.derived_from && <span>Not in INDB, so derived from: {food.derived_from}, using IFCT 2017 values for the swapped ingredient.</span>}
+            {food.source_note && (
+              <>
+                <span>Official nutrition information published by {food.source} for India{food.serving_size ? `; one ${food.serving_unit ?? 'serving'} is ${food.serving_size}` : ''}.</span>
+                <span className="xsmall muted" style={{ wordBreak: 'break-word' }}>{food.source_note}</span>
+                <span className="xsmall muted">Brands publish energy, macros, sugar, saturated fat and sodium only, so this food adds nothing to your vitamin and mineral totals.</span>
+              </>
+            )}
             {food.source === 'USDA' && <span>USDA FoodData Central #{food.id.split(':')[1]}, used because IFCT 2017 has no entry for this food.</span>}
             {food.source === 'MY_RECIPE' && <span>Your own recipe: raw ingredient values from IFCT 2017 divided by the cooked weight you entered.</span>}
             {food.ingredients && food.ingredients.length > 0 && (

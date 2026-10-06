@@ -9,7 +9,7 @@ import { api } from '../api'
 import type { FoodSummary, OilLevel } from '../types'
 import { generateJson } from './gemini'
 
-const UNITS = ['katori', 'bowl', 'plate', 'piece', 'roti', 'glass', 'cup', 'tsp', 'tbsp', 'g', 'ml', 'serving'] as const
+const UNITS = ['katori', 'bowl', 'plate', 'piece', 'roti', 'slice', 'glass', 'cup', 'can', 'bottle', 'tsp', 'tbsp', 'g', 'ml', 'serving'] as const
 type AiUnit = (typeof UNITS)[number]
 
 interface ParsedItem {
@@ -56,6 +56,8 @@ Rules:
 - oil_level: "restaurant" for restaurant, dhaba, hotel, takeaway, "extra ghee/butter"; "low" for "kam tel", less oil, steamed, boiled; "home" for normal home cooking; "unknown" if not clear.
 - search_terms: include the English and common Indian names, and the main ingredient (e.g. "dal tadka", "toor dal", "arhar dal", "red gram dal").
 - Photos: list each visible dish; estimate portions from plate, katori and spoon sizes; lower the confidence when unsure.
+- Restaurant and packaged food: include the brand in name and search_terms (e.g. "Pizza Hut Margherita pizza", "KFC hot wings", "McDonald's McAloo Tikki burger", "Thums Up"). Pizza is counted in "slice"; wings, nuggets and strips in "piece"; give the size if said (personal, medium, large, regular).
+- Drinks: unit "can", "bottle" or "glass"; estimated_grams = volume in ml (an Indian can is 300 ml unless said otherwise).
 - Do not invent foods that were not mentioned or visible.`
 
 const CHOOSE_SCHEMA = {
@@ -80,6 +82,7 @@ const CHOOSE_SCHEMA = {
 const CHOOSE_INSTRUCTION = `Match each eaten item to the single best food from ITS OWN candidate list, using the exact id. Return null if no candidate is a reasonable match; never use an id that is not in that item's list.
 - Prefer a cooked dish when a prepared dish was eaten (dal -> a cooked dal dish, not raw dal grains; rice -> boiled rice).
 - Prefer a raw ingredient for foods eaten as they are (fruit, milk, curd, salad vegetables, ghee, sugar).
+- For branded food (Pizza Hut, KFC, McDonald's, drinks), pick the same brand, product and size when listed; if the brand isn't listed, return null rather than another brand.
 - "MY_RECIPE" candidates are the person's own recipes: prefer them when the name fits.
 - confidence 0 to 1.`
 

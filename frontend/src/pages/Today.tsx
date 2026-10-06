@@ -5,7 +5,7 @@ import { useUser } from '../auth'
 import Icon from '../components/Icon'
 import { MacroBars } from '../components/Macros'
 import TabBar from '../components/TabBar'
-import { addDays, dayLabel, kcal, longDate, qty, today, unitLabel } from '../format'
+import { addDays, countLabel, dayLabel, kcal, longDate, qty, today, unitLabel } from '../format'
 import { MEALS, type Day, type LogEntry } from '../types'
 
 function Ring({ eaten, target }: { eaten: number; target: number }) {
@@ -17,10 +17,9 @@ function Ring({ eaten, target }: { eaten: number; target: number }) {
     <div style={{ position: 'relative', width: 128, height: 128, flexShrink: 0 }}>
       <svg width="128" height="128" viewBox="0 0 128 128" aria-hidden="true">
         <circle cx="64" cy="64" r={r} fill="none" stroke="var(--track)" strokeWidth="12" />
-        {pct > 0 && (
-          <circle cx="64" cy="64" r={r} fill="none" stroke={over ? 'var(--warn)' : 'var(--protein)'} strokeWidth="12" strokeLinecap="round"
-            strokeDasharray={`${circ * pct} ${circ}`} transform="rotate(-90 64 64)" />
-        )}
+        {/* Always drawn so the first meal sweeps in from zero; hidden at zero (a round cap would show a dot). */}
+        <circle className="ring-progress" cx="64" cy="64" r={r} fill="none" stroke={over ? 'var(--warn)' : 'var(--protein)'} strokeWidth="12" strokeLinecap="round"
+          style={{ strokeDasharray: `${circ * pct} ${circ}`, opacity: pct > 0 ? 1 : 0 }} transform="rotate(-90 64 64)" />
       </svg>
       <div style={{ position: 'absolute', inset: 0, display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
         <span className="big-num" style={{ fontSize: 26 }}>{kcal(Math.abs(target - eaten))}</span>
@@ -31,7 +30,7 @@ function Ring({ eaten, target }: { eaten: number; target: number }) {
 }
 
 function entryLine(e: LogEntry): string {
-  return `${qty(e.quantity)} ${unitLabel(e.unit, e.serving_unit)}`
+  return `${qty(e.quantity)} ${countLabel(e.quantity, unitLabel(e.unit, e.serving_unit))}`
 }
 
 export default function Today() {

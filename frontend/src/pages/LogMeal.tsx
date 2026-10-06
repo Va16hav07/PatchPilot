@@ -4,9 +4,10 @@ import { aiAvailable } from '../ai/gemini'
 import { analyseMeal, compressImage, type MealInput } from '../ai/meal'
 import { listen, speechSupported, type Listening } from '../ai/speech'
 import { api } from '../api'
+import { hapticCommit } from '../feedback'
 import FoodPicker from '../components/FoodPicker'
 import Icon from '../components/Icon'
-import { addDays, kcal, qty, today, unitLabel } from '../format'
+import { addDays, countLabel, kcal, qty, today, unitLabel } from '../format'
 import { MEALS, type Day, type FoodSummary, type Meal, type OilLevel } from '../types'
 
 type Mode = 'type' | 'speak' | 'photo' | 'search'
@@ -121,6 +122,7 @@ export default function LogMeal() {
     setBusy('Copying…')
     try {
       await api.post(`/api/days/${date}/copy`, { from_date: addDays(date, -1), from_meal: meal, to_meal: meal })
+      hapticCommit()
       back()
     } catch (e) {
       setError(e instanceof Error ? e.message : 'Could not copy')
@@ -168,7 +170,7 @@ export default function LogMeal() {
           <form className="stack" style={{ gap: 10 }} onSubmit={(e) => { e.preventDefault(); if (text.trim()) analyse({ text: text.trim() }, 'text') }}>
             <label className="field">Write it like you'd tell a friend. Hindi, English or Hinglish.
               <textarea className="input" rows={4} style={{ height: 'auto', padding: '12px 14px', fontWeight: 500, lineHeight: 1.5, resize: 'none' }}
-                placeholder="2 roti ghee wali, 1 katori dal tadka, thodi aloo gobhi aur salad" value={text} onChange={(e) => setText(e.target.value)} />
+                placeholder="2 roti ghee wali, 1 katori dal tadka… or 2 slices Pizza Hut margherita and a Thums Up can" value={text} onChange={(e) => setText(e.target.value)} />
             </label>
             <button className="btn" type="submit" disabled={!text.trim() || Boolean(busy)}>{busy || 'Work out nutrition'}</button>
           </form>
@@ -229,7 +231,7 @@ export default function LogMeal() {
                 <button key={r.food_id} className="list-row" onClick={() => openRecent(r)}>
                   <span className="grow stack" style={{ gap: 2 }}>
                     <span style={{ fontWeight: 700, fontSize: 14 }}>{r.food_name}</span>
-                    <span className="xsmall muted">Recent · {qty(r.quantity)} {unitLabel(r.unit, r.serving_unit)}</span>
+                    <span className="xsmall muted">Recent · {qty(r.quantity)} {countLabel(r.quantity, unitLabel(r.unit, r.serving_unit))}</span>
                   </span>
                   <span className="num" style={{ fontWeight: 700, fontSize: 13 }}>{kcal(r.energy_kcal)} kcal</span>
                 </button>
